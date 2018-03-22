@@ -1,0 +1,11 @@
+package evaljdbc;
+
+import java.util.ArrayList;
+
+public class Menu extends ArrayMap{
+	
+	
+	public void add(ItemMenu item) {
+		super.add(item);
+	}
+}

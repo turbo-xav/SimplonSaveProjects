@@ -1,0 +1,25 @@
+*** Application de diététique ***
+
+1 - Infos utiles :
+- Auteur			:	Xavier Tagliarino
+-- Mail : xavier.tagliarino@gmail.com
+- Date de création	:	20/03/2018
+
+2 - Version
+Voir fichier version
+
+3 - Descriptif
+
+A - résumé
+Application permettant de gérer des aliments classés par Catégorie
+B - Actions possibles  :
+B - 1 Catégorie :
+	- Afficher
+	- Créer
+	- Modifier
+	- Supprimer des catégories
+B - 2 Aliments
+	- Afficher les aliments par catégorie avec leur valeur energétique calculée en temps réel
+	- Créer un aliment en lui affectant une catégorie
+	- Modifier
+	- Suppimer

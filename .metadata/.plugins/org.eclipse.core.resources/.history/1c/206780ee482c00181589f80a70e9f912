@@ -1,0 +1,32 @@
+package evaljdbc;
+
+import java.util.ArrayList;
+
+public class MenuAppli {
+
+	/**
+	  * 
+	  */
+	
+	private ArrayList<ItemMenu> itemMenus = new ArrayList<ItemMenu>();
+			
+	public String toString() {
+		
+		String str= "";
+		
+		for(int i = 0 ; i < this.getItemMenus().size() ; i++) {
+			str += i+") "+this.getItemMenus().get(i)+"\n";
+		}
+		return str;
+	}
+
+	public ArrayList<ItemMenu> getItemMenus() {
+		return itemMenus;
+	}
+
+		
+	public void add(ItemMenu item) {
+		this.getItemMenus().add(item);
+	}
+		
+}

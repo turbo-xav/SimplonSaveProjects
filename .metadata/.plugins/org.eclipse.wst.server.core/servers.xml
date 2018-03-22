@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v5.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v5.0 Server at localhost" name="Tomcat v5.0 Server at localhost" runtime-id="Apache Tomcat v5.0" server-type="org.eclipse.jst.server.tomcat.50" server-type-id="org.eclipse.jst.server.tomcat.50" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="SimpleSOAPExample::org.eclipse.jst.j2ee.server:SimpleSOAPExample::jst.web::2.4" value1="SimpleSOAPExampleClient::org.eclipse.jst.j2ee.server:SimpleSOAPExampleClient::jst.web::2.4"/>
+  </server>
+</servers>

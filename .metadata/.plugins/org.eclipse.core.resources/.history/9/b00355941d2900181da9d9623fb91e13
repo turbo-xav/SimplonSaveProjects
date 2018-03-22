@@ -1,0 +1,20 @@
+package testSysOut;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Test SykksOut");
+		try {
+			System.setOut(new PrintStream(new File("sortie.txt")));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

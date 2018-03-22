@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package testJUnit;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+/**
+ * @author Utilisateur
+ *
+ */
+public class Main {
+
+	    private static String str1   = null;
+	    private static String str2   = null;
+
+	    public static void main(String[] args)
+	    {
+	        File fo = new File("out.txt");
+	        FileInputStream fis = new FileInputStream(fo);
+	        System.setOut(fis);
+	    	/*if( args.length != 2 )
+	        {
+	            call();
+	        }
+
+	        Main ex = new Main(args[0], args[1]);
+	        ex.getData();*/
+	    }
+
+	    private Main(String str1, String str2)
+	    {
+	    	Main.str1 = str1;
+	    	Main.str2 = str2;
+	    }
+
+	    private void getData(){
+	        System.out.println("Name is: "+str1);
+	        System.out.println("City is: "+str2);
+	    }
+
+	    private static void call()
+	    {
+	        System.err.println("Usage: String1 String2");
+	        System.err.println("Where: ");
+	        System.err.println("       String1 - Name");
+	        System.err.println("       String1 - City");
+	        System.exit(1);
+	    }
+}

@@ -1,0 +1,1002 @@
+Base de données suisses des valeurs nutritives – Entrées génériques;;;;;
+;;;;;
+Nom;Catégorie;Energie (kcal);Protéines;Glucides;Lipides
+Agar Agar;Divers/Gélifiants et liants;160;2,4;0;0,2
+Sirop d'agave;Sucreries/Sucres et édulcorants;293;0,2;73,1;0
+Macaronis de l'alpage, préparés;Plats/Autres plats salés/épicés;184;6,1;18,6;9
+Amaretti (biscuits aux amandes);Sucreries/Biscuits;451;7,6;75,7;12,4
+Ananas, sucré, conserve;Fruits/Fruits cuits (conserves comprises);87;0,4;20,2;0,2
+Ananas, cru;Fruits/Fruits frais;51;0,4;11,3;0,2
+Ananas, non sucré , conserve;Fruits/Fruits cuits (conserves comprises);51;0,4;11,3;0,2
+Pomme, cuite,  égouttée (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);72;0,4;15,4;0,4
+Pomme, pelée, sechée;Fruits/Fruits secs;295;1,5;63,2;2
+Pomme, crue;Fruits/Fruits frais;55;0,3;11,7;0,3
+Tarte aux pommes, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";142;2,3;16,5;7
+Tarte aux pommes, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";134;2,7;18,8;4,9
+Purée de pommes, sucrée, conserve;Fruits/Fruits cuits (conserves comprises);90;0,3;20,5;0,3
+Purée de pommes, non sucrée, conserve;Fruits/Fruits cuits (conserves comprises);55;0,3;11,7;0,3
+Jus de pomme;"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";44;0,1;10,8;0,1
+Cidre de pomme, 4 vol%;Boissons alcoolisées/Vin;32;0;2,5;0
+Cidre de pomme, 6.2 vol%;Boissons alcoolisées/Vin;64;0;7,3;0
+Appenzeller, quart-gras;Lait et produits laitiers/Fromage à pâte dure;238;33,8;0;11,4
+Appenzeller, gras;Lait et produits laitiers/Fromage à pâte dure;386;24,8;0;31,7
+Abricot, cuit,  égoutté (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);60;1;12,5;0,1
+Abricot, sec;Fruits/Fruits secs;275;5;47,9;0,5
+Abricot, sucré, conserve;Fruits/Fruits cuits (conserves comprises);84;0,7;19;0,1
+Abricot, cru;Fruits/Fruits frais;48;0,8;10;0,1
+Abricot, non sucré, conserve;Fruits/Fruits cuits (conserves comprises);48;0,8;10;0,1
+Tarte aux abricots, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";137;2,6;15,4;6,8
+Tarte aux abricots, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";128;3;17,6;4,7
+Aubergine, à l'étuveée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);28;1,2;3,9;0,2
+Aubergine, crue;Légumes/Légumes frais;23;1;3,1;0,2
+Piccata d'aubergines, préparée;Plats/Autres plats salés/épicés;169;5,3;9,1;11,8
+Tranches d'aubergine, panées, préparées;Plats/Autres plats salés/épicés;139;4,8;15,2;5,9
+Charcuterie (moyenne);Produits carnés et charcuterie/Produits de charcuterie bouillis;289;14,1;0,7;25,5
+Avocat, cru;"Légumes/Légumes frais;Noix, graines et produits oléagineux";144;1,8;0,8;14,2
+Levure de boulangerie, pressée;"Divers/Levure;Divers/Ingrédients de boulangerie-pâtisserie";96;16,7;1,1;1,2
+Bami Goreng, préparé;Plats/Plats asiatiques;137;14;14;2,6
+Banane, déshydratée (chips);Fruits/Fruits secs;370;3,9;80,7;1,8
+Banane, mi-sèche;Fruits/Fruits secs;273;3;60,2;1
+Banane, crue;Fruits/Fruits frais;95;1,1;21;0,3
+Basilic, cru;Légumes/Herbes aromatiques;46;3,1;5,1;0,8
+Leckerli de Bâle;Sucreries/Biscuits;404;6,9;74,8;7,6
+Saucisse à rôtir de porc, grillée (sans adjonction de graisse ni de sel);Produits carnés et charcuterie/Produits de charcuterie crus;270;21,1;0,2;20,4
+Saucisse à rôtir de porc, crue;Produits carnés et charcuterie/Produits de charcuterie crus;243;16,9;0,2;19,3
+Pain paysan;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;240;9;44,5;2
+Salami à la mode campagnarde;Produits carnés et charcuterie/Produits de charcuterie crus;532;20,6;0,8;49,5
+Schüblig de campagne;Produits carnés et charcuterie/Produits de charcuterie crus;524;21,3;0,3;48,5
+Noix;Noix, graines et produits oléagineux;742;15,9;7;70,8
+Pain aux noix;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;338;8,9;30,9;18,6
+Sauce Béchamel fait maison;Divers/Sauces;148;4,3;10,2;9,9
+Baie (moyenne), cuite (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);44;0,8;7,6;0,5
+Baie (moyenne), crue;Fruits/Fruits frais;42;0,8;7,2;0,5
+Boule de Berlin;Sucreries/Autres articles de pâtisserie;326;8,4;43,1;12,8
+Fromage des alpes bernoises;Lait et produits laitiers/Fromage à pâte dure;456;27,7;0;38,3
+Berner Hobelkäse (fromage à rebibes);Lait et produits laitiers/Fromage à pâte dure;493;30,6;0;41,2
+Saucisse bernoise (à la langue);Produits carnés et charcuterie/Produits de charcuterie bouillis;334;17,3;0;29,4
+Biber;Sucreries/Autres articles de pâtisserie;464;10,3;56,9;19,9
+Bière panachée (moyenne);Boissons alcoolisées/Bière;38;0,2;7,1;0
+Levure de bière, séchée;"Denrées alimentaires spéciales/Suppléments;Divers/Levure";354;47,9;26,5;4,2
+Saucisse du brasseur;Produits carnés et charcuterie/Produits de charcuterie bouillis;350;16,8;0;31,3
+Birchermüesli, préparé (non sucré);Plats/Müesli;87;2,7;11,1;3,1
+Poire, cuite,  égouttée (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);75;0,5;15,8;0,4
+Poire, séchée;Fruits/Fruits secs;288;2,4;59,7;1,4
+Poire, sucrée, conserve;Fruits/Fruits cuits (conserves comprises);92;0,4;21;0,3
+Poire, crue;Fruits/Fruits frais;58;0,4;12,2;0,3
+Poire, non sucrée, conserve;Fruits/Fruits cuits (conserves comprises);58;0,4;12,2;0,3
+Tarte aux poires, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";144;2,4;16,9;7
+Tarte aux poires, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";136;2,8;19,1;4,9
+Jus de poire;"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";50;0,5;11;0,5
+Chausson aux poires;Sucreries/Autres articles de pâtisserie;358;5;56,6;10,4
+Blanc battu;Lait et produits laitiers/Fromage frais et séré;43;7,6;2,9;0,1
+Blanc battu aux fruits light;Lait et produits laitiers/Fromage frais et séré;68;8;8,4;0,2
+Pâte feuillettée faite maison (au beurre), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;364;5,2;29,4;24,7
+Pâte feuilletée faite maison (avec graisse végétale), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;358;5,2;29,4;24,1
+Vol-au-vent au beurre;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;564;5,8;43,1;40,5
+Flûte feuilletté;Snacks salés/Produits en pâte feuilletée;497;7,2;40,4;33,6
+Légumes feuille (moyenne sans salade), à la vapeur  (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);23;1,6;2,3;0,3
+Légumes feuille (moyenne sans salade), à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);25;1,7;2,5;0,3
+Légumes feuille (moyenne sans salade), cuits (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);24;1,6;2,4;0,3
+Salade verte (moyenne), crue;Légumes/Légumes frais;18;1,6;1,4;0,3
+Fromage bleu (moyenne);Lait et produits laitiers/Fromage à pâte dure;361;19,1;0,2;31,5
+Chou-fleur, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);27;2,5;2,4;0,3
+Chou-fleur, cru;Légumes/Légumes frais;26;2,4;2,3;0,3
+Boudin;Produits carnés et charcuterie/Produits de charcuterie cuits;151;10,7;2,6;10,8
+Haricot commun (tout type), grain mature, cuit (sans adjonction de graisse ni de sel);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;114;7,8;15,2;0,6
+Haricot commun (tout type), grain mature, sec;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;305;20,9;40,7;1,5
+Haricot (vert), à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);34;2,3;4;0,2
+Haricot (vert) sec, cru;Légumes/Légumes secs;252;20,2;25,7;2
+Haricot vert, cru;Légumes/Légumes frais;31;2,1;3,6;0,2
+Sauce bolognaise;Divers/Sauces;96;6,3;8,3;4
+Bouillon de viande, preparé;Plats/Potages et soupes;5;0,3;0,2;0,3
+Bouillon de poule, preparé;Plats/Potages et soupes;5;0,3;0,3;0,3
+Bouillon de légumes, preparé;Plats/Potages et soupes;6;0,3;0,4;0,4
+Chocolat au lait, fourré à la crème de noisettes ;Sucreries/Chocolat et produits chocolatés;557;7,6;48,9;36
+Eau-de-vie de céréales (p.ex. Whisky);Boissons alcoolisées/Spiritueux;252;0;0,1;0
+Eau-de-vie de vin (p. ex. Cognac);Boissons alcoolisées/Spiritueux;240;0;2;0
+Eau-de-vie de canne à sucre (p.ex. Rhum);Boissons alcoolisées/Spiritueux;234;0;0;0
+Beurre à rôtir;"Graisses et huiles/Graisses;Lait et produits laitiers/Crème et beurre";885;0,1;0;98,3
+Sauce de rôti, liée;Divers/Sauces;53;1,6;4,6;3
+Sauce de rôti, claire;Divers/Sauces;44;1,5;3,5;2,5
+Bresaola;Produits carnés et charcuterie/Produits de charcuterie crus;166;32,4;0,4;3,9
+Brie, mi-gras;Lait et produits laitiers/Fromage à pâte molle;200;24;0;11,5
+Brie, à la crème;Lait et produits laitiers/Fromage à pâte molle;335;16;0;30
+Brie, gras;Lait et produits laitiers/Fromage à pâte molle;300;21,8;0;23,5
+Brocoli, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);30;2,9;2,3;0,4
+Brocoli, cru;Légumes/Légumes frais;31;3;2,4;0,4
+Mûre, crue;Fruits/Fruits frais;44;1;6,2;0,4
+Tarte aux mûres, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";135;2,8;12,9;7
+Tarte aux mûres, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";126;3,2;15,1;4,9
+Tarte aux mûres, cuite au four (pâte brisée sucrée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";199;3,2;19,1;11,3
+Pain (moyenne);Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;265;9,2;44,6;4,7
+Produits de charcuterie échaudés, fumés (moyenne);Produits carnés et charcuterie/Produits de charcuterie bouillis;263;14,3;0,4;22,7
+Produits de charcuterie échaudés, non fumés (moyenne);Produits carnés et charcuterie/Produits de charcuterie bouillis;256;13,2;0,8;22,2
+Cresson, cru;Légumes/Légumes frais;17;2,2;0,3;0,2
+Brun de Bâle;Sucreries/Biscuits;493;12,7;41,5;28,9
+Sarrasin, grains décortiqués;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;343;9,1;71;1,7
+Farine de sarrasin;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;344;12;64,5;2,8
+Soupe d'orge des Grisons;Plats/Potages et soupes;42;1,4;6,7;0,9
+"Petit pain Bürli"" (farine mi-blanche)""";Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;216;8,6;41,6;1
+Croissant blanc au beurre;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;432;8,8;43,5;24,2
+Croissant au beurre, complet;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;366;6,4;38,7;19,8
+Babeurre;Lait et produits laitiers/Boissons lactées et yogourts à boire;33;3,2;4;0,5
+Petit pain au lait;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;310;9,4;47,3;8,7
+Tresse au beurre;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;326;9;45,7;11,4
+Tresse au beurre, au blé entier;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;272;9,4;40,5;6,4
+Café crème, non sucré;Boissons sans alcool/Café;14;0,3;0,6;1,1
+Cake financier;Sucreries/Gâteaux, tourtes et cakes;426;9,8;37,4;25,5
+Calimocho (Vin rouge avec cola);"Boissons sans alcool/Boissons sucrées;Boissons alcoolisées/Autres boissons alcoolisées";58;0;5,1;0
+Camembert, mi-gras;Lait et produits laitiers/Fromage à pâte molle;178;22;0;10
+Camembert, à la crème;Lait et produits laitiers/Fromage à pâte molle;352;16,4;0;31,7
+Camembert, gras;Lait et produits laitiers/Fromage à pâte molle;299;21,2;0;23,7
+Cannellonis à la viande, préparés;Plats/Plats italiens;193;10,4;14,6;9,9
+Cannellonis aux épinards à la ricotta, préparés;Plats/Plats italiens;222;8,7;15,2;13,7
+Cappuccino (sans poudre de chocolat), non sucré;"Lait et produits laitiers/Boissons lactées et yogourts à boire;Boissons sans alcool/Café";37;1,8;2,6;2,2
+Capuns, préparés;Plats/Autres plats salés/épicés;168;8,1;10,1;10,4
+Noix de cajou;Noix, graines et produits oléagineux;593;18,2;26,6;45,2
+Cervelas;Produits carnés et charcuterie/Produits de charcuterie bouillis;249;13,4;0,5;21,5
+Champignons de Paris, conserve;Légumes/Champignons;19;2,3;0,5;0,3
+Champignon, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Champignons;27;3,5;1,3;0,4
+Champignon, cru;Légumes/Champignons;22;2,9;1,1;0,3
+Endive, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);14;1;0,7;0,2
+Endive, crue;Légumes/Légumes frais;14;1;0,7;0,2
+Chili con carne, préparé;Plats/Potages et soupes;125;10,8;9,2;4,4
+Chou de Chine, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);16;1,2;1,2;0,3
+Chou de Chine, cru;Légumes/Légumes frais;16;1,1;1,2;0,3
+Petit gâteau à l'anice;Sucreries/Biscuits;366;8,5;75,3;3
+Chicorée rouge, crue;Légumes/Légumes frais;19;1,4;1,6;0,1
+Sauce cocktail, préparée à la maison avec la mayonnaise de colza;Divers/Sauces;695;2,4;3,9;74,4
+Soda au cola, sucré;Boissons sans alcool/Boissons sucrées;40;0;10;0
+Soda au cola, édulcoré;Boissons sans alcool/Boissons à teneur reduite en sucre;0;0;0;0
+Salade Coleslaw, préparée;Plats/Salades;120;1,7;4,2;10,3
+Coppa;Produits carnés et charcuterie/Produits de charcuterie crus;319;28,8;0,3;22,5
+Cordon bleu de veau, sauté;Viande et abats/Veau;240;23,9;10,2;11,4
+Cordon bleu de porc, sauté;Viande et abats/Porc;249;24,2;10,2;12,2
+Cornflakes;Pains, flocons et céréales pour le petit-déjeuner/Mélanges de müesli et céréales pour petit-déjeuner;359;7,2;79,1;0,6
+Cotechino;Produits carnés et charcuterie/Produits de charcuterie cuits;450;17,2;0;42,3
+Cotto (produit à base de viande);Produits carnés et charcuterie/Produits de charcuterie cuits;93;15,7;0,6;3,1
+Crackers, biscuits salés;Snacks salés/Sticks salés et bretzels;449;9,2;66,3;15,9
+Feuilleté à la crème;Sucreries/Autres articles de pâtisserie;318;3,5;34,6;18,3
+Crêpes au camembert, préparés;Plats/Autres plats salés/épicés;249;11,9;14,9;15,6
+Crêpes aux champignons, préparés;Plats/Autres plats salés/épicés;137;5,3;7,9;9
+Crêpes aux légumes, préparés;Plats/Autres plats salés/épicés;165;6;13,6;9,3
+Crêpes au Nutella, préparés;Plats/Autres plats sucrés;376;7,7;35,7;22,1
+Crêpes au jambon, préparés;Plats/Autres plats salés/épicés;193;12,8;13,2;9,8
+Crêpes au lard, préparés;Plats/Autres plats salés/épicés;253;11,2;15;16,4
+Crêpes au sucre et cannelle, préparés;Plats/Autres plats sucrés;256;8,2;29;11,7
+Crêpes nature, préparés;Plats/Autres plats salés/épicés;234;9,3;19;13,3
+Cocktail au crevette, préparé;Plats/Salades;174;5,5;4,6;13,2
+Datte, sèche;Fruits/Fruits secs;305;2,5;69;0,5
+Farine d'épeautre bise, type 1100;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;348;14,3;65;2,2
+Farine d'épeautre, complète, type 1900;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;346;15,6;60;2,7
+Farine d'épeautre blanche, type 550;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;348;13,3;69;1,5
+Huile de chardon;Graisses et huiles/Huiles;806;0;0;89,6
+Double crème, pasteurisée;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";425;2,1;2,8;45
+Cabillaud, filet, à la vapeur (sans adjonction de graisse ni de sel);Poisson/Poissons de mer;95;22,6;0;0,5
+Morue, cru;Poisson/Poissons de mer;76;18,1;0;0,4
+Dulce de Leche;Sucreries/Confitures et produits à tartiner sucrés;300;5,9;52,6;7,3
+Châtaigne, crue;Noix, graines et produits oléagineux;198;2,9;42,4;1,5
+Perche, crue;Poisson/Poissons d'eau douce;78;18;0;0,7
+Omelette à la française au fromage, préparée;Plats/Autres plats salés/épicés;195;13,8;1,2;14,9
+Omelette à la française au jambon, préparée;Plats/Autres plats salés/épicés;146;12,6;1,3;10
+Omelette à la française au lard, préparée;Plats/Autres plats salés/épicés;182;12,3;1,3;14,2
+Omelette à la française, préparée;Plats/Autres plats salés/épicés;154;11,1;1,4;11,5
+Chanterelle, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Champignons;26;2;0,2;0,6
+Chanterelle, crue;Légumes/Champignons;21;1,6;0,2;0,5
+Salade Iceberg, crue;Légumes/Légumes frais;16;1;1,6;0,2
+Thé froid, sucré;"Boissons sans alcool/Boissons sucrées;Boissons sans alcool/Thé";30;0;7,5;0
+Emmentaler, gras;Lait et produits laitiers/Fromage à pâte dure;411;29;0;32,6
+Chicorée scarole, crue;Légumes/Légumes frais;16;1,8;1,2;0,2
+Gateau au noix d' Engadine;Sucreries/Gâteaux, tourtes et cakes;486;7;49,9;28,3
+Petit-pois, conserve;Légumes/Légumes cuits (conserves comprises);88;4,8;12,8;0,8
+Petit-pois (conserve), réchauffé (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);94;5,1;13,6;0,9
+Petit-pois, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);104;6,9;13,8;0,8
+Petit-poid, cru;Légumes/Légumes frais;90;6;12;0,7
+Pois, grain mature, décortiqué, sec;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;331;21,3;51,9;1,7
+Pois, grain mature, cuit (sans adjonction de graisse ni de sel);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;142;9,1;22,3;0,7
+Petit-pois et carottes, conserve;Légumes/Légumes cuits (conserves comprises);67;3,8;9,6;0,5
+Petits-pois et carottes, réchauffés (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);71;4;10,2;0,5
+Fraise, crue;Fruits/Fruits frais;40;0,7;7;0,5
+Cacahuète;Noix, graines et produits oléagineux;600;26;11,2;48,5
+Flips aux cacahuètes;Snacks salés/Chips;506;13,2;56,5;24,2
+Cacahuète, grillée;Noix, graines et produits oléagineux;593;25,3;8,6;49
+Beurre d'arachides;Sucreries/Confitures et produits à tartiner sucrés;638;22,6;12,2;53,7
+Huile d'arachide;Graisses et huiles/Huiles;809;0;0;89,9
+Expresso crème, non sucré;Boissons sans alcool/Café;28;0,5;0,9;2,5
+Vinaigre;Divers/Sel, épices et arômes;22;0,1;0,7;0
+"Sauce de salade vinaigre-huile"" (avec huile de colza)""";Graisses et huiles/Sauces à salade;326;0,7;4,6;33
+Figue, sèche;Fruits/Fruits secs;273;3,2;56,8;1,2
+Figue, crue;Fruits/Fruits frais;74;0,9;15,5;0,3
+Corégone / Lavaret, cru;Poisson/Poissons d'eau douce;101;19,2;0;2,7
+Fenouil, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);23;1,1;2,3;0,3
+Fenouil, cru;Légumes/Légumes frais;23;1,1;2,3;0,3
+Poisson (moyenne), filet, à la vapeur (sans adjonction de graisse ni de sel);Poisson;171;25,3;0;7,8
+Poisson (moyen), cru;"Poisson/Poissons d'eau douce;Poisson/Poissons de mer";137;20,2;0;6,2
+Bâtonnet de poisson (pané et préfrit), grillé au colza HOLL;Poisson/Poissons de mer;310;17,6;16,6;19,1
+Bâtonnet de poisson (pané et préfrit), au four (sans adjonction de graisse);Poisson/Poissons de mer;264;18,4;17,4;13,2
+Bâtonnet de poisson, pané et préfrit;Poisson/Poissons de mer;232;16,2;15,3;11,6
+Tarte flambée, cuite au four;Plats/Tartes sucrées et salées et gratins;268;9,3;22,9;15,1
+Viande (moyenne sans abats), crue;"Viande et abats/Veau;Viande et abats/Volaille;Viande et abats/Agneau, mouton;Viande et abats/Bœuf;Viande et abats/Porc;Viande et abats/Gibier";145;21,5;0;6,6
+Fromage d'Italie;Produits carnés et charcuterie/Produits de charcuterie bouillis;256;12,5;1,4;22,3
+Lasagne de viande, préparée;Plats/Plats italiens;156;9,7;12,9;6,9
+Flet, filet, à la vapeur (sans adjonction de graisse ni de sel);Poisson/Poissons de mer;90;20,6;0;0,9
+Flet, cru;Poisson/Poissons de mer;72;16,5;0;0,7
+Fondue sans alcool, préparé;Plats/Autres plats salés/épicés;281;19,4;1,6;21,8
+Fondue classique, préparé;Plats/Autres plats salés/épicés;308;20,6;1,1;23,1
+Fondue moitié-moitié, préparé;Plats/Autres plats salés/épicés;282;17,6;1;21,4
+Truite, entière, bouillie (sans adjonction de graisse ni de sel);Poisson/Poissons d'eau douce;159;20;0;8,8
+Truite, cru;Poisson/Poissons d'eau douce;127;16;0;7
+Pain perdu non sucré;Plats/Autres plats sucrés;224;8;24,9;10
+Vacherin fribourgeois;Lait et produits laitiers/Fromage à pâte dure;372;24;0;30,4
+Fromage frais, double crème;Lait et produits laitiers/Fromage frais et séré;338;7,9;4,5;32,1
+Fruit (moyenne), cuit (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);64;0,6;13,1;0,4
+Fruits (moyenne), séchés;Fruits/Fruits secs;276;2,8;58,1;0,9
+Fruit (moyenne), cru;Fruits/Fruits frais;57;0,7;11,8;0,3
+Jus de fruit dilué (60% jus - 40 % eau), non sucré (moyenne);Boissons sans alcool/Jus de fruits et de légumes;31;0,2;7,2;0,2
+Jus de fruit, non sucré (moyenne);"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";52;0,3;12;0,3
+Macédoine de fruits, sucrée, conserve;Fruits/Fruits cuits (conserves comprises);78;0,5;17,7;0,2
+Macédoine de fruits, non sucrée, conserve;Fruits/Fruits cuits (conserves comprises);53;0,5;11,3;0,2
+Tarte aux fruits (moyenne);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";155;2,9;16,8;7,7
+Tarte aux fruits, pâte feuilletée (moyenne);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";136;2,6;14,7;6,9
+Tarte aux fruits, pâte à gateau (moyenne);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";128;3;16,9;4,8
+Tarte aux fruits, cuite au four, pâte brisée sucrée (moyenne);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";200;3,2;18,8;11,4
+Bière aux cinq céréales;Boissons alcoolisées/Bière;40;0,6;2;0
+Crevette, cuite;Poisson/Fruits de mer et crustacés;59;12;1,3;0,6
+Crevette, crue;Poisson/Fruits de mer et crustacés;56;11,4;1,2;0,6
+Viande de volaille (moyenne sans abats), crue;Viande et abats/Volaille;131;21,9;0;4,8
+Viande de volaille avec peau (moyenne), crue;Viande et abats/Volaille;151;20,7;0;7,6
+Viande de volaille sans peau (moyenne sans abats), crue;Viande et abats/Volaille;114;22,9;0,1;2,5
+Charcuterie  de volaille;Produits carnés et charcuterie/Produits de charcuterie bouillis;205;13,5;0,9;16,4
+Viande hachée (moyenne boeuf, veau, porc, poulet), grillée (sans adjonction de graisse ni de sel);Viande et abats;179;27,3;0;7,8
+Viande hachée (moyenne de veau, boeuf, porc, poulet), crue;"Viande et abats/Veau;Viande et abats/Bœuf;Viande et abats/Porc;Viande et abats/Volaille";142;21,6;0;6,2
+Légumes (moyenne), crus;Légumes/Légumes frais;27;1,3;3,7;0,3
+Gratin de légumes, cuit au four;Plats/Tartes sucrées et salées et gratins;57;3;2,3;3,6
+Lasagne de légume, préparée;Plats/Plats italiens;135;4,8;11,7;7,4
+Orge, flocons;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;330;7,9;66,1;1,5
+Orge, flocons complets;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;330;7,9;66,1;1,5
+Potée à l'orge, cuite;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;136;3,4;24,8;2,2
+Emincé (moyenne de veau, boeuf, porc, volaille), grillée (sans adjonction de graisse ni de sel);Viande et abats;161;30;0,1;4,5
+Viande émincée (moyenne de veau, boeuf, porc, poulet), crue;"Viande et abats/Veau;Viande et abats/Porc;Viande et abats/Bœuf;Viande et abats/Volaille";118;21,9;0,1;3,3
+Flocons de céréales (moyenne);Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;344;10,2;63,9;3,3
+Croissant (moyenne);Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;406;8;40,4;23
+Fromage aux herbes glaronnais ;Lait et produits laitiers/Fromage frais et séré;134;32,3;0;0,5
+Gorgonzola;Lait et produits laitiers/Fromage à pâte dure;359;19,4;0,1;31,2
+Pamplemousse, cru;Fruits/Fruits frais;30;0,7;5,9;0,1
+Gruyère, gras;Lait et produits laitiers/Fromage à pâte dure;399;27;0;32
+Semoule, préparée (avec du lait partiellement écrémé);Sucreries/Crèmes et pouding;95;4,8;12;3
+Semoule, préparée (avec du lait entier);Sucreries/Crèmes et pouding;95;4,8;12;3
+Tranche de semoule, préparée (avec du lait partiellement écrémé);Plats/Autres plats salés/épicés;146;6,3;15,4;6,4
+Tranche de semoule, préparée (avec du lait entier);Plats/Autres plats salés/épicés;156;6,3;15,4;7,5
+Bonhomme en pâte;Sucreries/Autres articles de pâtisserie;330;9,2;46,9;11,2
+Kouglof façon Grand-mère;Sucreries/Gâteaux, tourtes et cakes;459;8,3;32,7;32,1
+Soupe goulache;Plats/Potages et soupes;67;4,8;6,3;2,4
+Bonbon gélifié à l'arome de fruit;Sucreries/Bonbons, bonbons gélifiés aux fruits et chewing-gums;341;6,6;78,6;0
+Cornichon au vinaigre;Légumes/Légumes cuits (conserves comprises);14;0,7;2,1;0,1
+Concombre, cru;Légumes/Légumes frais;13;0,7;2;0,1
+Rôti de viande hachée, cuit au four;Plats/Autres plats salés/épicés;197;17,1;8,2;10,5
+Hamburger (boeuf), grillé au colza HOLL;Viande et abats/Bœuf;204;20,4;6,4;10,6
+Porridge, préparé (avec du lait partiellement écrémé);Sucreries/Crèmes et pouding;133;6,4;18,3;3,6
+Porridge, préparé (avec du lait entier);Sucreries/Crèmes et pouding;150;6,4;16;6,3
+Avoine, flocons;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;372;13,5;57,5;7,5
+Son d'avoine;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;366;17,3;50,8;7
+Beurre mi-gras;"Graisses et huiles/Graisses;Lait et produits laitiers/Crème et beurre";388;4;3,5;39,8
+Demi-crème, pasteurisée;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";274;2,3;3,3;27,9
+Demi-crème, UHT;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";251;2,6;3,7;25,1
+Pain mi-blanc;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;240;9,4;46,4;1,1
+Fromage à pâte dure et mi-dure, grasse (en moyenne);Lait et produits laitiers/Fromage à pâte dure;400;27,2;0;32,1
+Bonbon dur;Sucreries/Bonbons, bonbons gélifiés aux fruits et chewing-gums;385;0,5;95;0,3
+Semoule de blé dur, sèche;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;351;12,6;70,4;1,2
+Lièvre (moyenne), cru;Viande et abats/Autres espèces animales;115;22;0;3
+Noisette;Noix, graines et produits oléagineux;643;15,2;6,9;59,5
+Pâte à tartiner aux noisettes et au chocolat;Sucreries/Confitures et produits à tartiner sucrés;546;5,8;55,6;32,7
+Biscuits aux noisettes;Sucreries/Biscuits;473;6,7;47,4;27,7
+Macarons aux noisettes;Sucreries/Biscuits;533;11,4;35,5;37
+Bâtonnets aux noisettes;Sucreries/Biscuits;562;10,1;46,1;36,7
+Brochet, cru;Poisson/Poissons d'eau douce;81;18,4;0;0,8
+Pâte lévée (avec beurre), sucrée, crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;311;8,6;43,2;11,1
+Pâte lévée (avec graisse végétale), sucrée, crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;304;9,1;40;11,5
+Myrtille, crue;Fruits/Fruits frais;58;0,6;11,3;0,5
+Flétan, cru;Poisson/Poissons de mer;118;20,6;0;3,9
+Framboise, crue;Fruits/Fruits frais;52;1,2;7;0,6
+Jambon cuit de derrière;Produits carnés et charcuterie/Produits de charcuterie cuits;104;20,2;0,7;2,3
+Cerf (moyenne), cru;Viande et abats/Gibier;112;20,6;0;3,3
+Cerf, entrecôte, crue;Viande et abats/Gibier;111;23,1;0;2,1
+Millet, grains décortiqués;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;357;9,8;68,8;3,9
+Millet, flocons complets;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;357;9,8;68,8;3,9
+Potée au millet, cuite;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;145;3,6;24,9;3,1
+Sauce hollandaise;Divers/Sauces;211;3;9,3;18
+Baie de sureau noir, crue;Fruits/Fruits frais;52;2,5;7,4;0,5
+Miel (miel de fleurs);Sucreries/Confitures et produits à tartiner sucrés;306;0,4;76;0
+Melon, cru;Fruits/Fruits frais;38;0,7;8;0,1
+Hot Dog en pain blanc avec ketchup et moutarde;Plats/Autres plats salés/épicés;230;9,1;32,3;6,7
+Oeuf de poule, entier, cuit dur;Œufs;157;13,2;0,3;11,4
+Oeuf de poule, entier, cru;Œufs;142;11,9;0,3;10,3
+Jaune d'oeuf, cru;Œufs;350;16,5;0,2;31,5
+Blanc d'oeuf, cru;Œufs;44;10,5;0,3;0,1
+Légumineuses (moyenne), cuites (sans adjonction de sel ni de graisse);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;138;9,7;16,4;2,6
+Légumineuses (moyenne), séchées;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;335;25,1;39,3;4,9
+Cottage cheese (fromage frais granulé), nature;Lait et produits laitiers/Fromage frais et séré;101;12,7;2,4;4,5
+Purée de pommes de terre, préparée (avec de l'eau et du beurre);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;81;2;11,5;2,8
+Sauce chasseur;Divers/Sauces;58;2,2;8;1,8
+Sauce de salade au yogourt (sans huile);Graisses et huiles/Sauces à salade;68;3,7;5,7;3,3
+Yogourt bifidus, nature;Lait et produits laitiers/Yogourt et lait acidulé;49;4,1;4,5;3,6
+Yaourt sucré (moyenne);Lait et produits laitiers/Yogourt et lait acidulé;105;3,8;14,7;3,4
+Yogourt maigre avec arômes, édulcoré;Lait et produits laitiers/Yogourt et lait acidulé;48;4,7;7;0,1
+Yogourt maigre aux fruits, édulcoré;Lait et produits laitiers/Yogourt et lait acidulé;50;4,7;7;0,1
+Yogourt aux fraises;Lait et produits laitiers/Yogourt et lait acidulé;101;3,5;15,2;2,7
+Yogourt aux noisettes;Lait et produits laitiers/Yogourt et lait acidulé;119;3,9;15;4,6
+Yogourt au café;Lait et produits laitiers/Yogourt et lait acidulé;100;3,8;14,1;3,1
+Yogourt au café, bio;Lait et produits laitiers/Yogourt et lait acidulé;96;3,5;13,1;3,3
+Yogourt, nature;Lait et produits laitiers/Yogourt et lait acidulé;66;4;4,5;3,6
+Yogourt, nature, maigre;Lait et produits laitiers/Yogourt et lait acidulé;40;4,3;5,5;0,1
+Yogourt au chocolat;Lait et produits laitiers/Yogourt et lait acidulé;120;4;16,9;3,9
+Yogourt à la vanille;Lait et produits laitiers/Yogourt et lait acidulé;98;3,8;14;3
+Groseille rouge, crue;Fruits/Fruits frais;45;1,1;5;0,5
+Cassis, cru;Fruits/Fruits frais;58;1,3;9;0,3
+Tarte aux groseilles, cuite au four (pâtes feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";135;2,8;12,1;7,1
+Tarte aux groseilles, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";127;3,2;14,3;5
+Tarte aux groseilles, cuite au four (pâte brisée sucrée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";200;3,3;18,4;11,4
+Café instantané, poudre;Boissons sans alcool/Café;253;11,2;42,6;0
+Café, noir, non sucré;Boissons sans alcool/Café;2;0,1;0,3;0
+Crème à café UHT;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";161;2,7;3,8;15
+Cacao en poudre;"Sucreries/Chocolat et produits chocolatés;Boissons sans alcool/Boissons chocolatées";408;19,8;10,8;24,5
+Kaki, cru;Fruits/Fruits frais;71;0,7;15,3;0,2
+Veau, poitrine, cuite (sans adjonction de graisse ni de sel);Viande et abats/Veau;291;26,1;0;20,7
+Veau, poitrine, crue;Viande et abats/Veau;204;18,3;0;14,5
+Veau, noix, escalope, crue;Viande et abats/Veau;103;22,2;0;1,6
+Veau, filet, cru;Viande et abats/Veau;119;21,2;0;3,8
+Veau, haché, cru;Viande et abats/Veau;104;20,5;0;2,4
+Veau, émincé, grillée ( (sans adjonction de graisse ni de sel);Viande et abats/Veau;132;29,7;0;1,5
+Veau, émincé, cru;Viande et abats/Veau;98;22;0;1,1
+Veau, jarret, cuite (sans adjonction de graisse ni de sel);Viande et abats/Veau;191;32,3;0;6,9
+Veau, jarret, cru;Viande et abats/Veau;122;20,7;0;4,4
+Veau, côtelette, crue;Viande et abats/Veau;161;20,7;0;8,7
+Veau, foie, cru;Viande et abats/Veau;135;19,6;4,6;4,2
+Veau, ris, cru;Viande et abats/Veau;99;17,2;0;3,4
+Veau, rognon, cru;Viande et abats/Veau;112;15,8;1;5
+"Veau, filet, steak, grillée mi-saignant"" (sans adjonction de graisse ni sel)""";Viande et abats/Veau;160;28,6;0;5,1
+Veau, filet, steak, cru;Viande et abats/Veau;113;22,8;0;2,4
+Veau, pièce ronde, tranche, cru;Viande et abats/Veau;104;21,9;0;1,8
+Veau, épaule, rôti, cuit au four (sans adjonction de graisse ni de sel);Viande et abats/Veau;185;30,1;0;7,2
+Veau, épaule, rôti, crue;Viande et abats/Veau;124;20,2;0;4,8
+Veau, ragoût, cru;Viande et abats/Veau;102;20;0;2,4
+Veau, langue, crue;Viande et abats/Veau;181;17,2;1,9;11,6
+Viande de veau (moyenne sans abats ni côtelette), crue;Viande et abats/Veau;128;21,1;0;4,8
+Saucisse de veau;Produits carnés et charcuterie/Produits de charcuterie bouillis;228;12,5;1,2;19,2
+Piccata de veau, préparée;Plats/Autres plats salés/épicés;223;23,3;5,5;11,9
+Veau, escalope, grillée (sans adjonction de graisse ni de sel);Viande et abats/Veau;140;30;0;2,2
+Escalope de veau, grillée au colza HOLL;Viande et abats/Veau;196;28,2;0;9,2
+Ragoût de veau avec sauce, préparé;Plats/Autres plats salés/épicés;91;11,6;3;3,5
+Calamar, cru;Poisson/Fruits de mer et crustacés;83;16;2,3;1,1
+Lapin (moyenne), cuit (sans adjonction de graisse ni de sel);Viande et abats/Autres espèces animales;205;28,1;0;10,3
+Lapin (moyenne), cru;Viande et abats/Autres espèces animales;150;20,5;0;7,5
+Lapin, filet, cru;Viande et abats/Autres espèces animales;111;24,3;0;1,5
+Carotte, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);41;0,9;7,3;0,3
+Carotte, crue;Légumes/Légumes frais;38;0,8;6,6;0,3
+Jus de carotte;"Boissons sans alcool/Jus de fruits et de légumes;Légumes/Jus de légumes";33;0,7;6,8;0,1
+Pomme de terre, épluchée, à la vapeur (sans adjonction de sel);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;77;2;15,9;0,1
+Pomme de terre, épluchée, crue;Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;76;2;15,6;0,1
+Flocons de pomme de terre, avec poudre de lait et sel (purée instantanée);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;366;11,3;65,5;5,4
+Gratin de pommes de terre dauphinois, préparé;Plats/Tartes sucrées et salées et gratins;128;2,6;11,3;7,8
+Gratin de pommes de terre savoyard, préparé;Plats/Tartes sucrées et salées et gratins;75;2,2;10,6;2,3
+Salade de pommes de terre, sauce au vinaigre et huile;Plats/Salades;97;1,7;13,1;3,8
+Salade de pommes de terre (sauce mayonnaise et yogourt);Plats/Salades;82;1,8;12,6;2,2
+Fécule de pommes de terre;"Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;Divers/Gélifiants et liants";336;0,6;83,1;0,1
+Purée de pommes de terre, préparée (avec de la crème et du beurre);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;140;2;13,2;8,4
+Purée de pommes de terre, préparée (avec du lait partiellement écrémeé et du beurre);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;90;2,2;13,5;2,6
+Purée de pommes de terre, préparée (avec du lait entier et du beurre);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;91;2,2;13,5;2,8
+Feta (lait de vache);"Lait et produits laitiers/Fromage frais et séré;Lait et produits laitiers/Fromage à pâte molle";262;17,5;1,4;20,7
+Feta (lait de brebis et chèvre);"Lait et produits laitiers/Fromage frais et séré;Lait et produits laitiers/Fromage à pâte molle";243;17;1,5;18,8
+Gateau au fromage, cuit au four (pâte feuilletée);Plats/Tartes sucrées et salées et gratins;304;14,4;11,7;22
+Gateau au fromage, cuit au four (pâte à gateau);Plats/Tartes sucrées et salées et gratins;293;14,9;14,6;19,2
+Beurre de fromagerie;"Graisses et huiles/Graisses;Lait et produits laitiers/Crème et beurre";746;0,4;0,6;82,5
+Croûte au fromage, préparée;Plats/Autres plats salés/épicés;272;14,8;26;11,5
+Kebab en fougasse;Plats/Sandwich;125;7,7;14,5;3,7
+Pois mange-tout, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);77;4,6;11,4;0,2
+Pois mange-tout, cru;Légumes/Légumes frais;68;4;10;0,2
+Ketchup;Divers/Sauces;117;2;26;0,4
+Pois chiche, cuit (sans adjonction de graisse ni de sel);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;131;7,4;17,7;2
+Pois chiche, sec;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;327;18,6;44,3;4,9
+Eau-de-vie de cerises (Kirsch);Boissons alcoolisées/Spiritueux;245;0;0;0
+Cerise, cuite,  égouttée (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);86;1,5;17,6;0,6
+Cerise, crue;Fruits/Fruits frais;74;1,3;15,3;0,5
+Tarte aux cerises, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";154;3;18,9;7,1
+Tarte aux cerises, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";146;3,4;21,1;5
+Kiwi, cru;Fruits/Fruits frais;54;1,1;9,9;0,6
+Pain croustillant, au blé entier;Pains, flocons et céréales pour le petit-déjeuner/Pains croustillants, biscottes, crackers et gallettes;327;10,4;62,4;1,8
+Pain croustillant, au blé entier, au grains de lin;Pains, flocons et céréales pour le petit-déjeuner/Pains croustillants, biscottes, crackers et gallettes;340;11,8;56,1;4,7
+Pain croustillant, au blé entier, au sésame;Pains, flocons et céréales pour le petit-déjeuner/Pains croustillants, biscottes, crackers et gallettes;353;11,3;57,1;6,6
+Ail, cru;Légumes/Légumes frais;136;7;24,5;0,5
+Céleri-rave, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);30;1,6;2,6;0,3
+Céleri-rave, cru;Légumes/Légumes frais;28;1,5;2,4;0,3
+Farine à spätzli;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;350;12,4;70,5;1,2
+Beurre de cuisine;"Graisses et huiles/Graisses;Lait et produits laitiers/Crème et beurre";745;0,5;0,7;82,2
+Produits de salaison cuits (moyenne);Produits carnés et charcuterie/Produits de charcuterie cuits;222;19,8;0,7;15,6
+Sel de cuisine avec iode;Divers/Sel, épices et arômes;0;0;0;0
+Sel de cuisine avec iode et fluor;Divers/Sel, épices et arômes;0;0;0;0
+Sel de cuisine sans iode ni fluor;Divers/Sel, épices et arômes;0;0;0;0
+Lard à cuire, fumé;Produits carnés et charcuterie/Produits de charcuterie crus;322;17,8;0,6;27,6
+Produits de charcuterie à chair cuite (moyenne);Produits carnés et charcuterie/Produits de charcuterie cuits;314;15,8;1,2;27,2
+Légumes crucifères (famille des choux) moyenne, cuits (sans adjonction de sel ni de graisse);Légumes/Légumes cuits (conserves comprises);29;2,2;3;0,3
+Légumes crucifères (famille des choux) moyenne, crus;Légumes/Légumes frais;29;2,2;3;0,3
+Chou-pomme, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);30;2,1;4,1;0,2
+Chou-pomme, cru;Légumes/Légumes frais;27;1,9;3,7;0,2
+Huile de coco;Graisses et huiles/Graisses;894;0,8;0;99
+Macaron au coco;Sucreries/Biscuits;554;5,9;35,8;40,2
+Noix de coco;Noix, graines et produits oléagineux;497;8,9;16;42
+Noix de coco, sèche ;Noix, graines et produits oléagineux;660;6,2;6,4;63,3
+Lait condensé, sucré;Lait et produits laitiers/Lait;339;8;54,3;10
+Lait condensé, non sucré;Lait et produits laitiers/Lait;132;6,5;9,7;7,5
+Confiture;Sucreries/Confitures et produits à tartiner sucrés;246;0,5;58,7;0,5
+Confiture, avec valeur énergétique réduite, édulcorée;Sucreries/Confitures et produits à tartiner sucrés;136;0,5;31,9;0,5
+Laitue pommée, crue;Légumes/Légumes frais;14;1,2;1,1;0,2
+Côtelette (moyenne de veau, boeuf, agneau), grillée (sans adjonction de graisse ni de sel);Viande et abats;250;30;0;14,4
+Côtelette (moyenne de veau, porc, agneau), crue;"Viande et abats/Porc;Viande et abats/Veau;Viande et abats/Agneau, mouton";177;21,3;0;10,2
+Crustacé, cru (moyen);Poisson/Fruits de mer et crustacés;75;15,5;1;1
+Pâte à gateau (avec beurre), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;329;6,8;38,7;15,9
+Pâte à gateau (avec graisse végétale), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;325;6,8;38,7;15,5
+Piccata de courges, préparée;Plats/Autres plats salés/épicés;165;4,7;9;12
+Graine de courge;Noix, graines et produits oléagineux;603;32,6;4,7;49,1
+Tranches de courge, panées, préparées;Plats/Autres plats salés/épicés;140;4,4;16,7;5,8
+Saumon fumé;Poisson/Poissons de mer;167;23,2;0;8,2
+Saumon sauvage, cru;Poisson/Poissons de mer;182;19,7;0;11,5
+Saumon, élevage, filet, à la vapeur (sans adjonction de graisse ni de sel);Poisson/Poissons de mer;251;24,9;0;16,8
+Saumon d'élevage, cru;Poisson/Poissons de mer;200;19,9;0;13,4
+"Agneau, filet, grillé à point"" (sans adjonction de graisse ni de sel)""";Viande et abats/Agneau, mouton;149;27,2;0;4,5
+Agneau, filet, cru;Viande et abats/Agneau, mouton;112;20,4;0;3,4
+Agneau, gigot, rôti (sans adjonction de graisse ni de sel);Viande et abats/Agneau, mouton;230;30,1;0;12,2
+Agneau, gigot, cru (Suisse, Nouvelle-Zélande);Viande et abats/Agneau, mouton;155;20,2;0;8,2
+Agneau, côtelette, crue (Suisse);Viande et abats/Agneau, mouton;179;20,2;0;10,9
+Agneau, filet, cru (Australie, Nouvelle-Zélande);Viande et abats/Agneau, mouton;117;21,8;0;3,3
+Agneau, rack, crue (Australie, Nouvelle-Zélande);Viande et abats/Agneau, mouton;156;20,3;0;8,3
+Agneau, ragoût, cru (Suisse);Viande et abats/Agneau, mouton;154;19,6;0;8,4
+Agneau/mouton (moyenne sans abats ni côtelette), cru;Viande et abats/Agneau, mouton;134;20,5;0;5,8
+Ragoût d'agneau avec sauce, préparé;Plats/Autres plats salés/épicés;123;11,7;3,1;7
+Gendarme;Produits carnés et charcuterie/Produits de charcuterie crus;491;26,6;0;42,7
+Latte macchiato, non sucré;"Lait et produits laitiers/Boissons lactées et yogourts à boire;Boissons sans alcool/Café";47;2,3;3,2;2,8
+Laitue, crue;Légumes/Légumes frais;16;1,2;1,3;0,3
+Poireau, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);33;1,8;4,2;0,3
+Poireau, cru;Légumes/Légumes frais;30;1,6;3,7;0,3
+Petit pain de Sils;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;277;8,8;48,4;4,8
+Bretzel, sticks salés, secs;Snacks salés/Sticks salés et bretzels;360;8,6;72,1;4
+Croissant de Sils;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;419;8,7;38,9;25
+Foie (moyenne de veau, boeuf, porc, poulet), cru;"Viande et abats/Volaille;Viande et abats/Veau;Viande et abats/Bœuf;Viande et abats/Porc";226;17,8;2,8;15,9
+Foie (moyenne de boeuf, veau, porc, volaille), grillé (sans adjonction de graisse ni de sel);Viande et abats;275;21,7;3,4;19,4
+Boudin blanc;Produits carnés et charcuterie/Produits de charcuterie cuits;292;20,8;0,5;22,9
+Pain d'épice;Sucreries/Autres articles de pâtisserie;405;6,5;61,6;13,8
+Pain d'épice, enrobé de chocolat;Sucreries/Autres articles de pâtisserie;445;6,5;60,2;19
+Graine de lin;Noix, graines et produits oléagineux;472;17,9;10,8;33,6
+Lemon Curd;Sucreries/Crèmes et pouding;320;6;37,5;16,2
+Limburger/Münster;Lait et produits laitiers/Fromage à pâte dure;275;20,4;0;21,4
+Limonade, avec arômes, sucrée;Boissons sans alcool/Boissons sucrées;38;0;9,5;0
+Lentille, entière, cuite (sans adjonction de graisse ni de sel);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;121;8,8;18,5;0,4
+Lentille, entière, sèche;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;324;24,4;44,8;1,5
+Lentille, décortiquée, cuite (sans adjonction de graisse ni de sel);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;139;11,3;20;0,6
+Lentille, décortiquée, sèche;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;334;27;48;1,5
+Tourte de Linz;Sucreries/Gâteaux, tourtes et cakes;425;7,5;43,7;23,6
+Pélerines;Sucreries/Biscuits;414;12,2;71,8;8,3
+Luganiga;Produits carnés et charcuterie/Produits de charcuterie crus;459;17,1;0,5;43
+Saucisse de Lyon;Produits carnés et charcuterie/Produits de charcuterie bouillis;244;11,5;0,5;21,8
+Madeleines;Sucreries/Autres articles de pâtisserie;346;7,5;52,2;11,6
+Lait écrémé, UHT;Lait et produits laitiers/Lait;33;3,4;4,7;0,1
+Lait écrémé en poudre;Lait et produits laitiers/Lait;356;35,5;51,5;0,9
+Milanais;Sucreries/Biscuits;431;7,1;53,1;20,8
+Chips de maïs;Snacks salés/Chips;509;7,8;56;27,2
+Maïs doux, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);105;3,8;17,8;1,4
+Maïs doux, cru;Légumes/Légumes frais;92;3,3;15,7;1,2
+Semoule de maïs, cuite;Produits céréaliers, légumineuses et pommes de terre/Maïs;79;2;16,7;0,2
+Semoule de maïs (polenta), sèche;Produits céréaliers, légumineuses et pommes de terre/Maïs;350;8,8;73,8;1,1
+Huile de maïs;Graisses et huiles/Huiles;809;0;0;89,9
+Maïs doux en épis au vinaigre;Légumes/Légumes cuits (conserves comprises);119;3,4;21;1,4
+Fécule de maïs;"Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;Divers/Gélifiants et liants";354;0,3;88;0
+Mandarine, crue;Fruits/Fruits frais;47;0,7;10;0,2
+Amande;Noix, graines et produits oléagineux;576;21,2;4;49,9
+Amande, grillée, salée;Snacks salés/Noix et graines salées;631;21,2;7,2;55,2
+Amande, grillée sans graisse, salée;Snacks salés/Noix et graines salées;620;22,1;10,3;52,1
+Mangue, crue;Fruits/Fruits frais;62;0,6;13,4;0,2
+Bette, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);31;2,8;3,6;0,3
+Bette, crue;Légumes/Légumes frais;23;2,1;2,7;0,2
+Margarine;Graisses et huiles/Graisses;724;0,5;0,5;80
+Cake marbré;Sucreries/Gâteaux, tourtes et cakes;357;7,3;42,6;17,2
+Massepain;Sucreries/Autres sucreries;467;6,1;68,6;17,6
+Mascarpone;Lait et produits laitiers/Fromage frais et séré;453;7,6;0;47
+Mayonnaise;Graisses et huiles/Mayonnaises;742;1,1;0,5;81,7
+Mayonnaise, avec valeur énergétique réduite;Graisses et huiles/Mayonnaises;327;0,9;3,2;34,5
+Mayonnaise, préparée à la maison avec de l'huile de colza;Graisses et huiles/Mayonnaises;791;2,4;0,2;86,7
+Farine (moyenne);Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;343;12,4;67,8;1,4
+Farine claire (moyenne);Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;344;12,2;68,9;1,3
+Omelette à la farine aux champignons, préparée;Plats/Autres plats salés/épicés;124;5,3;10,8;6,3
+Omelette à la farine aux légumes, préparée;Plats/Autres plats salés/épicés;137;5,7;16,2;5,2
+Omelette à la farine au fromage, préparée;Plats/Autres plats salés/épicés;196;10;18,2;9
+Omelette à la farine au Nutella, préparée;Plats/Autres plats sucrés;259;7,1;29;12,4
+Omelette à la farine au jambon, préparée;Plats/Autres plats salés/épicés;157;9,8;17,3;5,2
+Omelette à la farine au lard, préparée;Plats/Autres plats salés/épicés;194;9,3;17,3;9,5
+Omelette à la farine au sucre et cannelle, préparée;Plats/Autres plats sucrés;178;7,1;24,5;5,5
+Omelette à la farine, préparée;Plats/Autres plats salés/épicés;166;7,5;20,4;5,8
+Mélasse, sirop de mélasse;Sucreries/Confitures et produits à tartiner sucrés;274;1,2;67,2;0
+Meringue;Sucreries/Autres sucreries;400;5;94;0,5
+Moule, crue;Poisson/Fruits de mer et crustacés;85;11,7;3,4;2,7
+Lait (en moyenne);Lait et produits laitiers/Lait;62;3,3;4,6;3,4
+Café au lait (foncé), non sucré;"Lait et produits laitiers/Boissons lactées et yogourts à boire;Boissons sans alcool/Café";16;0,8;1,2;0,9
+Café au lait (claire), non sucré;"Lait et produits laitiers/Boissons lactées et yogourts à boire;Boissons sans alcool/Café";22;1,1;1,6;1,2
+Café au lait, non sucré;"Lait et produits laitiers/Boissons lactées et yogourts à boire;Boissons sans alcool/Café";20;1;1,4;1,1
+Riz au lait, préparé (avec du lait partiellement écrémé);Sucreries/Crèmes et pouding;132;5,4;19,5;3,5
+Riz au lait, préparé (avec du lait entier);Sucreries/Crèmes et pouding;144;5,2;19,5;5
+Chocolat au lait;Sucreries/Chocolat et produits chocolatés;537;6,5;56,9;31,1
+Chocolat au lait fourré à l‘alcool;Sucreries/Chocolat et produits chocolatés;488;5,4;59,1;23
+Chocolat au lait fourré à la crème (Gianduja, Nougat);Sucreries/Chocolat et produits chocolatés;571;6,9;47,2;38,5
+Chocolat au lait, avec nougat aux amandes et au miel;Sucreries/Chocolat et produits chocolatés;534;7;54,7;31,4
+Chocolat au lait, avec noisettes;Sucreries/Chocolat et produits chocolatés;566;8,4;45,6;38,1
+Chocolat au lait avec raisins secs, noisettes et amandes;Sucreries/Chocolat et produits chocolatés;511;7,5;51,2;29,6
+Minestrone;Plats/Potages et soupes;53;2;7;1,8
+Saucisse type Minipic;Produits carnés et charcuterie/Produits de charcuterie crus;460;26,1;0,8;39,1
+Mirabelle, cuite,  égouttée (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);65;0,8;13,8;0,2
+Mirabelle, crue;Fruits/Fruits frais;57;0,7;12;0,2
+Olives farcies avec de la viande hachée, frites;Snacks salés/Autres snacks salés;320;14,1;32,3;14
+Petit lait, doux;Lait et produits laitiers/Boissons lactées et yogourts à boire;24;0,8;4,7;0,2
+Morille, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Champignons;31;2,1;0,6;0,4
+Morille, crue;Légumes/Champignons;26;1,7;0,5;0,3
+Mortadella;Produits carnés et charcuterie/Produits de charcuterie bouillis;305;15,7;0,8;26,6
+Mostbröckli;Produits carnés et charcuterie/Produits de charcuterie crus;150;32,6;0,5;1,9
+Mozzarella;"Lait et produits laitiers/Fromage à pâte molle;Lait et produits laitiers/Fromage frais et séré";253;18,7;0,7;19,5
+Pâte brisée (avec beurre), sucrée, crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;424;7,8;45,8;22,9
+Pâte brisée (avec graisse végétale), sucrée, crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;419;7,8;45,8;22,4
+Petit pain;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;254;8,7;51,8;0,8
+Nasi Goreng, préparé;Plats/Plats asiatiques;126;11;16,1;1,9
+Nectarine, crue;Fruits/Fruits frais;51;0,9;10,2;0,2
+Croissant aux noisettes, pâte feuilletée;Sucreries/Autres articles de pâtisserie;416;6,6;35,6;26,9
+Croissant aux noisette, pâte levée;Sucreries/Autres articles de pâtisserie;315;7,5;41,5;12,6
+Mâche, crue;Légumes/Légumes frais;23;2;2;0,4
+Escargot aux noisette, pâte levée;Sucreries/Autres articles de pâtisserie;442;12;54,4;18,7
+Frites au four, surgelées;Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;127;1,8;18,2;4,9
+Olive, verte;Noix, graines et produits oléagineux;126;1,3;0;12,5
+Olive, noire;Noix, graines et produits oléagineux;150;0,9;3;14
+Huile d'olive;Graisses et huiles/Huiles;809;0;0;89,9
+Orange, crue;Fruits/Fruits frais;44;1;8,6;0,2
+Nectar d'orange;"Boissons sans alcool/Boissons sucrées;Boissons sans alcool/Jus de fruits et de légumes";44;0,4;10,5;0
+Jus d'orange;"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";51;0,5;11,1;0,5
+Jus d'orange, enrichi de vitamine C;"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";55;0,5;12;0,5
+Graisse de palme - Huile de palme;"Graisses et huiles/Huiles;Graisses et huiles/Graisses";799;0;0;88,8
+Pancetta;Produits carnés et charcuterie/Produits de charcuterie crus;467;19,5;0,4;43
+Panettone;Sucreries/Autres articles de pâtisserie;354;6,4;56,5;10,7
+Chapelure;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;370;14,2;71,8;1,9
+Pantli;Produits carnés et charcuterie/Produits de charcuterie crus;538;21,1;0,9;50
+Paprika (épice);Divers/Sel, épices et arômes;358;14,8;34,9;13
+Noix du Brésil;Noix, graines et produits oléagineux;692;16,6;3,2;66,5
+Baguette parisienne ;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;254;9;51,1;0,9
+Parmesan;Lait et produits laitiers/Fromage à pâte dure;374;36;0;25,6
+Fruit de la passion, cru;Fruits/Fruits frais;92;2,2;11,8;0,5
+Pâté de campagne;Produits carnés et charcuterie/Produits de charcuterie cuits;391;13,2;1;36,9
+Poivron, vert, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);26;1;3,4;0,4
+Poivron, vert, cru;Légumes/Légumes frais;20;0,8;2,6;0,3
+Poivron, rouge, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);42;1,2;6,8;0,5
+Poivron, rouge, cru;Légumes/Légumes frais;32;0,9;5,2;0,4
+Persil, cru;Légumes/Herbes aromatiques;56;3,9;6,8;0,5
+Menthe, crue;Légumes/Herbes aromatiques;49;3,8;5,3;0,7
+"Cheval, filet, grillé à point"" (sans adjonction de graisse ni de sel)""";Viande et abats/Autres espèces animales;141;29,3;0;2,6
+Cheval, filet, cru;Viande et abats/Autres espèces animales;103;21,4;0;1,9
+Ragoût de cheval avec sauce, préparé;Plats/Autres plats salés/épicés;94;12,7;3,1;3,3
+Pêche, sucrée, conserve;Fruits/Fruits cuits (conserves comprises);83;0,4;19;0,2
+Pêche, crue;Fruits/Fruits frais;48;0,5;10;0,2
+Pêche, non sucrée, conserve;Fruits/Fruits cuits (conserves comprises);48;0,5;10;0,2
+Pruneau, cuite,  égouttée (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);59;0,7;12,6;0,2
+Pruneau, sec;Fruits/Fruits secs;204;2,5;39,8;0,3
+Prune, crue;Fruits/Fruits frais;48;0,6;10,2;0,2
+Tarte aux prunes, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";137;2,5;15,5;6,9
+Tarte aux prunes, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";129;2,9;17,8;4,8
+Champignons (moyenne), à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Champignons;31;2,9;0,7;0,5
+Champignons (moyenne), crus;Légumes/Champignons;25;2,4;0,6;0,4
+Risotto au champignon, cuit;Plats/Autres plats salés/épicés;126;4;18,7;3,6
+Sauce aux champignons, liée;Divers/Sauces;82;3,6;7,6;4
+Soupe velouté de champignons;Plats/Potages et soupes;38;1,1;5,5;1,2
+Pignon de pin;Noix, graines et produits oléagineux;594;31,6;13,9;44,9
+Pistache;Noix, graines et produits oléagineux;580;20,3;17,6;45,4
+Pizza au thon, cuite au four;Plats/Plats italiens;227;12,2;26,5;7,7
+Pizza Calzone, cuite au four;Plats/Plats italiens;226;11,5;26,6;7,8
+Pizza Hawaii, cuite au four;Plats/Plats italiens;195;9,5;24,2;6,4
+Pizza Margherite, cuite au four;Plats/Plats italiens;238;9,9;29,9;8,4
+Pizza aux légumes, cuite au four;Plats/Plats italiens;124;5,6;17,4;3,1
+Pizza au mascarpone et roquette, cuite au four;Plats/Plats italiens;240;9,6;27,4;9,9
+Pizza au jambon et champignon, cuite au four;Plats/Plats italiens;205;10,6;24;7
+Pizza au jambon, cuite au four;Plats/Plats italiens;219;10,6;28,7;6,5
+Pizza aux quatre fromages, cuite au four;Plats/Plats italiens;297;12,9;37,2;10,3
+Pâte à pizza (avec graisse végétale), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;229;7;41,2;3,6
+Escalope (moyenne de volaille, veau, boeuf, porc), grillée (sans adjonction de graisse ni de sel);Viande et abats;155;30,4;0,1;3,7
+Escalope (moyenne de veau, boeuf, porc, poulet), crue;"Viande et abats/Veau;Viande et abats/Bœuf;Viande et abats/Porc;Viande et abats/Volaille";114;22,2;0,1;2,7
+Polenta nera, préparée;Produits céréaliers, légumineuses et pommes de terre/Maïs;103;4,6;12,9;3,4
+Pommes Chips;Snacks salés/Chips;537;4,9;49,4;34,7
+Pommes Chips à matière grasse réduite;Snacks salés/Chips;467;5,9;59,4;21,9
+Pommes frites (cuites au four), non salées;Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;230;3,3;33,1;8,9
+Pommes frites (frites dans de l'huile de tournesol HO), non salées;Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;285;3,2;32,5;15,3
+Popcorn ;Snacks salés/Autres snacks salés;367;12;62,9;4,2
+Vin de Porto, 18.5 vol%;Boissons alcoolisées/Vin;152;0,2;12;0
+Poulet, poitrine, avec peau, crue (France);Viande et abats/Volaille;126;24;0;3,3
+Poulet, poitrine, avec peau, crue (Suisse);Viande et abats/Volaille;152;23,3;0;6,5
+Poulet, poitrine, sans peau, crue (France);Viande et abats/Volaille;109;25,2;0;0,9
+Poulet, poitrine, sans peau, crue (Suisse);Viande et abats/Volaille;107;24,6;0;1
+Poulet, poitrine, escalope ou émincé, grillé (sans adjonction de graisse ni de sel);Viande et abats/Volaille;131;28,9;0,5;1,5
+Poulet, poitrine, escalope (émincé), crue;Viande et abats/Volaille;105;23,1;0,4;1,2
+Poulet, entier avec la peau, rôti (sans adjonction de graisse ni de sel);Viande et abats/Volaille;224;25,1;0;13,7
+Poulet entier, avec peau, cru;Viande et abats/Volaille;168;18,8;0;10,3
+Poulet, cuisse avec la peau, rôti (sans adjonction de graisse ni de sel);Viande et abats/Volaille;218;23,9;0;13,6
+Poulet, cuisse, avec peau, crue;Viande et abats/Volaille;184;17,6;0;12,6
+Poulet, cuisse, avec peau, crue (France);Viande et abats/Volaille;145;19,4;0;7,5
+Poulet, cuisse, avec peau, crue (Suisse);Viande et abats/Volaille;163;17,9;0;10,2
+Poulet, cuisse, sans peau, crue (France);Viande et abats/Volaille;121;20,6;0;4,3
+Poulet, cuisse, sans peau, crue (Suisse);Viande et abats/Volaille;135;19,7;0;6,2
+Airelle rouge, crue;Fruits/Fruits frais;40;0,3;7,1;0,5
+Coeurs de France;Sucreries/Biscuits;438;4,7;53,8;22,4
+Flan au caramel;Sucreries/Crèmes et pouding;125;3,4;23;2,1
+Flan au chocolat;Sucreries/Crèmes et pouding;121;3;21;2,6
+Flan à la vanille;Sucreries/Crèmes et pouding;101;2,8;18;2
+Séré, mi-gras;Lait et produits laitiers/Fromage frais et séré;99;9,6;4;5
+Séré maigre;Lait et produits laitiers/Fromage frais et séré;62;10,8;4,2;0,2
+Séré à la crème;Lait et produits laitiers/Fromage frais et séré;183;7;3,7;15,6
+Pâte feuilletée au séré (avec beurre), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;401;7,1;28,9;28,3
+Pâte feuilletée au séré (avec graisse végétale), crue;Produits céréaliers, légumineuses et pommes de terre/Pâtes;396;7,1;28,9;27,7
+Quiche Lorraine, cuite au four (pâte feuilletée);Plats/Tartes sucrées et salées et gratins;305;8,5;11,5;24,9
+Quiche Lorraine, cuite au four (pâte à gateau);Plats/Tartes sucrées et salées et gratins;293;9;14,6;21,9
+Coing, cuit, égoutté (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);51;0,4;7,9;0,2
+Coing, cru;Fruits/Fruits frais;41;0,3;6,3;0,2
+Fromage à raclette;Lait et produits laitiers/Fromage à pâte dure;359;26,4;0;27,9
+Petit radis, cru;Légumes/Légumes frais;16;1;2,1;0,1
+Crème (en moyenne);"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";252;2,4;3,4;25,4
+Crème glacée, aux fruits;Sucreries/Glaces à base de lait;185;3,5;24,7;8
+Caramel mou à la crème;Sucreries/Bonbons, bonbons gélifiés aux fruits et chewing-gums;351;0,4;79,3;3,6
+Betterave rouge, à la vapeur (sans adjonction se sel);Légumes/Légumes cuits (conserves comprises);57;1,9;10,5;0,1
+Betterave rouge, crue;Légumes/Légumes frais;46;1,5;8,4;0,1
+Huile de colza;Graisses et huiles/Huiles;809;0;0;89,9
+Huile de colza HOLL (high oleic, low linolenic);Graisses et huiles/Huiles;810;0;0;90
+Ratatouille, préparée;Légumes/Légumes cuits (conserves comprises);48;1,5;4,6;2,1
+Salami fumé;Produits carnés et charcuterie/Produits de charcuterie crus;513;21,4;0,9;47
+Reblochon;Lait et produits laitiers/Fromage à pâte molle;308;20,3;0;25,2
+Chevreuil (moyenne), crue;Viande et abats/Gibier;122;22,4;0;3,6
+Chevreuil, ragoût (civet), cru;Viande et abats/Gibier;105;22;0;1,9
+Chevreuil, escalope, cru;Viande et abats/Gibier;105;22,5;0;1,7
+Fromage râpé;Lait et produits laitiers/Fromage à pâte dure;396;32,3;0;29,4
+Riz parboiled, cuit à l'eau salée (sel non iodé);Produits céréaliers, légumineuses et pommes de terre/Riz;119;2,4;26,6;0,2
+Riz parboiled, sec;Produits céréaliers, légumineuses et pommes de terre/Riz;349;6,9;78,2;0,6
+Riz blanc, cuit à l'eau salée (sel non iodé);Produits céréaliers, légumineuses et pommes de terre/Riz;115;2,2;25,9;0,2
+Riz blanc, sec;Produits céréaliers, légumineuses et pommes de terre/Riz;348;6,6;78,3;0,6
+Riz complet, cuit à l'eau salée (sel non iodé);Produits céréaliers, légumineuses et pommes de terre/Riz;135;2,8;28;1,1
+Riz complet, sec;Produits céréaliers, légumineuses et pommes de terre/Riz;357;7,5;73,9;2,8
+Radis, cru;Légumes/Légumes frais;18;0,6;2,6;0,3
+Rhubarbe, cru;Fruits/Fruits frais;12;0,6;1;0,1
+Tarte à la rhubarbe, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";113;2,5;9,4;6,8
+Tarte à la rhubarbe, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";105;2,9;11,7;4,7
+Potiron, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);23;0,6;4,5;0,1
+Courge, crue;Légumes/Légumes frais;23;0,6;4,5;0,1
+Boeuf, poitrine, cuit (sans adjonction de graisse ni de sel);Viande et abats/Bœuf;313;31,5;0;20,8
+Boeuf, poitrine, cru;Viande et abats/Bœuf;188;18,9;0;12,5
+Boeuf, coin, tranche, cru;Viande et abats/Bœuf;111;22,6;0;2,3
+"Boeuf, entrecôte, grillée à point"" (sans adjonction de graisse ni sel)""";Viande et abats/Bœuf;183;31,8;0;6,2
+Boeuf, entrecôte, cru;Viande et abats/Bœuf;138;22,3;0;5,4
+Boeuf, entrecôte, cru (Suisse);Viande et abats/Bœuf;133;23,2;0;4,5
+Boeuf, entrecôte, cru (USA);Viande et abats/Bœuf;210;21,7;0;13,7
+"Boeuf, filet, grillé à point"" (sans adjonction de graisse ni sel)""";Viande et abats/Bœuf;141;29,2;0;2,7
+Boeuf, filet, cru;Viande et abats/Bœuf;106;21,9;0;2
+Boeuf, hâché, grillé (sans adjonction de graisse ni de sel);Viande et abats/Bœuf;244;34,3;0;11,9
+Boeuf, haché, cru;Viande et abats/Bœuf;154;21,6;0;7,5
+Boeuf, émincé, cru;Viande et abats/Bœuf;102;22,2;0;1,5
+Boeuf, cou, ragoût (goulache), cru;Viande et abats/Bœuf;149;19,3;0;8
+Boeuf, entrecôte parisienne, cru (Suisse);Viande et abats/Bœuf;165;21,1;0;9
+Boeuf, entrecôte parisienne, cru (USA);Viande et abats/Bœuf;218;19,3;0;15,7
+Boeuf, foie, cru;Viande et abats/Bœuf;138;20,5;5,3;3,9
+Boeuf, pièce ronde, tranche, cru;Viande et abats/Bœuf;106;22,4;0;1,8
+"Boeuf, épaule, rôti au four à point"" (sans adjonction de graisse ni de sel)""";Viande et abats/Bœuf;162;30;0;4,7
+Boeuf, épaule, rôti au four, saignant (sans adjonction de graisse ni de sel);Viande et abats/Bœuf;150;27,7;0;4,4
+"Boeuf, épaule, rôti au four bien cuit"" (sans adjonction de graisse ni de sel)""";Viande et abats/Bœuf;189;34,8;0;5,5
+Boeuf, épaule, rôti, crue;Viande et abats/Bœuf;117;21,6;0;3,4
+Boeuf, bouilli, entremêlé, cru;Viande et abats/Bœuf;227;19,5;0;16,6
+Boeuf, bouilli entremêlé, cuit (sans adjonction de graisse ni de sel);Viande et abats/Bœuf;289;32,5;0;17,7
+Boeuf, bouilli maigre, cuit (sans adjonction de graisse ni de sel);Viande et abats/Bœuf;221;34,5;0;9,2
+Boeuf, bouilli, maigre, cru;Viande et abats/Bœuf;132;20,7;0;5,5
+Boeuf, ragoût, cru;Viande et abats/Bœuf;96;21,2;0;1,3
+Boeuf, langue, crue;Viande et abats/Bœuf;196;16;3,7;13
+Viande de bœuf (moyenne sans abats ni côte), crue;Viande et abats/Bœuf;134;21,4;0;5,4
+Ragoût de boeuf avec sauce, préparé;Plats/Autres plats salés/épicés;91;12,6;3,1;3
+Carré (filet), cru;Produits carnés et charcuterie/Produits de charcuterie cuits;154;21,7;0,5;7,3
+Risotto sans fromage, cuit;Produits céréaliers, légumineuses et pommes de terre/Riz;123;2,2;25,1;1,4
+Ristretto crème, non sucré;Boissons sans alcool/Café;47;0,8;1,3;4,3
+Riz casimir de veau, préparé;Plats/Autres plats salés/épicés;124;6,9;16;3,3
+Riz Casimir au poulet, préparé;Plats/Autres plats salés/épicés;126;7,5;16;3,3
+Pain de seigle au levain;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;210;5,2;41,8;1
+Farine de seigle, type 815;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;337;7,1;71,8;1,2
+Farine de seigle, type 1050;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;333;7,5;68,6;1,5
+Farine de seigle, complète egrugée, type 1800;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;325;8,5;63,3;1,7
+Pain au gruau de seigle;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;228;6,2;44,3;1,2
+Lard à manger cru;Produits carnés et charcuterie/Produits de charcuterie crus;400;22,1;0,6;34,3
+Produits de salaison crus (moyenne);Produits carnés et charcuterie/Produits de charcuterie crus;304;28,1;0,4;21,1
+Jambon cru;Produits carnés et charcuterie/Produits de charcuterie crus;229;31;0,3;11,5
+Saucisses crues avec maturation interrompue (moyenne);Produits carnés et charcuterie/Produits de charcuterie crus;369;15,6;0,6;33,8
+Saucisses crues (moyenne);Produits carnés et charcuterie/Produits de charcuterie crus;454;22;0,3;40,5
+Orge perlé;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;344;9,6;71;1,4
+Rollmops ;Poisson/Produits à base de poisson;270;12;19,6;15,9
+Rollschinkli;Produits carnés et charcuterie/Produits de charcuterie cuits;181;20,3;1,2;10,6
+Jambon roulé, cuit (sans adjonction de graisse ni de sel);Produits carnés et charcuterie/Autres produits carnés et produits de charcuterie;227;25,4;1,5;13,3
+Roquefort;Lait et produits laitiers/Fromage à pâte dure;361;18,7;0,2;31,7
+Chou de Bruxelles, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);42;3,8;3,4;0,5
+Chou de Bruxelles, cru;Légumes/Légumes frais;43;4;3,5;0,5
+Raisin, sec;Fruits/Fruits secs;298;2,5;68;0,6
+Romarin, cru;Légumes/Herbes aromatiques;62;0,8;7,7;2,5
+Rösti (pommes de terre prêtes à rôtir, produit fini);Produits céréaliers, légumineuses et pommes de terre/Pommes de terre;117;2;18,6;3,6
+Chou rouge, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);28;1,3;3,7;0,3
+Chou rouge, cru;Légumes/Légumes frais;30;1,4;4;0,3
+Pain bis;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;234;9,5;44,3;1,2
+Roquette, crue;Légumes/Légumes frais;28;2,6;2,1;0,7
+Gateau aux carottes;Sucreries/Gâteaux, tourtes et cakes;291;9,8;24,7;16
+Oeufs brouillés aux champignons, préparés;Plats/Autres plats salés/épicés;128;9,4;1,5;9,3
+Oeufs brouillés au fromage, préparés;Plats/Autres plats salés/épicés;159;11,6;1,3;11,9
+Oeufs brouillés aux herbes, préparés;Plats/Autres plats salés/épicés;143;10,3;1,8;10,4
+Oeufs brouillés au jambon, préparés;Plats/Autres plats salés/épicés;146;12,7;1,3;10
+Oeufs brouillés, préparés;Plats/Autres plats salés/épicés;149;10,8;1,3;11,2
+Gateau au beurre;Sucreries/Gâteaux, tourtes et cakes;431;6,7;44,8;24,8
+Salade russe, préparée;Plats/Salades;198;2,5;9,9;15,9
+Sablés au beurre;Sucreries/Biscuits;475;5,9;53,1;26,2
+Salametto;Produits carnés et charcuterie/Produits de charcuterie crus;342;14,8;0,3;31,3
+Salami (ligne budget);Produits carnés et charcuterie/Produits de charcuterie crus;422;22;0;37,1
+Salami type Nostrano;Produits carnés et charcuterie/Produits de charcuterie crus;367;24,1;0;30,1
+Sauce de salade française (avec huile de colza);Graisses et huiles/Sauces à salade;446;0,7;3;46,9
+Sauce de salade italienne (avec huile d'olive);Graisses et huiles/Sauces à salade;472;0,3;1,4;50,6
+Sauge, crue;Légumes/Herbes aromatiques;58;1,7;6,9;2
+Salsiz;Produits carnés et charcuterie/Produits de charcuterie crus;415;25,2;0;34,9
+Saltimbocca, grillé au colza HOLL;Viande et abats/Veau;230;30,2;0,1;12,1
+Graines oléagineuses (moyenne), non salés;Noix, graines et produits oléagineux;600;20,3;11,2;50,6
+Samosa frite;Plats/Plats asiatiques;342;6,3;31,6;20,4
+Samosa cuite au four;Plats/Plats asiatiques;310;6,7;33,5;15,8
+Sandwich (baguette) à la charcuterie;Plats/Sandwich;152;5;17,3;6,6
+Sandwich (baguette) au fromage d'Italie;Plats/Sandwich;220;7,9;25,1;9,4
+Sandwich (baguette) au fromage à pâte mi-dure;Plats/Sandwich;179;6,8;20;7,6
+Sandwich (baguette) à la mozzarella;Plats/Sandwich;163;5,8;20,1;6,2
+Sandwich (baguette) au jambon cru;Plats/Sandwich;164;8,8;18,7;5,7
+Sandwich (baguette) au salami;Plats/Sandwich;157;5,8;18,3;6,4
+Sandwich (baguette) au jambon;Plats/Sandwich;131;6,3;17,3;3,7
+Sandwich (baguette) avec viande séchée;Plats/Sandwich;141;7,2;18,4;3,9
+Sandwich (baguette) au fromage à pâte molle;Plats/Sandwich;182;6,3;21,3;7,6
+Sandwich (pain bis) à la charcuterie;Plats/Sandwich;143;5,3;15,2;6,4
+Sandwich (pain bis) au fromage d'Italie;Plats/Sandwich;210;8,1;21,9;9,5
+Sandwich (pain bis) au fromage à pâte mi-dure;Plats/Sandwich;172;7;17,5;7,7
+Sandwich (pain bis) à la mozzarella;Plats/Sandwich;155;6;17,6;6,3
+Sandwich (pain bis) au jambon cru;Plats/Sandwich;157;9;16,3;5,8
+Sandwich (pain bis) au salami;Plats/Sandwich;151;5,9;16,2;6,5
+Sandwich (pain bis) au jambon;Plats/Sandwich;125;6,4;15,3;3,8
+Sandwich (pain bis) avec viande séchée;Plats/Sandwich;135;7,4;16,2;4
+Sandwich (pain bis) au fromage à pâte molle;Plats/Sandwich;174;6,5;18,6;7,7
+Anchois à l'huile, égouttée;Poisson/Poissons de mer;182;26,4;0,2;8,4
+Crème d'anchois;Divers/Pâtes à tartiner;272;19,8;0,2;21,3
+Sardine à l'huile, égouttée;Poisson/Poissons de mer;215;23;0;13,7
+Sardine, crue;Poisson/Poissons de mer;163;20,4;0;9
+Saucisse aux choux;Produits carnés et charcuterie/Produits de charcuterie crus;362;15,9;1,5;32,3
+Saucisson;Produits carnés et charcuterie/Produits de charcuterie crus;467;16,7;0,5;44,2
+Saucisson vaudois;Produits carnés et charcuterie/Produits de charcuterie crus;358;16,5;0,2;32,3
+Saucisson vaudois, cuit (sans adjonction de graisse ni de sel);Produits carnés et charcuterie/Produits de charcuterie crus;550;20,9;0,6;51,5
+Choucroute, mariné dans du vinaigre;Légumes/Légumes cuits (conserves comprises);19;1,3;1,7;0,3
+Crème acidulée;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";335;2,3;2,8;35
+Demie-crème acidulé;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";174;3;3,2;16,6
+Sbrinz (fromage à pâte dure);Lait et produits laitiers/Fromage à pâte dure;417;28,6;0;33,2
+Langoustine, crue;Poisson/Fruits de mer et crustacés;93;19,6;0,8;1,3
+Lait de brebis, cru;Lait et produits laitiers/Lait;105;5,6;4,7;7,1
+Vin blanc mousseux (p.ex. Champagne);Boissons alcoolisées/Vin;70;0,2;1,5;0
+Fromage fondu en tranches, à la crème;Lait et produits laitiers/Produits à base de fromage;324;13,4;0;30
+Fromage fondu en tranches, quart-gras;Lait et produits laitiers/Produits à base de fromage;158;20,1;0;8,6
+Fromage fondu en tranches, gras;Lait et produits laitiers/Produits à base de fromage;305;20;0;25
+Fromage fondu à tartiner, à la crème;Lait et produits laitiers/Produits à base de fromage;309;11,2;0;29,4
+Fromage fondu à tartiner, quart-gras;Lait et produits laitiers/Produits à base de fromage;161;19,4;0;9,3
+Fromage fondu à tartiner, au lait entier;Lait et produits laitiers/Produits à base de fromage;255;16;0;21,2
+Ciboulette, crue;Légumes/Herbes aromatiques;30;3;1,9;0,6
+Sandwich à l'escalope avec sauce cocktail;Plats/Sandwich;266;15,1;25,1;11,4
+Sandwich à l'escalope avec sauce tartare;Plats/Sandwich;246;14,4;23,2;10,3
+Chocolat noir;Sucreries/Chocolat et produits chocolatés;535;5,2;53,4;31,8
+Chocolat blanc;Sucreries/Chocolat et produits chocolatés;568;6,8;55,8;35,2
+Crème au chocolat;Sucreries/Crèmes et pouding;122;3,6;20;3
+Kouglof au chocolat;Sucreries/Gâteaux, tourtes et cakes;379;6,2;46,3;18,4
+Chocolat en poudre;"Sucreries/Chocolat et produits chocolatés;Boissons sans alcool/Boissons chocolatées";402;6,3;71,3;7,8
+Carrelet, cru;Poisson/Poissons de mer;86;17,1;0;1,9
+Boule de Bâle;Produits carnés et charcuterie/Produits de charcuterie bouillis;306;9,9;0,2;29,5
+Tourte fôret noire;Sucreries/Gâteaux, tourtes et cakes;248;3,9;21,4;16,1
+Salsifis noir, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);60;1,6;2,3;0,4
+Salsifis noir, cru;Légumes/Légumes frais;54;1,4;2,1;0,4
+Porc, fricassée, cru;Viande et abats/Porc;239;17,9;0;18,6
+Porc, noix, tranche, grillée (sans adjonction de graisse ni de sel);Viande et abats/Porc;177;34,8;0;4,2
+Porc, noix, tranche, crue;Viande et abats/Porc;115;22,6;0;2,7
+Porc, filet mignon, rôti (sans adjonction de graisse ni de sel);Viande et abats/Porc;168;30,8;0;5
+Porc, filet mignon, cru;Viande et abats/Porc;121;22,2;0;3,6
+Porc, haché, cru;Viande et abats/Porc;158;20,5;0;8,5
+Porc, émincé, grillé (sans adjonction de graisse ni de sel);Viande et abats/Porc;196;31,3;0;7,9
+Porc, émincé, cru;Viande et abats/Porc;134;21,3;0;5,4
+Porc, côtelette, grillée (sans adjonction de graisse ni de sel);Viande et abats/Porc;298;27,8;0;20,7
+Porc, cou, steak, cru;Viande et abats/Porc;202;18,9;0;14,1
+Porc, jarret, braisé (sans adjonction de graisse ni de sel);Viande et abats/Porc;267;39,4;1,1;11,7
+Porc, jarret, cru;Viande et abats/Porc;174;25,6;0,7;7,6
+Porc, côtelette, grillé (sans adjonction de graisse ni de sel);Viande et abats/Porc;276;32,9;0;16
+Porc, côtelette, crue;Viande et abats/Porc;179;21,4;0;10,4
+Porc, foie, cru;Viande et abats/Porc;130;20,7;0,9;4,9
+Porc, filet, cru;Viande et abats/Porc;138;22,9;0;5,1
+Porc, pièce ronde, tranche, cru;Viande et abats/Porc;126;20,6;0;4,9
+"Porc, épaule, rôti au four à point"" (sans adjonction de graisse ni de sel)""";Viande et abats/Porc;229;31,1;0;11,6
+"Porc,  épaule, rôti au four bien cuit""  (sans adjonction de graisse ni de sel)""";Viande et abats/Porc;292;39,7;0;14,8
+Porc, épaule, rôti, cru;Viande et abats/Porc;181;24,6;0;9,2
+Porc, ragoût, cru;Viande et abats/Porc;135;20,9;0;5,7
+Viande de porc (moyenne sans abats ni côtelette ni pied), crue;Viande et abats/Porc;160;21,4;0;8,3
+Saindoux;Graisses et huiles/Graisses;891;0;0;99
+Saucisse à rôtir de porc;Produits carnés et charcuterie/Produits de charcuterie bouillis;236;16,2;0,5;18,8
+Piccata de porc, préparée;Plats/Autres plats salés/épicés;233;23,7;5,5;12,8
+Ragoût de porc avec sauce, préparé;Plats/Autres plats salés/épicés;113;12,4;3,1;5,5
+Petite saucisse de porc, à pocher;Produits carnés et charcuterie/Produits de charcuterie bouillis;268;16,2;0,5;22,4
+Salami suisse, porc et boeuf;Produits carnés et charcuterie/Produits de charcuterie crus;487;22;1,3;43,7
+Merlu, cru;Poisson/Poissons de mer;71;17;0;0,3
+Lieu noir, cru;Poisson/Poissons de mer;80;19,3;0;0,3
+Sole, crue;Poisson/Poissons de mer;85;18,7;0;1,1
+Piccata de céléris, préparée;Plats/Autres plats salés/épicés;162;5,3;6,8;11,6
+Tranches de céléri, panées, préparées;Légumes/Légumes cuits (conserves comprises);138;5;13,9;5,7
+"Petit pain Semmeli""""";Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;262;8,9;53,4;0,8
+Graine de sésame;Noix, graines et produits oléagineux;589;17,7;11,7;49,8
+Sherry, 18.5 vol%;Boissons alcoolisées/Vin;118;0,1;3,6;0
+Salade de boeuf bouilli, préparée;Plats/Salades;227;16,5;1,5;17
+Oignon au vinaigre;Légumes/Légumes cuits (conserves comprises);28;0,9;4,9;0,2
+Sirop concentré;Boissons sans alcool/Sirop;371;0,1;91,8;0,2
+Sirop preparé (dilué en proportion 1:5.5);"Boissons sans alcool/Sirop;Boissons sans alcool/Boissons sucrées";54;0;13,5;0
+Boisson de soja, nature;Lait et produits laitiers/Substituts du lait;40;3,9;0,8;2,2
+Fève de soja, cuite (sans adjonction de graisse ni de sel);Produits céréaliers, légumineuses et pommes de terre/Légumineuses;173;14;11,7;7
+Fève de soja, sèche;Produits céréaliers, légumineuses et pommes de terre/Légumineuses;387;38,2;6,3;18,3
+Farine de soja, dégraissée;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;249;45,2;0,6;1,2
+Farine de soja, entière;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;398;40,8;3,1;20,6
+Huile de soja;Graisses et huiles/Huiles;809;0;0;89,9
+Pousses de soja, crues;Légumes/Pousses et germes;55;5,5;4,7;1
+Graine de tournesol;Noix, graines et produits oléagineux;626;21,3;12;53
+Huile de tournesol;Graisses et huiles/Huiles;809;0;0;89,9
+Huile de tournesol HO, raffinée;Graisses et huiles/Huiles;810;0;0;90
+Sorbet, aux fruits;Sucreries/Glaces à base d'eau;136;0,2;32,1;0
+Asperge, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);27;2,2;3,3;0,2
+Asperge, crue;Légumes/Légumes frais;27;2,2;3,3;0,2
+Épinard, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);30;3,6;1;0,5
+Épinard, cru;Légumes/Légumes frais;23;2,7;0,8;0,4
+Gateau aux épinards, cuit au four (pâte feuilletée);Plats/Tartes sucrées et salées et gratins;178;5,8;10,2;12,2
+Gateau aux épinards, cuit au four (pâte à gateau);Plats/Tartes sucrées et salées et gratins;169;6,1;12,3;10,1
+Eaux-de-vie, 40 vol% (p.e. Abricotine, Brandy, Gin, Rhum, Williamine, Whisky);Boissons alcoolisées/Spiritueux;221;0;0;0
+Coquin (Sablés à la confiture);Sucreries/Autres articles de pâtisserie;499;5,8;60,3;25,6
+Bürli de St. Gall (farine mi-blanche);Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;231;9,1;44,6;1
+Schüblig de Saint-Gall;Produits carnés et charcuterie/Produits de charcuterie bouillis;292;13,6;0,2;26,3
+St. Paulin;Lait et produits laitiers/Fromage à pâte dure;279;18;0;23
+Groseille à maquereau, crue;Fruits/Fruits frais;34;0,6;6,2;0,1
+Céleri branche, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);16;1;1,6;0,1
+Céleri branche, cru;Légumes/Légumes frais;14;0,9;1,5;0,1
+Bolet, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Champignons;39;4,4;0,6;0,5
+Bolet, cru;Légumes/Champignons;32;3,6;0,5;0,4
+Surimi;Poisson/Produits à base de poisson;81;12,6;6,1;0,7
+Taboulé, préparé (avec Boulgour);Plats/Salades;114;2,4;12,1;5,5
+Taboulé, préparé (avec Couscous);Plats/Salades;134;3;15,9;6,1
+Sauce tartare, préparée à la maison avec la mayonnaise de colza;Divers/Sauces;383;3,6;1,9;40
+Thé, non sucré;Boissons sans alcool/Thé;0;0;0;0
+Pâtes alimentaires aux oeufs, cuites à l'eau salée (sel non iodé);Produits céréaliers, légumineuses et pommes de terre/Pâtes alimentaires;137;5;26,3;1
+Pâtes alimentaires aux oeufs, sèches;Produits céréaliers, légumineuses et pommes de terre/Pâtes alimentaires;365;13,3;69,9;2,8
+Pâtes alimentaires sans oeufs, cuites à l'eau salée (sel non iodé);Produits céréaliers, légumineuses et pommes de terre/Pâtes alimentaires;165;5,8;32,8;0,6
+Pâtes alimentaires sans oeufs, sèches;Produits céréaliers, légumineuses et pommes de terre/Pâtes alimentaires;353;12,5;70,5;1,2
+Pâtes alimentaires au blé complet, cuites à l'eau salée (sel non iodé);Produits céréaliers, légumineuses et pommes de terre/Pâtes alimentaires;159;6,2;28,2;1,2
+Pâtes alimentaires au blé complet, sèches;Produits céréaliers, légumineuses et pommes de terre/Pâtes alimentaires;342;13,4;60,6;2,5
+Gratin de pâtes au jambon, préparé;Plats/Tartes sucrées et salées et gratins;167;10,4;15,1;7
+Salade de pâte à la sauce française;Plats/Salades;131;5,5;13,3;5,8
+Salade de pâte à la sauce italienne;Plats/Salades;133;5,4;13,3;6,1
+Lait partiellement écrémé, pasteurisé;Lait et produits laitiers/Lait;57;3,2;4,7;2,8
+Lait partiellement écrémé, UHT;Lait et produits laitiers/Lait;57;3,4;4,6;2,8
+Pain tessinois;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;323;10,3;57,2;5,2
+Tête de Moine;Lait et produits laitiers/Fromage à pâte dure;419;24,7;0;35,5
+Thon à l'huile, égoutté;Poisson/Poissons de mer;186;27,6;0;8,4
+Thon au naturel, égoutté;Poisson/Poissons de mer;117;25,6;0;1,6
+Salade de thon au naturel, sauce au vinaigre et huile;Plats/Salades;110;9;6,8;4,8
+Thon, cru;Poisson/Poissons de mer;149;23,4;0;6,2
+Thym, cru;Légumes/Herbes aromatiques;52;1,5;7,4;1,2
+Tilsit au lait pasteurisé, gras;Lait et produits laitiers/Fromage à pâte dure;353;24,6;0;28
+Tilsit au lait cru, gras;Lait et produits laitiers/Fromage à pâte dure;378;26,1;0;30,2
+Cake tyrolien;Sucreries/Gâteaux, tourtes et cakes;411;8,1;41,1;23,2
+Pain de mie au beurre;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;316;8,9;45,7;10,4
+Pain de mie à huile végétale;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;332;8,9;45,6;12,2
+Tofu;Substituts de viande;81;8,1;0,7;4,8
+Tomate, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);28;1;4,2;0,4
+Tomate, pelée, conserve;Légumes/Légumes cuits (conserves comprises);19;0,9;3;0,2
+Tomate, crue;Légumes/Légumes frais;21;0,8;3,2;0,3
+Gateau aux tomates, cuit au four (pâte feuilletée);Plats/Tartes sucrées et salées et gratins;156;3,5;10;11,1
+Gateu aux tomates, cuit au four (pâte à gateau);Plats/Tartes sucrées et salées et gratins;146;3,9;12,3;8,8
+Concentré de tomates;Légumes/Légumes cuits (conserves comprises);77;4,5;12,9;0,2
+Jus de tomate;"Boissons sans alcool/Jus de fruits et de légumes;Légumes/Jus de légumes";15;0,8;3;0
+Sauce tomate;Divers/Sauces;69;1,8;9,7;2,1
+Soupe de tomate;Plats/Potages et soupes;42;1;6,6;1,1
+Tomme;Lait et produits laitiers/Fromage à pâte molle;286;20,7;0;22,5
+Raisin, cru;Fruits/Fruits frais;69;0,7;15,2;0,3
+Huile de pépins de raisin;Graisses et huiles/Huiles;809;0;0;89,9
+Jus de raisin;"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";62;0,2;15;0,1
+Sucre de raisin;Sucreries/Sucres et édulcorants;399;0;99,8;0
+Eau potable (en moyenne en Suisse);Boissons sans alcool/Eau potable;0;0;0;0
+Viande séchée ( du Grison, du Tessin, du Valais);Produits carnés et charcuterie/Produits de charcuterie crus;190;39,3;0,4;3,5
+Dinde, poitrine, escalope ou émincé, grillée (sans adjonction de graisse ni de sel);Viande et abats/Volaille;146;32,4;0;1,8
+Dinde, poitrine, escalope ou émincé, crue;Viande et abats/Volaille;108;24;0;1,3
+Vacherin Mont d'Or;Lait et produits laitiers/Fromage à pâte molle;280;17,6;0;23,2
+Crème à la vanille, cuite;Sucreries/Crèmes et pouding;140;3,2;23,8;3,6
+Vinaigrette (avec huile de colza);Graisses et huiles/Sauces à salade;259;4,4;2,3;25,2
+Vitello tonnato avec garniture;Viande et abats/Veau;179;19,2;0,8;11
+Vitello tonnato sans garniture;Viande et abats/Veau;208;23,2;0,5;12,6
+Gallette de riz complet;Pains, flocons et céréales pour le petit-déjeuner/Pains croustillants, biscottes, crackers et gallettes;392;8,2;81,5;2,8
+Lait entier, pasteurisé;Lait et produits laitiers/Lait;68;3,3;4,7;4
+Lait entier, UHT;Lait et produits laitiers/Lait;68;3,3;4,6;4,1
+Lait entier en poudre;Lait et produits laitiers/Lait;480;24,7;35,1;26,2
+Crème entière, pasteurisée;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";334;2;3,1;34,8
+Crème entière, UHT;"Graisses et huiles/Crème;Lait et produits laitiers/Crème et beurre";334;2;3,1;34,9
+Jambon cuit de devant;Produits carnés et charcuterie/Produits de charcuterie cuits;106;18,6;0,4;3,3
+Beurre de choix;"Graisses et huiles/Graisses;Lait et produits laitiers/Crème et beurre";746;0,7;0,7;82,3
+Pain de seigle valaisan;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;220;6,3;42,7;1,1
+Pâte wasabi;Divers/Sauces;308;2,9;49,6;10,6
+Glace à l'eau;Sucreries/Glaces à base d'eau;88;0;22;0
+Pastèque, crue;Fruits/Fruits frais;30;0,5;6,3;0,3
+Caramel mou;Sucreries/Bonbons, bonbons gélifiés aux fruits et chewing-gums;448;2,1;71,1;17,2
+Fromage à pâte molle (en moyenne sans produits en matières grasses reduites);Lait et produits laitiers/Fromage à pâte molle;324;19,3;0;27,4
+Fromage à pâte molle, double crème;Lait et produits laitiers/Fromage à pâte molle;363;12;0;35
+Vin rouge, 12 vol%;Boissons alcoolisées/Vin;69;0,2;0,3;0
+Vin rouge, 13.5 vol%;Boissons alcoolisées/Vin;76;0;0,2;0
+Vin rouge, 9 vol%;Boissons alcoolisées/Vin;54;0,2;0,2;0
+Vin blanc, 11 vol%;Boissons alcoolisées/Vin;70;0,1;2;0
+Vin blanc, 12.5 vol%;Boissons alcoolisées/Vin;71;0,2;0,1;0
+Vin blanc dilué avec de l'eau gazeuse;Boissons alcoolisées/Vin;35;0,1;0;0
+Vin blanc dilué avec limonade;Boissons alcoolisées/Vin;55;0,1;4,8;0
+Pain blanc;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;242;8,5;48,9;0,8
+Chou blanc, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);30;1,4;4,2;0,2
+Chou blanc, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);32;1,5;4,5;0,2
+Chou blanc, cru;Légumes/Légumes frais;30;1,4;4,2;0,2
+Saucisse blanche;Produits carnés et charcuterie/Produits de charcuterie bouillis;202;9,8;0,9;17,7
+Blé tendre, grains entiers;Produits céréaliers, légumineuses et pommes de terre/Autres produits céréaliers;325;10,9;59,6;1,8
+Blé, flocons complets;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;329;11,7;61;2
+Germe de blé;"Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;Denrées alimentaires spéciales/Suppléments";355;25;33,3;10
+Huile de germes de blé;Graisses et huiles/Huiles;809;0;0;89,9
+Son de blé;Pains, flocons et céréales pour le petit-déjeuner/Flocons, son et germes;262;14,9;17,7;4,6
+Farine de blé (farine blanche), type 550;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;344;12;69,5;1,3
+Farine de blé (farine mi-blanche), type 720;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;340;13;66,2;1,5
+Farine de blé (farine bise), type 1100;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;339;13,5;64,6;1,7
+Farine de blé, complète, type 1700;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;338;13,5;61;2
+Farine de blé (farine fleur), type 400;Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;346;11,5;71;1,1
+Potée au blé, cuite;Plats/Autres plats salés/épicés;171;5,1;27,7;3
+Amidon de blé ;"Produits céréaliers, légumineuses et pommes de terre/Farines et amidon;Divers/Gélifiants et liants";348;0,4;85,8;0,1
+Pain complet de froment;Pains, flocons et céréales pour le petit-déjeuner/Pains et produits de boulangerie;213;8,6;38,3;1,3
+Vermouth, 15 vol% (p.e. Martini);Boissons alcoolisées/Vin;139;0,1;13,5;0
+Saucisse de Vienne;Produits carnés et charcuterie/Produits de charcuterie bouillis;242;13,9;0,6;20,4
+Saucisse de Vienne, cuit;Produits carnés et charcuterie/Produits de charcuterie bouillis;235;13,5;0,6;19,8
+Gibier (moyenne), cuit (sans adjonction de graisse ni de sel);Viande et abats/Gibier;158;28,9;0;4,7
+Gibier (moyenne), cru;Viande et abats/Gibier;115;21,1;0;3,4
+Terrine de gibier;Viande et abats/Gibier;286;17,3;1,8;23
+Sanglier (moyenne), cru;Viande et abats/Gibier;109;19,5;0;3,4
+Chou frisé, à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);31;2,8;2,9;0,3
+Chou frisé, cru;Légumes/Légumes frais;31;2,8;2,9;0,3
+Salade de cervelas et fromage, préparée;Plats/Salades;264;13,9;0,8;22,6
+Salade de cervelas, préparée;Plats/Salades;226;7,1;1,6;21
+Légumes racines et tubercules (moyenne), à la vapeur (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);40;1,1;6,6;0,3
+Légumes racines et tubercules (moyenne), à l'étuvée (sans adjonctions de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);35;1;5,8;0,3
+Légumes racines et tubercules (moyenne), cuites (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);38;1;6,3;0,3
+Légumes racines et tubercules (moyenne), crues;Légumes/Légumes frais;36;1;6;0,3
+Zampone;Viande et abats/Porc;361;19,1;0;31,6
+Chèvre (moyenne), crue;Viande et abats/Autres espèces animales;149;19,5;0;7,9
+Lait de chèvre;Lait et produits laitiers/Lait;57;2,8;4,2;3,2
+Sérac;Lait et produits laitiers/Fromage frais et séré;123;11,1;3,3;7,2
+Etoiles à la cannelle;Sucreries/Biscuits;481;11,9;49;24,9
+Citron, cru;Fruits/Fruits frais;22;0,8;2,9;0,4
+Jus de citron;"Fruits/Jus de fruits;Boissons sans alcool/Jus de fruits et de légumes";30;0,4;6,1;0,3
+Agrume (moyenne), crue;Fruits/Fruits frais;41;0,8;8,3;0,2
+Piccata de courges, préparée;Plats/Autres plats salés/épicés;151;5,4;6,4;11,3
+Courgette, à la vapeur (sans sel ni graisse);Légumes/Légumes cuits (conserves comprises);25;2,4;2,6;0,3
+Courgette, crue;Légumes/Légumes frais;19;1,8;2;0,2
+Tranches de courgette, panées, préparées;Plats/Autres plats salés/épicés;128;5,2;13,4;5,6
+Sucre, roux, complet;Sucreries/Sucres et édulcorants;390;0;97,6;0
+Sucre, blanc;Sucreries/Sucres et édulcorants;400;0;100;0
+Chicorée pain de sucre, crue;Légumes/Légumes frais;16;1,2;1,5;0,2
+Maïs doux, conserve;Légumes/Légumes cuits (conserves comprises);100;3;18,2;1,2
+Maïs doux  (conserve), réchauffé (sans adjonction de sel);Légumes/Légumes cuits (conserves comprises);107;3,2;19,4;1,3
+Tourte au Kirsch de Zug;Sucreries/Gâteaux, tourtes et cakes;335;4,8;34,6;18,7
+Langue (moyenne de veau et boeuf), crue;"Viande et abats/Veau;Viande et abats/Bœuf";188;16,6;2,8;12,3
+Quetsche, cuite, égoutée (sans adjonction de sucre);Fruits/Fruits cuits (conserves comprises);53;0,7;10,9;0,1
+Quetsche, crue;Fruits/Fruits frais;43;0,6;8,8;0,1
+Tarte aux quetsches, cuite au four (pâte feuilletée);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";133;2,5;14,6;6,8
+Tarte aux quetsches, cuite au four (pâte à gateau);"Sucreries/Gâteaux, tourtes et cakes;Plats/Tartes sucrées et salées et gratins";125;2,9;16,8;4,7
+Biscottes;Pains, flocons et céréales pour le petit-déjeuner/Pains croustillants, biscottes, crackers et gallettes;428;14,7;69,6;9,5
+Biscottes complètes;Pains, flocons et céréales pour le petit-déjeuner/Pains croustillants, biscottes, crackers et gallettes;412;17,7;61,2;9
+Oignon, à l'étuvée (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);46;1,6;8,4;0,2
+Oignon, grillés (sans adjonction de graisse ni de sel);Légumes/Légumes cuits (conserves comprises);92;3,1;16,7;0,5
+Oignon, cru;Légumes/Légumes frais;39;1,3;7;0,2
+Gateau aux oignons, cuit au four (pâte feuilletée);Plats/Tartes sucrées et salées et gratins;178;4,6;13,3;11,5
+Gateau aux oignons, cuit au four (pâte à gateau);Plats/Tartes sucrées et salées et gratins;171;5;15,3;9,6

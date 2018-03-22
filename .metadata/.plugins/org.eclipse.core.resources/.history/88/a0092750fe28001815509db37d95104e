@@ -1,0 +1,10 @@
+package math;
+
+public class Addition {
+	public long calculer(long a, long b) {
+		return a + b;
+	}
+	public char lireSymbole() {
+		 return '-';
+	}
+}

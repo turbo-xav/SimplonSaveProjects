@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2-zdcCdfEei4Y47xnzVOew" name="NewModel">
+  <packageImport xmi:id="_nKB1wCdiEei4Y47xnzVOew">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_7raPICdiEei4Y47xnzVOew">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_8IMRwCdiEei4Y47xnzVOew">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QM_HsCdhEei4Y47xnzVOew" name="Cat" visibility="public">
+    <packageImport xmi:id="_gPUGYCdiEei4Y47xnzVOew">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <ownedAttribute xmi:id="_on1QgCdiEei4Y47xnzVOew" name="idCat">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xrbX8CdiEei4Y47xnzVOew" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xrbX8SdiEei4Y47xnzVOew" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FQbooCdjEei4Y47xnzVOew" name="Article" visibility="public">
+    <ownedAttribute xmi:id="_KwZ4UCdjEei4Y47xnzVOew" name="idArticle">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UzREYCdjEei4Y47xnzVOew" name="catsToArticles" memberEnd="_UzREYSdjEei4Y47xnzVOew _UzREZCdjEei4Y47xnzVOew" navigableOwnedEnd="_UzREZCdjEei4Y47xnzVOew">
+    <ownedEnd xmi:id="_UzREYSdjEei4Y47xnzVOew" name="cats" type="_QM_HsCdhEei4Y47xnzVOew" association="_UzREYCdjEei4Y47xnzVOew">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzREYidjEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UzREYydjEei4Y47xnzVOew" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UzREZCdjEei4Y47xnzVOew" name="articles" type="_FQbooCdjEei4Y47xnzVOew" aggregation="shared" association="_UzREYCdjEei4Y47xnzVOew">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzREZSdjEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UzREZidjEei4Y47xnzVOew" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sc8uoCdnEei4Y47xnzVOew" name="Paper" visibility="public">
+    <ownedAttribute xmi:id="_wsDMUCdnEei4Y47xnzVOew"/>
+    <ownedAttribute xmi:id="_xy-YICdnEei4Y47xnzVOew" name="idPaper" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xy-YISdnEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xy-YIidnEei4Y47xnzVOew" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vpgKMCdnEei4Y47xnzVOew" memberEnd="_vpgKMSdnEei4Y47xnzVOew _vpgKNCdnEei4Y47xnzVOew" navigableOwnedEnd="_vpgKNCdnEei4Y47xnzVOew">
+    <ownedEnd xmi:id="_vpgKMSdnEei4Y47xnzVOew" name="papers" type="_sc8uoCdnEei4Y47xnzVOew" association="_vpgKMCdnEei4Y47xnzVOew">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vpgKMidnEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vpgKMydnEei4Y47xnzVOew" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_vpgKNCdnEei4Y47xnzVOew" name="articles" type="_FQbooCdjEei4Y47xnzVOew" aggregation="composite" association="_vpgKMCdnEei4Y47xnzVOew">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vpgKNSdnEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vpgKNidnEei4Y47xnzVOew" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JkS4QCdoEei4Y47xnzVOew" name="Paper" visibility="public">
+    <ownedAttribute xmi:id="_OKBtQCdoEei4Y47xnzVOew" name="idPaper" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OKBtQSdoEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OKBtQidoEei4Y47xnzVOew" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VoK50CdoEei4Y47xnzVOew" name="A_papers_articles" memberEnd="_VoK50SdoEei4Y47xnzVOew _VoK51CdoEei4Y47xnzVOew" navigableOwnedEnd="_VoK51CdoEei4Y47xnzVOew">
+    <ownedEnd xmi:id="_VoK50SdoEei4Y47xnzVOew" name="papers" type="_JkS4QCdoEei4Y47xnzVOew" association="_VoK50CdoEei4Y47xnzVOew">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VoK50idoEei4Y47xnzVOew"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VoK50ydoEei4Y47xnzVOew" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_VoK51CdoEei4Y47xnzVOew" name="articles" type="_FQbooCdjEei4Y47xnzVOew" aggregation="composite" association="_VoK50CdoEei4Y47xnzVOew">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VoK51SdoEei4Y47xnzVOew" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VoK51idoEei4Y47xnzVOew" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__EakoCaZEeiyVP9qtKD3Sg" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_HAPLsCaaEeiyVP9qtKD3Sg" name="Cat" visibility="public">
+    <ownedAttribute xmi:id="_aRsOQCaaEeiyVP9qtKD3Sg" name="lib">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_GJN8wCadEeimI8UQATHHHA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H6yvcCaaEeiyVP9qtKD3Sg" name="Article" visibility="public">
+    <ownedAttribute xmi:id="_cCuHACaaEeiyVP9qtKD3Sg" name="lib"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LR_70CaaEeiyVP9qtKD3Sg" name="catsToArticles" memberEnd="_LSAi4CaaEeiyVP9qtKD3Sg _LSDmMCaaEeiyVP9qtKD3Sg" navigableOwnedEnd="_LSDmMCaaEeiyVP9qtKD3Sg">
+    <ownedEnd xmi:id="_LSAi4CaaEeiyVP9qtKD3Sg" name="cats" type="_HAPLsCaaEeiyVP9qtKD3Sg" association="_LR_70CaaEeiyVP9qtKD3Sg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LSC_ICaaEeiyVP9qtKD3Sg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LSC_ISaaEeiyVP9qtKD3Sg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_LSDmMCaaEeiyVP9qtKD3Sg" name="articles" type="_H6yvcCaaEeiyVP9qtKD3Sg" aggregation="shared" association="_LR_70CaaEeiyVP9qtKD3Sg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LSENQCaaEeiyVP9qtKD3Sg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LSENQSaaEeiyVP9qtKD3Sg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

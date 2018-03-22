@@ -1,0 +1,26 @@
+package testMaven;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		City city = new City("Test",10.9,10.0);
+		city.save()
+		ArrayList<City> cities = City.listCities();
+		
+		for(int i = 0 ; i < cities.size() ; i++) {
+			System.out.println(
+					cities.get(i).getId() + " "+ 
+					cities.get(i).getName() + " "+
+					cities.get(i).getLatitude() + " "+
+					cities.get(i).getLongitude() 
+					);
+		}
+	}
+	
+	
+
+}

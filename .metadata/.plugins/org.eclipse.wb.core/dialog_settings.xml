@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.core.editor.palette.dialogs.ComponentAddDialog">
+		<item value="558" key="x"/>
+		<item value="804" key="width"/>
+		<item value="286" key="y"/>
+		<item value="457" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.property.editor.string.StringPropertyDialog">
+		<item value="610" key="x"/>
+		<item value="700" key="width"/>
+		<item value="295" key="y"/>
+		<item value="440" key="height"/>
+	</section>
+</section>

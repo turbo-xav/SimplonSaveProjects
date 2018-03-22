@@ -1,0 +1,132 @@
+import java.sql.SQLException;
+
+/**
+  * 
+  * Classe de gestion des aliments
+  * 
+  * @author turbo-xav : Xavier Tagliarino <xavier.tagliarino@gmail.com>
+  * @name Aliment
+  * 
+  *
+  **/
+
+
+public class Aliment {
+
+	/**
+	  * Unité commune pour la valeur énergétique
+	  * 
+	  * @access private static
+	  * @var String
+	  * @name  energyUnit
+	  * 
+	  **/
+	
+	private static String energyUnit = "KCal";
+	
+	/**
+	  * Valeur de référence pour le poids
+	  * 
+	  * @access private static
+	  * @var String
+	  * @name  refWeitght
+	  * 
+	  **/
+	
+	private static String refWeitght = "100 g";
+	
+	/**
+	  * Nom de l'aliment
+	  * 
+	  * @access private 
+	  * @var String
+	  * @name  name
+	  * 
+	  **/
+	
+	private String name	= "";
+	
+	/**
+	  * Teneur en protéines
+	  * 
+	  * @access private 
+	  * @var int
+	  * @name  protein
+	  * 
+	  **/
+	
+	private int protein	= 0;
+	
+	/**
+	  * Teneur en glucide
+	  * 
+	  * @access private 
+	  * @var int
+	  * @name  glucid
+	  * 
+	  **/
+	
+	private int glucid	= 0;
+	
+	/**
+	  * Teneur en lipide
+	  * 
+	  * @access private 
+	  * @var int
+	  * @name  lipid
+	  * 
+	  **/
+	
+	private int lipid	= 0;
+	
+	/**
+	  * Constructeur
+	  * 
+	  * @access public 
+	  * @name   Aliment
+	  * @param  string name
+	  * @param  int protein
+	  * @param  int glucid
+	  * @param  int lipid	  
+	  * 
+	  **/
+	
+	
+	public Aliment(String name,int protein,int glucid,int lipid) {
+		this.name = name;
+		this.protein = protein;
+		this.glucid = glucid;
+		this.lipid = lipid;
+	}
+	
+	/**
+	  * Calcule la valeur énergétique de l'aliment
+	  * 
+	  * @access public 
+	  * @name   getEnergy
+	  * @param  string name
+	  * @param  int protein
+	  * @param  int glucid
+	  * @param  int lipid	  
+	  * 
+	  **/
+	
+	public int getEnergy()
+	{
+		return this.protein* 4 + this.glucid * 4 + 9 * this.lipid;
+	}
+	
+	public String toString()
+	{
+		String strBilan = "Je suis \""+this.name+"\". Voici mon bilan énergétique : protéine="+this.protein+" g /"+Aliment.refWeitght+" Glucide = "+this.glucid+" g /"+Aliment.refWeitght+" Lipide "+this.lipid+" g /"+Aliment.refWeitght;
+		return  strBilan+= "Je fournis "+this.getEnergy()+" "+this.getEnergy();
+	}
+	
+	public static void listAliment()
+	{
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SqlQuery.java&apos; to &apos;testMaven/src/main/java/testMaven&apos;&#x0D;&#x0A;- Original project: &apos;constrainteEtTransactions&apos;&#x0D;&#x0A;- Destination element: &apos;testMaven/src/main/java/testMaven&apos;&#x0D;&#x0A;- Original element: &apos;constrainteEtTransactions.SqlQuery.java&apos;" description="Copy compilation unit" destination="=testMaven/src\/main\/java&lt;testMaven" element1="/src\/main\/java&lt;constrainteEtTransactions{SqlQuery.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1521188921850" units="1" version="1.0"/>
+</session>

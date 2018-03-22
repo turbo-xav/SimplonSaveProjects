@@ -1,0 +1,29 @@
+package evaljdbc;
+
+public class ItemMenu {
+	private String libelle;	
+	private String action;
+
+	
+	public ItemMenu(String libelle,String action ) {
+		this.setLibelle(libelle);
+		this.setAction(action);
+	}
+	
+	public String getLibelle() {
+		return libelle;
+	}
+
+	public void setLibelle(String libelle) {
+		this.libelle = libelle;
+	}
+
+	public String getAction() {
+		return action;
+	}
+
+	public void setAction(String action) {
+		this.action = action;
+	}
+	
+}

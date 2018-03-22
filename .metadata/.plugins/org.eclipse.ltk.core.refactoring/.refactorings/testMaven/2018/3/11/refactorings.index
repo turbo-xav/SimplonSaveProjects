@@ -1,0 +1,6 @@
+1521034864228	Rename resource 'properties'
+1521035107727	Rename resource 'Properties'
+1521038353786	Encapsulate field 'id'
+1521038358355	Encapsulate field 'nom'
+1521038362828	Encapsulate field 'longitude'
+1521038374034	Encapsulate field 'latitude'

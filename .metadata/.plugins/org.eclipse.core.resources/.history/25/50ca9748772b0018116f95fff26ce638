@@ -1,0 +1,9 @@
+package evaljdbc;
+
+import java.util.ArrayList;
+
+public class Menu extends ArrayList{
+	private ArrayList<ItemMenu> itemMenus;
+	
+	
+}

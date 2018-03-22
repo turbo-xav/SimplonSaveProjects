@@ -1,0 +1,10 @@
+package evaljdbc;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Menu extends HashTable<ItemMenu>{
+	
+	
+	
+}

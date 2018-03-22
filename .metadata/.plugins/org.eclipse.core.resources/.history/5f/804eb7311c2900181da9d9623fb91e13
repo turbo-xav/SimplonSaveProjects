@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package testJUnit;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+import math.*;
+/**
+ * @author Utilisateur
+ *
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Integer int0 = new Integer(1024);
+		Integer int1 = new Integer(512);
+		Integer int2 = new Integer(512);
+		
+		Set<Integer> hs = new TreeSet<Integer>();
+		hs.add(int0);
+		hs.add(int1);
+		hs.add(int2);
+		
+		System.out.println(hs);
+	}
+
+}

@@ -1,0 +1,34 @@
+package testMaven;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Saisir votre ville");
+		
+		String name = sc.nextLine();
+		
+		
+		City city = new City("Test",10.9,10.0);
+		city.save();
+		ArrayList<City> cities = City.listCities();
+		
+		for(int i = 0 ; i < cities.size() ; i++) {
+			System.out.println(
+					cities.get(i).getId() + " "+ 
+					cities.get(i).getName() + " "+
+					cities.get(i).getLatitude() + " "+
+					cities.get(i).getLongitude() 
+					);
+		}
+	}
+	
+	
+
+}

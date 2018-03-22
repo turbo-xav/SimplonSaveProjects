@@ -1,0 +1,7 @@
+package evaljdbc;
+
+public class ItemMenu {
+	private String libelle;
+	
+	private String action;
+}

@@ -1,0 +1,63 @@
+import java.sql.SQLException;
+
+/**
+  * 
+  * Classe de gestion des aliments
+  * 
+  * @author turbo-xav : Xavier Tagliarino <xavier.tagliarino@gmail.com>
+  * @name Aliment
+  * 
+  *
+  **/
+
+
+public class Aliment {
+
+	/**
+	  * Unité commune pour la valeur énergétique
+	  * 
+	  * @access private static
+	  * @name  energyUnit
+	  * 
+	  **/
+	
+	private static String energyUnit = "KCal";
+	
+	private static String refWeitght = "100 g";
+	
+	private String name	= "";
+	
+	private int protein	= 0;
+	
+	private int glucid	= 0;
+	
+	private int lipid	= 0;
+	
+	
+	
+	public Aliment(String name,int protein,int glucid,int lipid) {
+		this.name = name;
+		this.protein = protein;
+		this.glucid = glucid;
+		this.lipid = lipid;
+	}
+	
+	public int getEnergy()
+	{
+		return this.protein* 4 + this.glucid * 4 + 9 * this.lipid;
+	}
+	
+	public String toString()
+	{
+		String strBilan = "Je suis \""+this.name+"\". Voici mon bilan énergétique : protéine="+this.protein+" g /"+Aliment.refWeitght+" Glucide = "+this.glucid+" g /"+Aliment.refWeitght+" Lipide "+this.lipid+" g /"+Aliment.refWeitght;
+		return  strBilan+= "Je fournis "+this.getEnergy()+" "+this.getEnergy();
+	}
+	
+	public static void listAliment()
+	{
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,44 @@
+package testJUnit;
+import math.Calculatrice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+
+public class AdditionTest {
+	
+	   protected Calculatrice op;
+	
+	   @Before
+	   public void setUp() throws Exception {
+		   op = new Calculatrice();	  
+		   System.out.println("test");
+	   }
+	 
+	   
+	   public void tearDown() throws Exception {
+		  
+	   }
+	   
+	   
+	   @Test
+	   public void testAddition() throws Exception {
+		   
+		   assertEquals(op.addition(2, 3), 5);
+	   }
+	   
+	   @Test
+	   public void testMultiplier() throws Exception {
+		   
+		   assertEquals(op.multiplier(2, 3), 5);
+	   }
+	 
+	   @Test
+	  public void testLireSymbole() throws Exception {		  
+		   assertEquals(op.lireSymbole(), '-');
+	   }
+}

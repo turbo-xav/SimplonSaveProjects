@@ -1,0 +1,18 @@
+1521458828088	Rename type 'Aliment'
+1521458885056	Encapsulate field 'id'
+1521458893665	Encapsulate field 'name'
+1521458897893	Encapsulate field 'proteine'
+1521458901851	Encapsulate field 'glucid'
+1521458906938	Encapsulate field 'lipid'
+1521459205442	Encapsulate field 'foods'
+1521459212812	Encapsulate field 'name'
+1521459217326	Encapsulate field 'id'
+1521465039981	Encapsulate field 'libelle'
+1521465048984	Encapsulate field 'action'
+1521465227943	Infer generic type arguments
+1521468068733	Rename compilation unit 'Menu.java'
+1521471988901	Delete element
+1521475948951	Encapsulate field 'category'
+1521544824095	Rename resource 'test.txt'
+1521553871166	Encapsulate field 'itemMenus'
+1521558314578	Encapsulate field 'categoryId'

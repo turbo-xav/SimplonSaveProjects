@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/PostgreTableColumn">
+		<column name="Column Name" visible="true" order="0" width="109"/>
+		<column name="#" visible="true" order="1" width="33"/>
+		<column name="Data type" visible="true" order="2" width="79"/>
+		<column name="Length" visible="true" order="3" width="59"/>
+		<column name="Precision" visible="true" order="4" width="73"/>
+		<column name="Scale" visible="true" order="5" width="49"/>
+		<column name="Identity" visible="true" order="6" width="64"/>
+		<column name="Not Null" visible="true" order="7" width="70"/>
+		<column name="Default" visible="true" order="8" width="63"/>
+		<column name="Description" visible="true" order="9" width="90"/>
+	</item>
+	<item id="NodeList/PostgreTableForeignKey">
+		<column name="Name" visible="true" order="0" width="55"/>
+		<column name="Owner" visible="true" order="1" width="58"/>
+		<column name="Type" visible="true" order="2" width="46"/>
+		<column name="Update Rule" visible="true" order="3" width="97"/>
+		<column name="Delete Rule" visible="true" order="4" width="92"/>
+		<column name="Associated Entity" visible="true" order="5" width="128"/>
+		<column name="Referenced Constraint" visible="true" order="6" width="161"/>
+	</item>
+	<item id="NodeList/PostgreTableForeignKey/PostgreTableForeignKeyColumn">
+		<column name="Name" visible="true" order="0" width="238"/>
+		<column name="Owner" visible="true" order="1" width="84"/>
+		<column name="Ordinal Position" visible="false" order="2" width="0"/>
+		<column name="Type" visible="true" order="2" width="98"/>
+		<column name="Referenced Column" visible="true" order="3" width="145"/>
+		<column name="Update Rule" visible="true" order="4" width="97"/>
+		<column name="Delete Rule" visible="true" order="5" width="92"/>
+		<column name="Associated Entity" visible="true" order="6" width="128"/>
+	</item>
+	<item id="NodeList/PostgreTableForeignKeyColumn">
+		<column name="Attribute" visible="true" order="0" width="92"/>
+		<column name="Ordinal Position" visible="false" order="1" width="0"/>
+		<column name="Referenced Column" visible="true" order="1" width="144"/>
+	</item>
+	<item id="NodeList/PostgreTableRegular">
+		<column name="Table Name" visible="true" order="0" width="178"/>
+		<column name="ID" visible="true" order="1" width="58"/>
+		<column name="Owner" visible="true" order="2" width="102"/>
+		<column name="Description" visible="true" order="3" width="90"/>
+		<column name="Tablespace" visible="true" order="4" width="89"/>
+		<column name="Row Count Estimate" visible="true" order="5" width="147"/>
+		<column name="Super Tables" visible="false" order="6" width="0"/>
+		<column name="Sub Tables" visible="false" order="7" width="0"/>
+		<column name="Has Oids" visible="false" order="8" width="0"/>
+	</item>
+	<item id="projectExplorer">
+		<column name="Name" visible="true" order="0" width="130"/>
+		<column name="DataSource" visible="true" order="1" width="92"/>
+		<column name="Preview" visible="false" order="2" width="0"/>
+		<column name="Size" visible="false" order="3" width="0"/>
+		<column name="Modified" visible="false" order="4" width="0"/>
+		<column name="Type" visible="false" order="5" width="0"/>
+	</item>
+</items>

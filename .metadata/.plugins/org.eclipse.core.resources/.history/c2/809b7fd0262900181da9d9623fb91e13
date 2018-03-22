@@ -1,0 +1,62 @@
+package testJUnit;
+import static org.junit.Assert.assertEquals;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+
+import org.junit.Test;
+
+import com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
+
+import math.Calculatrice;
+
+public class MainTest {
+  
+	@Test
+	public void testMain(){		    	
+		System.out.println("Test démarré");
+		PrintStream originErr = System.err;
+		PrintStream originOut = System.out;
+		//Sortie en erreur 
+		/*StringBuffer sb = new StringBuffer();
+	        sb.append("Usage: String1 String2")
+	        .append("Where: ")
+	        .append("       String1 - Name")
+	        .append("       String1 - City");
+	        String expectedErrorMessage = sb.toString();
+
+	        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+	        System.setErr(new PrintStream(outContent));
+	        String[] args = {"one"};
+	        Main.main(args);
+*/
+	       
+	       // System.out.println(outContent.toString());
+	        StringBuffer sbOut = new StringBuffer();
+	        sbOut.append("Name is: one")
+	        .append("City is:  two");
+	        String expectedOutMessage = sbOut.toString();
+	        
+	        ByteArrayOutputStream outContent1 = new ByteArrayOutputStream();
+	        System.setOut(new PrintStream(outContent1));
+	        String[] args2 = {"one","two"};
+	        Main.main(args2);
+	        
+	        System.setErr(originErr);
+	        System.setOut(originOut);
+	        
+	        assertEquals(expectedOutMessage, outContent.toString());
+	        //assertEquals(expectedErrorMessage, outContent.toString());	        
+	        Calculatrice op = new Calculatrice();	 
+	        assertEquals(op.addition(2, 3), 5);
+	        assertEquals(op.addition(2, 3), 5);
+	        assertEquals(op.addition(2, 3), 5);
+	        System.out.println("Test fini");
+	        
+		
+		
+       
+	   
+  }
+}
