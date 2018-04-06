@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2-zdcCdfEei4Y47xnzVOew" name="NewModel">
-  <packagedElement xmi:type="uml:Class" xmi:id="_QM_HsCdhEei4Y47xnzVOew" name="Cat" visibility="public">
-    <ownedAttribute xmi:id="_SZD9sCdhEei4Y47xnzVOew" name="idCat : String" visibility="public">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SZD9sSdhEei4Y47xnzVOew"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SZD9sidhEei4Y47xnzVOew" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
-</uml:Model>

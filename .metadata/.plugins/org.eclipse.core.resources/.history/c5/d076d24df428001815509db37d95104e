@@ -1,7 +1,0 @@
-package math;
-
-public class Addition {
-	public long long(long a, long b) {
-		return a + b;
-	}
-}

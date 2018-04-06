@@ -1,5 +1,0 @@
-######Accès à la base de données######
-sgbdd.driver=com.mysql.jdbc.Driver
-sgbdd.dsn=jdbc:postgresql://localhost:5432/City
-sgbdd.login=postgres
-sgbdd.password=abigael1979

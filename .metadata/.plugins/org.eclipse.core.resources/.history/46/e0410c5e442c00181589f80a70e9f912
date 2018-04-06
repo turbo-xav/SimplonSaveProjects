@@ -1,8 +1,0 @@
-####### Détail de l'application #######
-appli.name=Application de diététique
-appli.version=1.0
-###### Accès à la base de données #####
-sgbd.driver=org.postgresql.Driver
-sgbd.dsn=jdbc:postgresql://localhost:5432/dietetique
-sgbd.login=postgres
-sgbd.password=abigael1979

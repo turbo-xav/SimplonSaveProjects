@@ -5,9 +5,12 @@
 			<item value="co.simplon"/>
 		</list>
 		<list key="name">
+			<item value="Reflexion"/>
 			<item value="evaljdbc"/>
 		</list>
 		<list key="artifactId">
+			<item value="reflexivite"/>
+			<item value="reflexion"/>
 			<item value="evaljdbc"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,5 +1,0 @@
-######Accès à la base de données######
-sgbd.driver=com.mysql.jdbc.Driver
-sgbd.dsn=jdbc:mysql://localhost/diet
-sgbd.login=root
-sgbd.password=

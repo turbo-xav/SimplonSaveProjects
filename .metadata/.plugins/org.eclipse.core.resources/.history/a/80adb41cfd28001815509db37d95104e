@@ -1,5 +1,0 @@
-package testJUnit;
-
-public @interface test {
-
-}
