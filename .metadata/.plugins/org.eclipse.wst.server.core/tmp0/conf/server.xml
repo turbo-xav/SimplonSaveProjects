@@ -353,7 +353,7 @@
              directory.-->
         <Logger className="org.apache.catalina.logger.FileLogger" directory="logs" prefix="localhost_log." suffix=".txt" timestamp="true"/>
 
-      <Context docBase="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SimpleSOAPExample" path="/SimpleSOAPExample" reloadable="true" source="org.eclipse.jst.j2ee.server:SimpleSOAPExample"/><Context docBase="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SimpleSOAPExampleClient" path="/SimpleSOAPExampleClient" reloadable="true" source="org.eclipse.jst.j2ee.server:SimpleSOAPExampleClient"/></Host>
+      <Context docBase="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\HelloDynamicJsp" path="/HelloDynamicJsp" reloadable="true" source="org.eclipse.jst.j2ee.server:HelloDynamicJsp"/></Host>
 
     </Engine>
 

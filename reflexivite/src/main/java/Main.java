@@ -36,8 +36,8 @@ public class Main {
 				
 				//Sa Classe d'instrospection
 				System.out.println("Je suis la classe : "+classAinstancier.getClass());
-				System.out.println("Le petit nom de la Classe demandée est : "+classAinstancier.getSimpleName());
-				System.out.println("Je contient toutes les infos utiles de : "+classAinstancier.getName());
+				//System.out.println("Le petit nom de la Classe demandée est : "+classAinstancier.getSimpleName());
+				//System.out.println("Je contient toutes les infos utiles de : "+classAinstancier.getName());
 							
 				sc.nextLine();
 											
@@ -67,7 +67,7 @@ public class Main {
 				
 				//On liste les methodes déclarées
 				Method[] methods = classAinstancier.getDeclaredMethods();
-				System.out.println("*** Je possèdes : "+methods.length+" méthodes déclarés que chez moi ***");
+				System.out.println("*** Je possèdes : "+methods.length+" méthodes déclarées ***");
 				//On parcours les méthodes
 				for(int i = 0 ; i < methods.length ; i++) {
 					Method method = methods[i];

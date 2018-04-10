@@ -353,7 +353,7 @@
              directory.-->
         <Logger className="org.apache.catalina.logger.FileLogger" directory="logs" prefix="localhost_log." suffix=".txt" timestamp="true"/>
 
-      <Context docBase="SimpleSOAPExample" path="/SimpleSOAPExample" reloadable="true" source="org.eclipse.jst.j2ee.server:SimpleSOAPExample"/><Context docBase="SimpleSOAPExampleClient" path="/SimpleSOAPExampleClient" reloadable="true" source="org.eclipse.jst.j2ee.server:SimpleSOAPExampleClient"/></Host>
+      </Host>
 
     </Engine>
 
