@@ -32,12 +32,17 @@ public class LogServlet extends GenericServlet {
 		response.getWriter().println("Taille2 :"+counteur2.get());
 		
 		Connection  db = SqlQuery.getConnection();
-		
-	
 		try {
 			db.setAutoCommit(false);
 			PreparedStatement st = db.prepareStatement("UPDATE \"requestCounter\" SET counter = counter + 1;");
 			st.executeUpdate();
+			
+			/*String sql = "INSERT INTO public.request( req) VALUES";			
+			for(String elt : listUrlLog ) {
+				sql += "('"+elt+"'),";
+			}
+			
+			System.out.println(sql);*/
 			st = db.prepareStatement("INSERT INTO public.request( req) VALUES ( ?);");
 			st.setString(1,request.toString());
 			st.executeUpdate();
@@ -47,10 +52,9 @@ public class LogServlet extends GenericServlet {
 			try {
 				db.rollback();
 			} catch (SQLException e1) {
-				// TODO Auto-generated catch block
+				
 				e1.printStackTrace();
-			}
-			// TODO Auto-generated catch block
+			}			
 			e.printStackTrace();
 		}
 		

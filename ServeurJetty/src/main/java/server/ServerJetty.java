@@ -6,12 +6,15 @@ import org.eclipse.jetty.servlet.*;
 public class ServerJetty {
 
 	public static void main(String[] args) {
-		Server server = new Server(9092);
+		Server server = new Server(80);
         ServletHandler handler = new ServletHandler();
+        
         server.setHandler(handler);
+        
         handler.addServletWithMapping(HelloGenericServlet.class, "/");
         handler.addServletWithMapping(StatefulServlet.class, "/impossible");
         handler.addServletWithMapping(LogServlet.class, "/log");
+        handler.addServletWithMapping(MyServletTurboXav.class, "/get");
         try {
 			server.start();
 		} catch (Exception e) {

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/netroxtech/webservice/Hello.java=UTF-8
+encoding//src/com/netroxtech/webservice/HelloService.java=UTF-8
+encoding//src/com/netroxtech/webservice/HelloServiceLocator.java=UTF-8
+encoding//src/com/netroxtech/webservice/HelloSoapBindingStub.java=UTF-8
+encoding//src/com/netroxtech/webservice/List.java=UTF-8
+encoding//src/com/netroxtech/webservice/ListResponse.java=UTF-8
+encoding//src/com/netroxtech/webservice/SayHello.java=UTF-8
+encoding//src/com/netroxtech/webservice/SayHello2.java=UTF-8
+encoding//src/com/netroxtech/webservice/SayHello2Response.java=UTF-8
+encoding//src/com/netroxtech/webservice/SayHelloResponse.java=UTF-8

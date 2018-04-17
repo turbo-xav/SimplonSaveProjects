@@ -1,0 +1,89 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from HelloService WSDL service -->
+
+  <service name="Hello" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://webservice.netroxtech.com"/>
+      <parameter name="wsdlServiceElement" value="HelloService"/>
+      <parameter name="schemaQualified" value="http://webservice.netroxtech.com"/>
+      <parameter name="wsdlServicePort" value="Hello"/>
+      <parameter name="className" value="com.netroxtech.webservice.HelloSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Hello"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="list" qname="operNS:list" xmlns:operNS="http://webservice.netroxtech.com" returnQName="retNS:listReturn" xmlns:retNS="http://webservice.netroxtech.com" returnType="rtns:ArrayOf_xsd_anyType" xmlns:rtns="http://webservice.netroxtech.com" returnItemQName="tns:item" xmlns:tns="http://webservice.netroxtech.com" soapAction="" >
+      </operation>
+      <operation name="sayHello" qname="operNS:sayHello" xmlns:operNS="http://webservice.netroxtech.com" returnQName="retNS:sayHelloReturn" xmlns:retNS="http://webservice.netroxtech.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:name" xmlns:pns="http://webservice.netroxtech.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="sayHello2" qname="operNS:sayHello2" xmlns:operNS="http://webservice.netroxtech.com" returnQName="retNS:sayHello2Return" xmlns:retNS="http://webservice.netroxtech.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:name" xmlns:pns="http://webservice.netroxtech.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="sayHello sayHello2 list"/>
+
+      <typeMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:>sayHello2Response"
+        type="java:com.netroxtech.webservice.SayHello2Response"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <arrayMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:ArrayOf_xsd_anyType"
+        type="java:java.lang.Object[]"
+        innerType="cmp-ns:anyType" xmlns:cmp-ns="http://www.w3.org/2001/XMLSchema"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:>sayHello2"
+        type="java:com.netroxtech.webservice.SayHello2"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:>sayHello"
+        type="java:com.netroxtech.webservice.SayHello"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:>list"
+        type="java:com.netroxtech.webservice.List"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:>sayHelloResponse"
+        type="java:com.netroxtech.webservice.SayHelloResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://webservice.netroxtech.com"
+        qname="ns:>listResponse"
+        type="java:com.netroxtech.webservice.ListResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

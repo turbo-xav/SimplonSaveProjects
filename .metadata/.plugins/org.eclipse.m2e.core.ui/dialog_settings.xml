@@ -3,14 +3,22 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="co.simplon"/>
+			<item value="com.javacodegeeks.snippets.enterprise"/>
 		</list>
 		<list key="name">
+			<item value="testSOAPPublishWithMaven"/>
+			<item value="testSoapWithMaven"/>
+			<item value="testMavenJsp"/>
 			<item value="curl"/>
 			<item value="Exemple Jetty"/>
 			<item value="Reflexion"/>
 			<item value="evaljdbc"/>
 		</list>
 		<list key="artifactId">
+			<item value="testSOAPPublishWithMaven"/>
+			<item value="testSoapWithMaven"/>
+			<item value="jetty-jsp-example"/>
+			<item value="testMavenJsp"/>
 			<item value="curl"/>
 			<item value="serveurJetty"/>
 			<item value="reflexivite"/>
@@ -55,9 +63,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\test\evaljdbc"/>
+			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\evaljdbc"/>
+			<item value="C:\GitRepository\bnp-pf-2018\session3-js-back\resources\mt-client"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\reflexivite"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\reflexivite\reflexivity"/>
-			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\test\evaljdbc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
