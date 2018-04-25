@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\java-workshop-soap"/>
+		<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\soapClient"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 	</section>
 	<section name="ResourceNavigator">
@@ -7,9 +11,9 @@
 		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
 		</list>
 	</section>
 	<section name="BasicNewProjectResourceWizard">

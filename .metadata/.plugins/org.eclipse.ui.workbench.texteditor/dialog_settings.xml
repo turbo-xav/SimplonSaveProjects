@@ -6,31 +6,37 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="list" key="selection"/>
+		<item value="id" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="action"/>
+			<item value="id"/>
+			<item value="setAction"/>
+			<item value="&#x09; * @name setAction"/>
+			<item value="getAction"/>
+			<item value="�"/>
+			<item value="getlib"/>
+			<item value="libelle"/>
+			<item value="Personne"/>
+			<item value="Factory"/>
 			<item value="list"/>
 			<item value="wsdl"/>
 			<item value="WSDL"/>
 			<item value="Product"/>
 			<item value="pwdPath"/>
-			<item value="homePath"/>
-			<item value="slowTransfert"/>
-			<item value="servlets"/>
-			<item value="constRectangle"/>
-			<item value="test"/>
-			<item value="IMPOSSIBLE !!!"/>
-			<item value="Ce choix est IMPOSSIBLE !!!"/>
-			<item value="setCategory"/>
-			<item value="SqlQ"/>
-			<item value="ressour"/>
 		</list>
 		<list key="replacehistory">
-			<item value="this.grille"/>
+			<item value="id"/>
 			<item value=""/>
+			<item value="setId"/>
+			<item value="getId"/>
+			<item value="é"/>
+			<item value="getLib"/>
+			<item value="lib"/>
+			<item value="this.grille"/>
 			<item value="getGlucide"/>
 			<item value="getProteine"/>
 			<item value="this.lipide_aliment"/>
@@ -38,7 +44,6 @@
 			<item value="proteine_aliment"/>
 			<item value="this.glucide_aliment"/>
 			<item value="this.protein_aliment"/>
-			<item value="this.nom_aliment"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
