@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="co.simplon"/>
 			<item value="co.projetWeb"/>
 		</list>
 		<list key="name">
+			<item value="projet jpa et hibernate"/>
 			<item value="Application Maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="jpaandhibernate"/>
+			<item value="MyTestMaven"/>
 			<item value="ApplicationMavenComplete"/>
 			<item value="ApplicationMaven"/>
 		</list>
@@ -49,6 +53,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\java-workshop-soap"/>
+			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\HelloENSMARestWebServiceExercice1"/>
+			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\jaxrs_examples\HelloWorldRestWebService"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\annotation"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\evaljdbc"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\test\evaljdbc"/>
