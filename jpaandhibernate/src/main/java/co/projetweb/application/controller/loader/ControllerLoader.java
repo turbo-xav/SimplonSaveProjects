@@ -71,10 +71,10 @@ public class ControllerLoader {
 	{		
 		
 		Class<?> classeAInstancier = controller.getClass();
-		Class<?>[] types = new Class[] {};				
+		Class<?>[] types = new Class[] {String.class};				
 		try {
-			Method methodePresenter = classeAInstancier.getMethod(methode,types);
-			methodePresenter.invoke(controller, null);
+			Method methodePresenter = classeAInstancier.getMethod("execute",types);
+			methodePresenter.invoke(controller, methode);
 			
 		} catch (NoSuchMethodException e) {
 			e.printStackTrace();

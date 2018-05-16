@@ -14,8 +14,10 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
+import javax.persistence.PersistenceException;
 import javax.persistence.Query;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table (name="city", schema="public")
@@ -24,6 +26,9 @@ import javax.persistence.Table;
 	@NamedQuery(name = "City.deleteById", query = " DELETE FROM City c WHERE c.id = :id") })
 public class City {
     
+	@Transient
+	public String attr = null; 
+	
 	@OneToMany(mappedBy = "city", cascade = CascadeType.REMOVE, orphanRemoval = true, fetch = FetchType.LAZY)
 	
 	private List<Monument> monuments = new ArrayList<Monument>();	
@@ -137,14 +142,21 @@ public class City {
 	 * @return
 	 */
 	
-	public static void  deleteById(Long id) {
-		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
+	public static void  deleteById(EntityManager em,Long id) throws PersistenceException {
 		Query q = em.createNamedQuery("City.deleteById");
-		q.setParameter("id", id);
-		em.getTransaction().begin();
+		q.setParameter("id", id);	
 		q.executeUpdate();
-		em.getTransaction().commit();
-		em.close();
+		/*try {
+			q.executeUpdate();
+		}
+		catch(PersistenceException e) {
+			System.err.println(e.getClass().getName());
+			System.err.println(e.getMessage());
+			System.err.println("Il impossible de supprimer l'entité City demandée surement à cause d'un contrainte");
+			em.getTransaction().rollback();
+			
+		}*/
+		
 	}	
 	
 }

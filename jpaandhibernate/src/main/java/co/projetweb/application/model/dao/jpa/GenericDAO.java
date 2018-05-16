@@ -30,36 +30,29 @@ public abstract class GenericDAO<T> implements IGenericDAO<T> {
 	
 	public void deleteById(Long id) {
 		
-		T instance = this.getById(id);
-		
-		if(instance == null) { return ; }
-		
-		em.getTransaction().begin();
+		T instance = this.getById(id);		
+		if(instance == null) { return ; }		
 		em.remove(instance);
-		em.getTransaction().commit();
+		
 		
 	}
 		
 	public T create(T instance) {
 		
-		
-		em.getTransaction().begin();
-	    em.persist(instance);
-	    em.getTransaction().commit();
+	    em.persist(instance);	    
 		return instance;
 		
 	}
 	
 	public T update(T instance) {
-				
-		em.getTransaction().begin();
-	    em.merge(instance);
-	    em.getTransaction().commit();
+		
+		em.merge(instance);	   
 		return instance;
 		
 	}
 	
 	public List<T> list(){
+		
 		String sql = "SELECT instance FROM "+this.myClass.getSimpleName()+" instance";
 		System.out.println(sql);
 		

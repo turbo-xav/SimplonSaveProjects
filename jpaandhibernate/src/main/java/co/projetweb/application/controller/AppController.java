@@ -1,6 +1,15 @@
 package co.projetweb.application.controller;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceException;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.Root;
 
 import co.projetweb.application.controller.annotation.ControllerMethodAnnotation;
 import co.projetweb.application.model.dao.jpa.CityDAO;
@@ -13,6 +22,58 @@ import co.projetweb.application.model.entity.User;
 
 
 public class AppController {
+	
+	private EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
+	
+	public void preExecute() {
+		System.out.println("preExecute");
+		em.getTransaction().begin();
+	}
+	
+	public void postExecute() {
+		System.out.println("postExecute");
+		if(em.getTransaction().isActive()) {			
+			System.out.println("active");		
+			em.getTransaction().commit();
+		}
+		else {
+			System.out.println("inactive");
+		}
+		em.close();
+	}
+	
+	/**
+	  * Execute an action
+	  * 
+	  * @access public
+	  * @return void 
+	  * @name execute
+	  * @param String : method to load 
+	  * 
+	  */
+	
+	public void execute(String methodeName) {
+		Class<?> classeAInstancier = this.getClass();
+		Class<?>[] types = new Class[] {};				
+		try {
+			Method methodePresenter = classeAInstancier.getMethod(methodeName,types);			
+			this.preExecute();			
+			methodePresenter.invoke(this, null);			
+			this.postExecute();
+			
+		} catch (NoSuchMethodException e) {
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			e.printStackTrace();
+		}
+		catch (IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (InvocationTargetException e) {
+			e.printStackTrace();
+		}	
+	}
 	
 	/**
 	  * Quit 
@@ -85,9 +146,8 @@ public class AppController {
 	@ControllerMethodAnnotation(name="executeAllQueries",lib="Exécuter plusiueurs requête",order=4)
 	public void executeAllQueries() {
 		
-		//Création d'un EntityMannager pour gérer les entités liée à toute l'opération qui va se dérouler
-		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
-				
+		
+		
 		//Création d'une ville
 		CityDAO cityDAO = new CityDAO(em);
 		City city0 = new City("PARIS IDF",1,2);
@@ -124,8 +184,7 @@ public class AppController {
 		//insert
 		monumentDAO.create(monument);
 		
-		//l'opération est terminée
-		em.close();
+		
 		
 		
 	}
@@ -141,11 +200,11 @@ public class AppController {
 	
 	@ControllerMethodAnnotation(name="list",lib="list Les Entites",order=5)
 	public void list() {
-		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
-		CityDAO cityDAO = new CityDAO(em);
-		System.out.println(cityDAO.list());
 		
-		em.close();
+		CityDAO cityDAO = new CityDAO(em);
+		System.out.println(cityDAO.list());		
+		
+		
 	}
 	
 	/**
@@ -159,10 +218,13 @@ public class AppController {
 	
 	@ControllerMethodAnnotation(name="filter",lib="list Les Entites en filtrant selon le name",order=6)
 	public void filter() {
-		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
+		
+		
 		CityDAO cityDAO = new CityDAO(em);
+		
 		System.out.println(cityDAO.filter("Mont"));		
-		em.close();
+		
+		
 	}
 	
 	/**
@@ -192,9 +254,42 @@ public class AppController {
 	
 	@ControllerMethodAnnotation(name="deleteById",lib="Effacer l'id ?",order=8)
 	public void deleteById() {
+			
 		
-		City.deleteById(new Long(217));
+		try {
+			City.deleteById(em, new Long(217));	
+		}catch(PersistenceException e) {
+			System.err.println("Pb lors de la suppression de la City demandée !");
+			em.getTransaction().rollback();
+		}		
+	}
+	
+	/**
+	  *
+	  * Génère une requete criteria
+	  * 
+	  */
+	@ControllerMethodAnnotation(name="criteria",lib="API Criteria",order=9)
+	public void criteria() {
+		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
+		/*CriteriaBuilder cb = em.getCriteriaBuilder();
 		
+		CriteriaQuery<City> cq = cb.createQuery(City.class);
+		Root<City> city = cq.from(City.class);
+		cq.select(city);
+				
+		TypedQuery<City> q = em.createQuery(cq);
+		System.out.println(q.getResultList());*/
+		
+		CriteriaBuilder cb = em.getCriteriaBuilder();
+		CriteriaQuery<Monument> query = cb.createQuery(Monument.class);
+		Root<City> city = query.from(City.class);
+		Join<City, Monument> monuments = city.join("monuments");
+		query.select(monuments);
+		TypedQuery<Monument> q = em.createQuery(query);
+		System.out.println(q.getResultList());
+		
+		em.close();
 	}
 }
 
