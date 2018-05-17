@@ -57,7 +57,7 @@ public class Main {
 		
 		//Dynamiquement
 		runMethode(objetWithAnnotation,"methode1");
-		runMethode(objetWithAnnotation,"methode2");	
+		runMethode(objetWithAnnotation,"methode2");
 		
 	}
 	
