@@ -53,6 +53,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\reflexivite"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\java-workshop-soap"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\HelloENSMARestWebServiceExercice1"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\jaxrs_examples\HelloWorldRestWebService"/>
@@ -60,7 +61,6 @@
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\evaljdbc"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\test\evaljdbc"/>
 			<item value="C:\GitRepository\bnp-pf-2018\session3-js-back\resources\mt-client"/>
-			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\reflexivite"/>
 			<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\reflexivite\reflexivity"/>
 		</list>
 		<list key="projectNameTemplate">

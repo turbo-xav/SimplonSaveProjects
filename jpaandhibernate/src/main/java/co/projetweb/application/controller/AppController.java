@@ -23,10 +23,11 @@ import co.projetweb.application.model.entity.User;
 
 public class AppController {
 	
-	private EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
-	
+	private EntityManager em;
 	public void preExecute() {
 		System.out.println("preExecute");
+		em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
+		
 		em.getTransaction().begin();
 	}
 	

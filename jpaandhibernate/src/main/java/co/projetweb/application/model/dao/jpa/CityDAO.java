@@ -8,8 +8,7 @@ import co.projetweb.application.model.entity.City;
 public class CityDAO extends GenericDAO<City>{
 
 	public CityDAO(EntityManager em) {
-		super(em);
-		this.setMyClass(City.class);
+		super(em,City.class);		
 	}	
 	
 }

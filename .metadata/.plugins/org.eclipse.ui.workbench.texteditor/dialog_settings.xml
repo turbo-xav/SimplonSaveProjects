@@ -6,12 +6,15 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="remove" key="selection"/>
+		<item value="co.projetweb.application.model" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="co.projetweb.model"/>
+			<item value="co.simplon"/>
+			<item value="Monument"/>
 			<item value="remove"/>
 			<item value="entityManagerFactory"/>
 			<item value="javax"/>
@@ -24,11 +27,11 @@
 			<item value="�"/>
 			<item value="getlib"/>
 			<item value="libelle"/>
-			<item value="Personne"/>
-			<item value="Factory"/>
-			<item value="list"/>
 		</list>
 		<list key="replacehistory">
+			<item value="co.projetweb.application.model"/>
+			<item value="co.projetweb"/>
+			<item value="User"/>
 			<item value="id"/>
 			<item value=""/>
 			<item value="setId"/>
@@ -41,9 +44,6 @@
 			<item value="getProteine"/>
 			<item value="this.lipide_aliment"/>
 			<item value="glucide_aliment"/>
-			<item value="proteine_aliment"/>
-			<item value="this.glucide_aliment"/>
-			<item value="this.protein_aliment"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

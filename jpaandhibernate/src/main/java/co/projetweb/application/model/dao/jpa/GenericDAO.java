@@ -9,17 +9,16 @@ import co.projetweb.application.model.dao.IGenericDAO;
 
 public abstract class GenericDAO<T> implements IGenericDAO<T> {
 	
-	private Class<T> myClass = null;
+	private final Class<T> myClass;
 	
 	private EntityManager em;
 	
-	public GenericDAO(EntityManager em) {
+	public GenericDAO(EntityManager em,Class<T> myClass) {
 		this.em = em;
-	}
-		
-	protected void setMyClass(Class<T> myClass) {
 		this.myClass = myClass;
 	}
+		
+	
 	
 	
 	public T getById(Long id) {		
@@ -39,15 +38,15 @@ public abstract class GenericDAO<T> implements IGenericDAO<T> {
 		
 	public T create(T instance) {
 		
-	    em.persist(instance);	    
+	     em.persist(instance);	    
 		return instance;
 		
 	}
 	
 	public T update(T instance) {
 		
-		em.merge(instance);	   
-		return instance;
+		return em.merge(instance);	   
+		
 		
 	}
 	

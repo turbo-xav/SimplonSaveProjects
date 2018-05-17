@@ -5,7 +5,7 @@
 	<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Desktop\Java\factoriel" key="org.eclipse.jdt.ui.last.external.project"/>
 	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="false" key="renameSubpackages"/>
+		<item value="true" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 		<item value="false" key="updateSimilarElements"/>
