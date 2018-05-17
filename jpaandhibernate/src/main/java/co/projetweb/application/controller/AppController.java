@@ -2,14 +2,22 @@ package co.projetweb.application.controller;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceException;
+import javax.persistence.Query;
+import javax.persistence.Tuple;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.Root;
+import javax.persistence.criteria.Selection;
 
 import co.projetweb.application.controller.annotation.ControllerMethodAnnotation;
 import co.projetweb.application.model.dao.jpa.CityDAO;
@@ -164,26 +172,49 @@ public class AppController {
 				
 		//Si la ville est bien trouvée (on ne sait jamais)
 		if(city2 != null) {
-			city2.setName("Montreuil IDF");
+			city2.setName("Montreuil IDF 2");
 			cityDAO.update(city2);
 		}
 				
 		//On tente de supprimer une une ville via son ID si elle existe en base
-		cityDAO.deleteById(new Long(106));
+		//cityDAO.deleteById(new Long(106));
 		
 		//On créer un nouveau monument dans la ville "city"
 		MonumentDAO monumentDAO = new MonumentDAO(em);		
-		Monument monument = new Monument("Tour Eiffel");
+		Monument monument = new Monument("Tour Eiffel3");
+		Monument monument2 = new Monument("Arc de Triomphe");
+		Monument monument3 = new Monument("Physical Center");
+		Monument monument4 = new Monument("Box");
+		Monument monument5 = new Monument("Circuit Carole");
+		Monument monument6 = new Monument("Belle Epine");
+		
+		
 		city.addMonument(monument);
+		city.addMonument(monument2);
+		city.addMonument(monument3);
+		city.addMonument(monument4);
+		city.addMonument(monument5);
+		city.addMonument(monument6);
+		//insert
+		monumentDAO.create(monument);
+		monumentDAO.create(monument2);
+		monumentDAO.create(monument3);
+		monumentDAO.create(monument4);
+		monumentDAO.create(monument5);
+		monumentDAO.create(monument6);
+		
 		
 		//On créer un user
 		UserDAO userDAO = new UserDAO(em);		
 		User user = userDAO.create(new User("Xavier"));
 		//Un setCity est implicite et implémentée dans la classe "Monumenyt"
-		user.addMonument(monument);
+		user.addMonument(monument);		
+		user.addMonument(monument2);
+		user.addMonument(monument3);
+		user.addMonument(monument4);
 		
-		//insert
-		monumentDAO.create(monument);
+		
+		
 		
 		
 		
@@ -291,6 +322,51 @@ public class AppController {
 		System.out.println(q.getResultList());
 		
 		em.close();
+	}
+	/**
+	  *
+	  * Génère une requete criteria
+	  * 
+	  */
+	@ControllerMethodAnnotation(name="testJoinJpQl",lib="Test de jointure avec JPQL",order=10)
+	public void testJoinJpQl() {
+		 
+		//Cas simple
+		/*TypedQuery<Monument> query =
+			      em.createQuery("SELECT m FROM Monument m", Monument.class);
+			  
+		 	List<Monument> results = query.setFirstResult(20).setMaxResults(2).getResultList();
+			  for (Monument m : results) {
+			      System.out.println("-"+m.getName());
+			      Set<User> users = m.getUsers();
+			      for(User u : users) {
+			    	  System.out.println("--"+u.getName());
+			      }
+			  }
+	    //Join			  
+		 List<Object[]> results1 = em.createQuery("SELECT c.name, m.name, m.city.name  FROM City c JOIN Monument m ON c.id != m.city").getResultList();
+
+		 for (Object[] result : results1) {
+			 //System.out.println(result); 	
+			 System.out.println("City : "+result[0]+" = Monument : "+result[1]+" New City"+result[2]);
+		 }
+		 
+		 //Exemple autre
+		 TypedQuery<Monument> tq = em.createQuery("SELECT m FROM  Monument m INNER JOIN City c on c = m.city",Monument.class);
+		    
+		    List<Monument> lstRetour = tq.getResultList();
+		    for (Monument m : lstRetour) {
+		        System.out.println("Join : "+m.getName());
+		    }*/
+		  //Fetch Join : ne fais qu'une seule requête
+		   TypedQuery<Monument> tq2 = em.createQuery("SELECT m FROM Monument m JOIN FETCH m.city", Monument.class);
+		   List<Monument> lstRetour2 = tq2.getResultList();
+		    for (Monument m : lstRetour2) {
+		        System.out.println("Le monument : "+m.getName()+" est dans la ville "+m.getCity().getName());
+		    }
+		    
+		    
+			  
 	}
 }
 

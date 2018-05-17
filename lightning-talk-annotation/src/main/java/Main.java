@@ -76,6 +76,7 @@ public class Main {
 	
 	
 	public static void runMethode(Object obj, String methode) {
+		
 		Class<?> classeAInstancier = obj.getClass();
 		Class<?>[] types = new Class[] {};				
 		try {
