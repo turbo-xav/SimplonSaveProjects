@@ -29,7 +29,6 @@ public class App
 		List<ControllerMethodAnnotation> listOfMethodeAnnotations =  ControllerLoader.listAvailableMethods();  	
 		if(listOfMethodeAnnotations.size() > 0) {        	
 	    	for(ControllerMethodAnnotation controllerMethodAnnotation: listOfMethodeAnnotations) {
-	    		//System.out.println(controllerMethodAnnotation.lib()+" : "+controllerMethodAnnotation.name());
 	    		menu.add(new ItemMenu(controllerMethodAnnotation.lib(),controllerMethodAnnotation.name()));
 	    	}
 	    }   	

@@ -1,6 +1,3 @@
-import java.lang.reflect.AnnotatedArrayType;
-import java.lang.reflect.Method;
-
 public class ClassWithAnnotation {
 	
 	

@@ -1,8 +1,7 @@
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -50,14 +49,28 @@ public class Main {
 		}
 		
 		/* 2 - Exécution dynamique */
+		Scanner sc = new Scanner(System.in);
+		boolean quit = false;
 		
-		//On lancer à la main
-		objetWithAnnotation.methode1();
-		objetWithAnnotation.methode2();
 		
-		//Dynamiquement
-		runMethode(objetWithAnnotation,"methode1");
-		runMethode(objetWithAnnotation,"methode2");
+		while(!quit) {
+			//On lancer à la main
+			objetWithAnnotation.methode1();
+			objetWithAnnotation.methode2();
+			System.out.println("Faites votres choix :");
+			for(int i = 0 ; i < methods.length ; i++) {
+				System.out.println((i+1)+") "+methods[i].getName());
+			}
+				
+			//Dynamiquement
+			int methodeId = sc.nextInt();
+			if(methodeId == 0) {
+				quit = true; 
+			}else {
+				runMethode(objetWithAnnotation,methods[methodeId-1].getName());
+			}
+		}
+		sc.close();
 		
 	}
 	
