@@ -31,7 +31,7 @@ public class Main {
 			for(Annotation annotation : annonations) {
 				//J'affiche le nom de l'interface de mon annotation
 				System.out.println("-- Je suis une annotation et je m'appelle : "+annotation.getClass().getInterfaces()[0].getName());
-				
+				System.out.println("-- je suis de type : "+annotation.annotationType());
 				//Je vais utiliser les infos spécifiques de mes annotations				
 				if (annotation instanceof MonAnnotation) {					
 					

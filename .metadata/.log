@@ -4604,3 +4604,9 @@ Java Model Exception: Java Model Status [methode1() [in ClassWithAnnotation [in 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-17 15:37:51.034
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-17 15:48:19.845
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-17 15:48:19.862
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
