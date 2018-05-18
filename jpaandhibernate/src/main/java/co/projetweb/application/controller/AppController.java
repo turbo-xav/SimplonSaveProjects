@@ -1,23 +1,19 @@
 package co.projetweb.application.controller;
 
+
+
+import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceException;
-import javax.persistence.Query;
-import javax.persistence.Tuple;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.Root;
-import javax.persistence.criteria.Selection;
 
 import co.projetweb.application.controller.annotation.ControllerMethodAnnotation;
 import co.projetweb.application.model.dao.jpa.CityDAO;
@@ -27,20 +23,31 @@ import co.projetweb.application.model.entity.City;
 import co.projetweb.application.model.entity.EntityManagerQuery;
 import co.projetweb.application.model.entity.Monument;
 import co.projetweb.application.model.entity.User;
-
+import co.projetweb.application.enumeration.Choice;
+import co.projetweb.application.enumeration.Langage;
 
 public class AppController {
 	
 	private EntityManager em;
+	
 	public void preExecute() {
 		System.out.println("preExecute");
-		em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
+	}
+	public void preExecuteBdd() {
 		
+		System.out.println("preExecuteBdd");
+		
+		em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
 		em.getTransaction().begin();
 	}
 	
 	public void postExecute() {
 		System.out.println("postExecute");
+		this.waitALittle();
+	}
+	
+	public void postExecuteBdd() {
+		System.out.println("postExecuteBdd");
 		if(em.getTransaction().isActive()) {			
 			System.out.println("active");		
 			em.getTransaction().commit();
@@ -62,12 +69,19 @@ public class AppController {
 	  */
 	
 	public void execute(String methodeName) {
+				
 		Class<?> classeAInstancier = this.getClass();
+		
 		Class<?>[] types = new Class[] {};				
+		
 		try {
-			Method methodePresenter = classeAInstancier.getMethod(methodeName,types);			
-			this.preExecute();			
-			methodePresenter.invoke(this, null);			
+			Method methodeToExecute = classeAInstancier.getMethod(methodeName,types);			
+			
+			ControllerMethodAnnotation annotation = methodeToExecute.getAnnotation(ControllerMethodAnnotation.class);
+			this.preExecute();
+			if(annotation.bdd() != false) { this.preExecuteBdd(); }			
+			methodeToExecute.invoke(this, null);			
+			if(annotation.bdd() != false) { this.postExecuteBdd(); }
 			this.postExecute();
 			
 		} catch (NoSuchMethodException e) {
@@ -92,7 +106,7 @@ public class AppController {
 	  * 
 	  */
 	
-	@ControllerMethodAnnotation(name="quit",lib="Quitter",order=1)
+	@ControllerMethodAnnotation(name="quit",lib="Quitter",order=1,bdd=false)
 	public void quit() {
 		System.err.println("Bye !");
 		System.exit(0);
@@ -107,7 +121,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="waitALittle",lib="Attendre quelques secondes",order=2)
+	@ControllerMethodAnnotation(name="waitALittle",lib="Attendre quelques secondes",order=2,bdd=false)
 	public void waitALittle() {
 		System.out.println("Go dans : ");
 		try {
@@ -133,7 +147,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="readCity",lib="Afficher une ville",order=3)
+	@ControllerMethodAnnotation(name="readCity",lib="Afficher une ville",order=3,bdd=true)
 	public void readCity() {
 		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
 		CityDAO cityDAO= new CityDAO(em);
@@ -152,7 +166,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="executeAllQueries",lib="Exécuter plusiueurs requête",order=4)
+	@ControllerMethodAnnotation(name="executeAllQueries",lib="Exécuter plusiueurs requête",order=4,bdd=true)
 	public void executeAllQueries() {
 		
 		
@@ -230,7 +244,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="list",lib="list Les Entites",order=5)
+	@ControllerMethodAnnotation(name="list",lib="list Les Entites",order=5,bdd=true)
 	public void list() {
 		
 		CityDAO cityDAO = new CityDAO(em);
@@ -248,7 +262,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="filter",lib="list Les Entites en filtrant selon le name",order=6)
+	@ControllerMethodAnnotation(name="filter",lib="list Les Entites en filtrant selon le name",order=6,bdd=true)
 	public void filter() {
 		
 		
@@ -268,7 +282,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="findAll",lib="Utiliser le findAll",order=7)
+	@ControllerMethodAnnotation(name="findAll",lib="Utiliser le findAll",order=7,bdd=true)
 	public void findAll() {
 		
 		System.out.println(City.findAll(1, 2));
@@ -284,7 +298,7 @@ public class AppController {
 	  *  
 	  */
 	
-	@ControllerMethodAnnotation(name="deleteById",lib="Effacer l'id ?",order=8)
+	@ControllerMethodAnnotation(name="deleteById",lib="Effacer l'id ?",order=8,bdd=true)
 	public void deleteById() {
 			
 		
@@ -301,7 +315,7 @@ public class AppController {
 	  * Génère une requete criteria
 	  * 
 	  */
-	@ControllerMethodAnnotation(name="criteria",lib="API Criteria",order=9)
+	@ControllerMethodAnnotation(name="criteria",lib="API Criteria",order=9,bdd=true)
 	public void criteria() {
 		EntityManager em = EntityManagerQuery.getEntityManagerFactory().createEntityManager();
 		/*CriteriaBuilder cb = em.getCriteriaBuilder();
@@ -328,7 +342,7 @@ public class AppController {
 	  * Génère une requete criteria
 	  * 
 	  */
-	@ControllerMethodAnnotation(name="testJoinJpQl",lib="Test de jointure avec JPQL",order=10)
+	@ControllerMethodAnnotation(name="testJoinJpQl",lib="Test de jointure avec JPQL",order=10,bdd=true)
 	public void testJoinJpQl() {
 		 
 		//Cas simple
@@ -368,5 +382,27 @@ public class AppController {
 		    
 			  
 	}
+	
+	/**
+	  *
+	  * Génère une requete criteria
+	  * 
+	  */
+	@ControllerMethodAnnotation(name="testEnum",lib="Tester les enumérations",order=11,bdd=false)
+	public void testEnum() {
+		
+		for(Langage lang : Langage.values()){
+		    
+			if(Langage.JAVA.equals(lang))
+		        System.out.println("J'aime le : " + lang);
+		      else
+		        System.out.println(lang);
+		    }
+		
+		System.out.println(Choice.QUIT);
+		
+		
+	}
+	
 }
 

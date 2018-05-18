@@ -13,4 +13,5 @@ public @interface ControllerMethodAnnotation {
 	String   name();
 	String   lib();
 	int 	 order();
+	boolean bdd();
 }

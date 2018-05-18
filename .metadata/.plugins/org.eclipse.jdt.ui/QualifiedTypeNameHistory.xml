@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
-<fullyQualifiedTypeName name="javax.persistence.Table"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-<fullyQualifiedTypeName name="javax.persistence.Column"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-<fullyQualifiedTypeName name="co.simplon.patrimoine.model.EntityManager"/>
-<fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.hibernate.hql.internal.ast.util.SessionFactoryHelper"/>
 <fullyQualifiedTypeName name="org.hibernate.Hibernate"/>
@@ -25,7 +14,6 @@
 <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
 <fullyQualifiedTypeName name="co.simplon.patrimoine.model.City"/>
@@ -38,12 +26,10 @@
 <fullyQualifiedTypeName name="co.projetweb.application.model.City"/>
 <fullyQualifiedTypeName name="co.projetweb.application.model.Monument"/>
 <fullyQualifiedTypeName name="co.projetweb.application.model.User"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="co.projetweb.application.model.EntityManagerQuery"/>
 <fullyQualifiedTypeName name="co.projetweb.application.model.dao.CityDAO"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
-<fullyQualifiedTypeName name="javax.persistence.Query"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Cascade"/>
 <fullyQualifiedTypeName name="org.hibernate.criterion.CriteriaQuery"/>
 <fullyQualifiedTypeName name="org.hibernate.engine.internal.JoinSequence.Join"/>
@@ -52,7 +38,6 @@
 <fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaQuery"/>
 <fullyQualifiedTypeName name="javax.persistence.criteria.Root"/>
 <fullyQualifiedTypeName name="javax.persistence.criteria.Join"/>
-<fullyQualifiedTypeName name="co.projetweb.application.model.entity.Monument"/>
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
 <fullyQualifiedTypeName name="org.hibernate.exception.ConstraintViolationException"/>
 <fullyQualifiedTypeName name="co.projetweb.application.model.entity.City"/>
@@ -60,4 +45,19 @@
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="co.projetweb.application.model.entity.EntityManagerQuery"/>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
+<fullyQualifiedTypeName name="superAnnotation"/>
+<fullyQualifiedTypeName name="MegaAnnotation"/>
+<fullyQualifiedTypeName name="java.lang.reflect.AnnotatedArrayType"/>
+<fullyQualifiedTypeName name="MonAnnotation"/>
+<fullyQualifiedTypeName name="ClassWithAnnotation"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="javax.persistence.Tuple"/>
+<fullyQualifiedTypeName name="co.projetweb.application.model.entity.Monument"/>
 </qualifiedTypeNameHistroy>

@@ -126,7 +126,7 @@
 		<item value="4" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
-		<item value="318" key="size.y"/>
+		<item value="1046" key="size.y"/>
 		<item value="448" key="size.x"/>
 	</section>
 	<section name="JavadocWizardDialog">
