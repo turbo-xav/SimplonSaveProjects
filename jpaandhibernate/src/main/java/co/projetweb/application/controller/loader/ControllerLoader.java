@@ -42,19 +42,14 @@ public class ControllerLoader {
 		List<ControllerMethodAnnotation> listOfAnnotation = new ArrayList<ControllerMethodAnnotation>();
 		
 		for(Method m : methods) {
-			Annotation[] annonations = m.getAnnotations();
-			
-			for(Annotation annotation : annonations) {
-				if (annotation instanceof ControllerMethodAnnotation)
-			    {
-					listOfAnnotation.add((ControllerMethodAnnotation) annotation);
-				}
+			Annotation myannonation = m.getAnnotation(ControllerMethodAnnotation.class);
+			if (myannonation instanceof ControllerMethodAnnotation) {
+				listOfAnnotation.add((ControllerMethodAnnotation) myannonation);
 			}
+			
 		}
 		listOfAnnotation.sort(new ComparatorControllerMethodAnnotation());
-		return listOfAnnotation;
-		
-				
+		return listOfAnnotation;				
 	}
 	
 	
