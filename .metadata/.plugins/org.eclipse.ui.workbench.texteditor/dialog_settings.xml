@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="co.projetweb.application.model" key="selection"/>
+		<item value="HttpStatus" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="HttpStatus"/>
 			<item value="co.projetweb.model"/>
 			<item value="co.simplon"/>
 			<item value="Monument"/>
@@ -26,7 +27,6 @@
 			<item value="getAction"/>
 			<item value="�"/>
 			<item value="getlib"/>
-			<item value="libelle"/>
 		</list>
 		<list key="replacehistory">
 			<item value="co.projetweb.application.model"/>

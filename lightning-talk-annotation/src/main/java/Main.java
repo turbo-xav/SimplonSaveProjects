@@ -19,8 +19,7 @@ public class Main {
 		Method[] methods = classWithAnnotation.getDeclaredMethods();
 		
 		//Je parcours les méthodes présente dans la classe
-		for(Method m : methods) {
-			
+		for(Method m : methods) {		
 			
 			//Jé créer un tableau d'objet "Annotation" à partir de la liste des annoations apportées à la méthode
 			Annotation[] annonations = m.getAnnotations();
@@ -43,20 +42,18 @@ public class Main {
 					System.out.println("---lib	:	"+sameAnnotation.lib());
 					System.out.println("---run	:	"+sameAnnotation.run());
 				}				
-				
-			}
-			
-		}
+			}			
+		}	
 		
 		/* 2 - Exécution dynamique */
 		Scanner sc = new Scanner(System.in);
 		boolean quit = false;
-		
+		//On lancer à la main
+		objetWithAnnotation.methode1();
+		objetWithAnnotation.methode2();
 		
 		while(!quit) {
-			//On lancer à la main
-			objetWithAnnotation.methode1();
-			objetWithAnnotation.methode2();
+						
 			System.out.println("Faites votres choix :");
 			for(int i = 0 ; i < methods.length ; i++) {
 				System.out.println((i+1)+") "+methods[i].getName());

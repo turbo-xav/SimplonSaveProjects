@@ -65,6 +65,10 @@ public class Monument {
 	  this.city = city;
     }
     
+    public void removeCity() {
+    	this.setCity(null);
+    }
+    
     @Override
     public String toString() {
 	  return "Monument [id=" + id + ", name=" + name

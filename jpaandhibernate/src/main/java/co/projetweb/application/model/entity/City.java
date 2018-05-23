@@ -120,6 +120,19 @@ public class City {
 		monument.setCity(this);
 	}
 	
+	public void removeMonument(Monument monument) {
+		//List<Monument> monuments = this.getMonuments();
+		//monuments.remove(monument);
+		/*for(Monument m : monuments) {
+			if(m == monument) {
+				System.out.println("Fuck !!");
+				this.monuments.remove(m);
+			}
+		}*/
+		//this.monuments.remove(monument);
+		//monument.removeCity();
+	}
+	
 	/**
 	 * 
 	 * @param first

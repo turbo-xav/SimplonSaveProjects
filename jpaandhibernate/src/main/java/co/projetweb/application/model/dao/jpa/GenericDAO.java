@@ -22,7 +22,6 @@ public abstract class GenericDAO<T> implements IGenericDAO<T> {
 	
 	
 	public T getById(Long id) {		
-		
 		return em.find(this.myClass, id);
 	}
 

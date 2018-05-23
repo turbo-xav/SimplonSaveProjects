@@ -5,6 +5,8 @@ package co.projetweb.application.controller;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.time.Month;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -14,6 +16,8 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.Root;
+
+import org.hibernate.mapping.Array;
 
 import co.projetweb.application.controller.annotation.ControllerMethodAnnotation;
 import co.projetweb.application.model.dao.jpa.CityDAO;
@@ -400,9 +404,37 @@ public class AppController {
 		    }
 		
 		System.out.println(Choice.QUIT);
-		
-		
 	}
+	
+	/**
+	  *
+	  * Génère une requete criteria
+	  * 
+	  */
+	@ControllerMethodAnnotation(name="testRemove",lib="Tester les remove",order=12,bdd=true)
+	public void testRemove() {
+		
+		List<String> listString = new ArrayList<String>();
+		listString.add("Test");
+		listString.add("Test1");
+		listString.add("Test2");
+		listString.add("Test3");
+		System.out.println(listString);
+		listString.remove(2);
+		System.out.println(listString);
+		CityDAO cityDao = new CityDAO(em);
+		City city = cityDao.getById(new Long(232));
+		List<Monument> monuments = city.getMonuments();
+		//System.out.println(monuments.get(0));
+		//monuments.get(0).removeCity();
+		//city.removeMonument(monuments.get(0));
+		/*for(Monument m : monuments) {
+			System.out.println(m);
+			city.removeMonument(m);
+		}*/
+	}
+	
+	
 	
 }
 
