@@ -2,8 +2,61 @@
 <html>
 	<head>
 		<title>Mon application Spring Boot</title>
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<h1>Bienvenue</h1>
+		
+		Liste :
+		<ul id="liste">
+			
+		</ul>
+		
+		
+		
+		
+		
+		
+		<p>Delete<p> 
+		<input id="deleteId" value="" placeholder="please enter an id for your Foo" />
+		<input type="button" id="delete" value="delete" />
+		
+		
+		<p>FindAll</p>
+		<input type="button" id="findAll" value="findAll" />
+		<p>Résultat :
+			<span id="findAllResult">
+			...
+			</span> 
+		</p>
+		
+		<input type="button" id="findById" value="findById" />
+		<p>FindById (id=1) Résultat :
+			<span id="findByIdResult">
+			...
+			</span>
+		</p>		
+		
+		<p>Enregistrer</p>		
+		<form id="formCreate" action="/foos/create" method="POST">
+			<fieldset>
+				<legend>Foo</legend>
+				
+				<label for="name">Id :</label>				
+				<input id="id" value="" placeholder="please enter an id for your Foo" />
+				<br/>
+				
+				<label for="name">Name :</label>				
+				<input id="name" value="" placeholder="please enter a name for your Foo" />
+				<br/>
+				
+				<input type="button" id="save" name="save" value="enregistrer"   />
+				
+			</fieldset>
+		</form>
+		
+		
+		
+		
 	</body>
 </html>

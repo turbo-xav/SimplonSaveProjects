@@ -5,7 +5,7 @@ import java.util.Optional;
 
 import javax.inject.Named;
 
-import com.example.crud.model.Foo;
+import com.example.crud.entity.Foo;
 
 @Named
 public interface FooService {
@@ -16,5 +16,5 @@ public interface FooService {
 	
 	public Foo saveFoo(Foo foo);
 	
-	public boolean delete(Foo foo);
+	public Long deleteFooById(Long id);
 }

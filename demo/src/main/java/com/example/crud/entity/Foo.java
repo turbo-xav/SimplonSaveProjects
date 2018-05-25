@@ -1,13 +1,19 @@
-package com.example.crud.model;
+package com.example.crud.entity;
 
+import java.util.List;
+
+import javax.inject.Named;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EntityManager;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+
+
 
 @Entity
 @Table(name = "FOO")
@@ -17,8 +23,8 @@ import javax.persistence.Table;
 public class Foo {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	@Column(name = "ID")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+    @Column(name="id")
 	private Long id;
 	
 	@Column(name = "NAME")
@@ -40,7 +46,6 @@ public class Foo {
 	}
 	
 	public Long getId() {
-		// TODO Auto-generated method stub
 		return id;
 	}
 	public void setId(Long id) {
@@ -56,5 +61,5 @@ public class Foo {
 	public String toString() {
 		return "id = "+this.getId()+" name ="+this.getName();
 		
-	}
+	}	
 }

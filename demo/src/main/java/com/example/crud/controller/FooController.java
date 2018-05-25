@@ -1,13 +1,14 @@
 package com.example.crud.controller;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
+import javax.inject.Inject;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 
-import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,58 +19,38 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.example.crud.model.Foo;
+import com.example.crud.entity.Foo;
+import com.example.crud.service.FooService;
+import com.example.crud.service.FooServiceImpl;
 
 @Controller
-@RequestMapping("/foos")
+@RequestMapping("/foo")
 public class FooController {
 	
-	@RequestMapping(value = "/cookie",method = RequestMethod.GET)	
-	@ResponseStatus(HttpStatus.OK)
-	public void addCookie(HttpServletResponse response) {
-		
-		Cookie newCookie = new Cookie("name", "testCookieValue");
-		response.addCookie(newCookie);
-		System.out.println("Test");
-	}
-	
-	
-	@RequestMapping(value = "/request",method = RequestMethod.GET)
-	@ResponseStatus(HttpStatus.OK)
-	@ResponseBody
-	public String request(@RequestParam(name="monParam",defaultValue="defaultValue") String param) {
-		return param;
-		
-	}
-	
+	@Inject
+	FooService fooService;	
 	
 	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
 	public List<Foo> findAll() {
-	    List<Foo> list = new ArrayList<Foo>();
-	    Foo foo = new Foo(1,"test");
-	    Foo foo1 = new Foo(2,"test1");
-	    list.add(foo);
-	    list.add(foo1);
-	    return list;
+	    return fooService.getAll();	
 	}
 	
 	@RequestMapping(method = RequestMethod.PUT)
 	@ResponseStatus(HttpStatus.OK)
 	@ResponseBody
-	public String update() {
+	public Long update(@RequestBody Foo resource) {
 
-	    System.out.println("updade");
-		return "udpate";
+		fooService.saveFoo(resource);		
+	    return resource.getId();
 	}
 	
-	@RequestMapping(method = RequestMethod.DELETE)
+	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	@ResponseStatus(HttpStatus.OK)
 	@ResponseBody
-	public String delete() {
+	public Long delete(@PathVariable("id") Long id) {
 
-		System.out.println("delete"); 
-		return "delete";
+		return fooService.deleteFooById(id);
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)
@@ -77,16 +58,37 @@ public class FooController {
 	@ResponseBody
 	public Foo create(@RequestBody Foo resource) {
 
+		fooService.saveFoo(resource);		
 	    return resource;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	@ResponseBody
-	public Foo read(@PathVariable("id") Long id,@CookieValue(value="name", defaultValue="notmyvalue", required=false) String name ) {
-	  
-		System.out.println("Cookie :"+name);
-		return new Foo(id,name);
+	public ResponseEntity<Foo> read(@PathVariable("id") Long id,@CookieValue(value="name", defaultValue="notmyvalue", required=false) String name ) {
+		Optional<Foo> optionalFoo = fooService.findbyId(id);
+		return optionalFoo.isPresent()?ResponseEntity.ok().body(optionalFoo.get()):ResponseEntity.notFound().build();
 	}
+	
+	
+	/*
+	@RequestMapping(value = "/cookie",method = RequestMethod.GET)	
+	@ResponseStatus(HttpStatus.OK)
+	public void addCookie(HttpServletResponse response) {
+		
+		Cookie newCookie = new Cookie("name", "testCookieValue");
+		response.addCookie(newCookie);
+		System.out.println("Test");
+	}*/
+	
+	
+	/*@RequestMapping(value = "/request",method = RequestMethod.GET)
+	@ResponseStatus(HttpStatus.OK)
+	@ResponseBody
+	public String request(@RequestParam(name="monParam",defaultValue="defaultValue") String param) {
+		
+		return param;
+		
+	}*/
 	
 
 }

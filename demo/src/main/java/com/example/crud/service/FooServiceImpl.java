@@ -6,7 +6,7 @@ import java.util.Optional;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import com.example.crud.model.Foo;
+import com.example.crud.entity.Foo;
 import com.example.crud.repository.FooRepository;
 
 @Named
@@ -21,16 +21,14 @@ public class FooServiceImpl implements FooService {
     }
 
     public List<Foo> getAll() {
-	  return null; // TODO
+	  return fooRepository.findAll();
     }
     public Optional<Foo> findbyId(Long id) {
-		
-	  return fooRepository.findById(id);
+		return fooRepository.findById(id);
     }
-
-	public boolean delete(Foo foo) {
-		// TODO Auto-generated method stub
-		return false;
+    
+	public Long deleteFooById(Long id) {
+		return fooRepository.deleteFooById(id);
 	}
 
 }
