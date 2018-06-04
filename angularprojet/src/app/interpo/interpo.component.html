@@ -1,0 +1,25 @@
+<p>Le but est d'affichier le user</p>
+<p>My name is {{usr.name}} and my id is {{usr.id}}  My img is : <img src="{{usr.image}}" /></p>
+<form action="#" method="POST">
+  
+  recupInput : <input type="text" (input)="recupInput($event)" value="" />
+  
+  <br />
+  recupInputValue : <input type="text" (input)="recupInputValue(myInput.value)" value="" #myInput/>
+  
+  recupInputValue Ok : <input type="text" (click)="recupInputValue(myInput.value)" value="Ok" />
+  <br />
+  
+  <label for="click">Click</label><button id="click" button (click)="callTestClick($event)" >click here</button>
+  <br /> 
+  
+  <label for="mouseover">Click</label><button id="mouseover"  (mouseover)="callTestMouseOver($event)" >mouseover here</button> 
+</form>
+
+<ul>
+    <li *ngFor="let person of persons" (click)="selectPerson(person)">
+      {{person.name}}
+    </li>
+  </ul>
+
+  <app-person></app-person>
