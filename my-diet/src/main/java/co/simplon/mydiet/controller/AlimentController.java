@@ -1,5 +1,6 @@
 package co.simplon.mydiet.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -56,8 +57,9 @@ public class AlimentController {
 		
 		alimentService.saveAliment(aliment);	
 		*/
-		List<Aliment> exportAliments =  alimentService.getAll();
-		return exportAliments;
+		//List<Aliment> exportAliments =  alimentService.getAll();
+		//return exportAliments;
+		return new ArrayList<Aliment>();
 			
 	}
 	

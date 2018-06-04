@@ -34,7 +34,7 @@ public abstract class DietComponent extends Commentable implements Serializable{
 	
 	//@JsonBackReference
 	//@JsonIgnore
-	@ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+	@ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@JoinColumn(name = "fk_category", nullable=true)	
 	private Category category;
 	
