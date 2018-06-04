@@ -1,0 +1,22 @@
+div#formulaire, div#card
+{
+    float:left;
+    width:600px;
+}
+
+label{
+    float:left;
+    display:block;
+    width:150px;
+}
+div.row{
+    margin:25px;
+}
+/*div.row input:hover, div.row:hover{
+   -webkit-animation: 1s linear 1s 1 normal move_eye;
+   animation: 1s linear 1s 1 normal move_eye;
+    
+} 
+
+@-webkit-keyframes move_eye { from { background-color:white; opacity:1; } to { background-color:#FF5555; opacity:0.5; }  }
+@keyframes move_eye { from { background-color: white; opacity:1; } to { background-color:#FF5555; opacity:0.5; }  }*/

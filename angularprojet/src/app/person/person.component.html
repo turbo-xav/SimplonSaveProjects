@@ -5,4 +5,5 @@
 
   <p *ngIf="selectedPerson">{{selectedPerson.id}} - {{selectedPerson.name}}</p>
   <input *ngIf="selectedPerson" type="text" value="{{selectedPerson.name}}" (input)="changePerson(personInput.value)" #personInput/>
+
 </div>
