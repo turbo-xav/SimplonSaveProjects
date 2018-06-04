@@ -6,12 +6,19 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="H2" key="selection"/>
-		<item value="false" key="casesensitive"/>
+		<item value="aliment" key="selection"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="aliment"/>
+			<item value="&quot;"/>
+			<item value="Aliment"/>
+			<item value="Ingenieur"/>
+			<item value="AlimentRepository"/>
+			<item value="Foo"/>
+			<item value="City"/>
 			<item value="H2"/>
 			<item value="Hé"/>
 			<item value="@Inject"/>
@@ -20,15 +27,15 @@
 			<item value="co.simplon"/>
 			<item value="Monument"/>
 			<item value="remove"/>
-			<item value="entityManagerFactory"/>
-			<item value="javax"/>
-			<item value="maven-assembly-plugin"/>
-			<item value="action"/>
-			<item value="id"/>
-			<item value="setAction"/>
-			<item value="&#x09; * @name setAction"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&apos;"/>
+			<item value="Category"/>
+			<item value="category"/>
+			<item value="Comment"/>
+			<item value="Aliment"/>
+			<item value="alimentRepository"/>
+			<item value="Ingenieur"/>
 			<item value="co.projetweb.application.model"/>
 			<item value="co.projetweb"/>
 			<item value="User"/>
@@ -37,13 +44,6 @@
 			<item value="setId"/>
 			<item value="getId"/>
 			<item value="é"/>
-			<item value="getLib"/>
-			<item value="lib"/>
-			<item value="this.grille"/>
-			<item value="getGlucide"/>
-			<item value="getProteine"/>
-			<item value="this.lipide_aliment"/>
-			<item value="glucide_aliment"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

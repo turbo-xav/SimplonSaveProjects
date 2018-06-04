@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Application MyDiet</title>
+				
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/css/style.css" rel="stylesheet" />
+		
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		
+		<script src="/js/script.js"> </script>
+		
+	</head>
+	
+	<body>
+	<!--  <div th:include="base/header::titreh1"></div>-->
+	<header>
+	<div class="container">
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="/">Accueil</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="/diet/aliment/index.html">Aliments <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Recettes</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Repas
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Consulter</a>
+		          <a class="dropdown-item" href="#">Créer</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Statistiques</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>
+	</div>
+	
+	</header>
+	<main class="container">
+	
+	<form action="?" methode="post">
+	  
+	  <div class="form-group">
+	    <label for="name">Nom :</label>
+	    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="name of aliment">
+	    <small id="nameHelp" class="form-text text-muted">Enter a name for your aliment</small>
+	  </div>
+	  
+	  <div class="form-group">
+	    <label for="category">Example multiple select</label>
+	    <select class="form-control" id="category">
+	      <option value="26">Fruit</option>	      
+	    </select>
+	  </div>
+	  
+	  
+	  <div class="form-group">
+	    <label for="protein">Proteins</label>
+	    <input type="text" class="form-control" id="proteins" placeholder="Enter proteins rate">
+	  </div>
+	  
+	  <div class="form-group">
+	    <label for="glucid">Glucids</label>
+	    <input type="text" class="form-control" id="glucids" placeholder="Enter glucids rate">
+	  </div>
+	  
+	  <div class="form-group">
+	    <label for="lipids">Lipids</label>
+	    <input type="text" class="form-control" id="lipids" placeholder="Enter lipids rate">
+	  </div>
+	  
+	  <div class="form-group">
+	    <label for="ig">Ig</label>
+	    <input type="text" class="form-control" id="ig" placeholder="Enter aliment ig">
+	  </div>
+	  
+	  <button type="submit" id="saveAliment" class="btn btn-primary">Submit</button>
+	</form>	
+	
+	<p>Liste d'aliments </p>
+	<ul id="list">		
+	</ul>
+	
+	
+	</main>
+	
+	<!-- <footer class="footer">
+	      <div class="container">
+		      <ul class="nav justify-content-center bg-light">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Lexique</a>					</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Qui sommes-nous ?</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Contactez-nous</a>
+				</li>			
+			</ul>
+		</div>
+	</footer>	
+	-->
+	</body>
+</html>

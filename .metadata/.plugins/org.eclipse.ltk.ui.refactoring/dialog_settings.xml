@@ -7,7 +7,7 @@
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="true" key="deleteSubPackages"/>
 		<item value="false" key="moveWizard.updateQualifiedNames"/>
-		<item value="" key="patterns"/>
+		<item value="*" key="patterns"/>
 	</section>
 	<section name="RefactoringStatusDialog">
 		<item value="816" key="DIALOG_WIDTH"/>

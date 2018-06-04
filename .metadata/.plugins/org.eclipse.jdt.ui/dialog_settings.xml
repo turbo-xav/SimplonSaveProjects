@@ -30,23 +30,69 @@
 	<section name="javadoc">
 		<item value="public" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\helloWorld\javadoc.xml" key="antpath"/>
+		<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\fil-rouge\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
 		<item value="false" key="nodeprecated"/>
 		<item value="false" key="nonavbar"/>
 		<item value="" key="docletpath"/>
-		<item value="" key="javadoc_command_history"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_161\bin\javadoc.exe" key="javadoc_command_history"/>
 		<item value="1.8" key="source"/>
 		<item value="true" key="version"/>
+		<item value="Fil rouge Diet" key="doctitle"/>
 		<item value="" key="docletname"/>
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\helloWorld\doc" key="destdir"/>
+		<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\fil-rouge\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
+			<section name="end-point">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\end-point\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\end-point\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="fil-rouge">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\fil-rouge\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\fil-rouge\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="cityspring">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\cityspring\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\cityspring\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Servers">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\Servers\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\Servers\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="jpaandhibernate">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\jpaandhibernate\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\jpaandhibernate\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="demo">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\demo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\demo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lightning-talk-annotation">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\lightning-talk-annotation\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\lightning-talk-annotation\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ServeurJetty">
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\ServeurJetty\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Utilisateur.UTILISA-1R91N3M\Documents\Workspaces\ServeurJetty\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 		</section>
 	</section>
 	<section name="FatJarPackageWizard">
@@ -68,9 +114,9 @@
 		<item value="2" key="snap_position"/>
 	</section>
 	<section name="JavadocWizardDialog">
-		<item value="818" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="698" key="DIALOG_HEIGHT"/>
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="567" key="DIALOG_HEIGHT"/>
 		<item value="560" key="DIALOG_X_ORIGIN"/>
 		<item value="59" key="DIALOG_Y_ORIGIN"/>
 	</section>
