@@ -1,6 +1,9 @@
+div#identity{
+    display:flex;
+}
 div#formulaire, div#card
 {
-    float:left;
+    /*float:left;*/
     width:600px;
 }
 

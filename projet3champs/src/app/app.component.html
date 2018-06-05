@@ -1,40 +1,77 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+  <h1>{{ title }}</h1>
+  <img width="300" alt="Angular Logo" src="http://www.dessinemoiunobjet.com/wp-content/uploads/2009/07/logobleu1.gif">
 </div>
-<h2>Fiche identité</h2>
-<div id="formulaire" >
-  <h2>Votre carte d'indentité</h2>
-  <form *ngIf="user">
-    <div class="row">
-      <label for="name">Nom : </label>
-      <input id="name" (input)="changeName(myName.value);" value="{{user.name}}" #myName/>
-    </div>
-    <div class="row">
-      <label for="name">Job : </label>
-      <input id="jobTitle" (input)="changeJobTitle(myJob.value);" value="{{user.jobTitle}}" #myJob/>
-    </div>
-    <div class="row">
-      <label for="name">Photo : </label>
-      <input id="photo" (input)="changePhoto(myPhoto.value);" value="{{user.photo}}" #myPhoto/>
-    </div>
-    <div class="row">
-      <label for="name">Que faire ? </label>
-      <input type="submit" (click)="stop($event)" id="save" value="Enregistrer" class="btn btn-primary"/>
-    </div>
-  </form>
+
+<div id="choice" [ngStyle]="{color:design.color}">
+  <h2>Connectio</h2>
+  <div class="row">
+      <label for="connect">Valider conection : </label>
+      <input id="connect" type="checkbox" [(ngModel)]="user.connected"  />
+      <span>Connecté</span>
+  </div>
+  <h2>Design</h2>
+  <div class="row">
+    <label for="checkDesign">Valider couleur : </label>
+    <input id="checkDesign" type="checkbox" [(ngModel)]="design.checked"  />
+  </div> 
+  <div class="row">
+    <label for="colorSelected">Votre Couleur : </label>
+    <select id="colorSelected" [(ngModel)]="design.color" name="color" id="color">
+        <option value="-" >Choix couleur</option>
+      <option *ngFor="let myColor of design.colors">{{myColor}}</option>
+    </select>
 </div>
-<div id="card">
-  <h2>Carte de visite</h2>
-  <p>Nom : {{user.name}} </p>
-  <p>Job : {{user.jobTitle}} </p>
-  <p>
-    Photos : <img src="{{user.photo}}" #myImg/>
-  </p>
+
+<div class="row" *ngIf="!user.connected;">
+    Vous devez vous connecter pour visionner la carte d'identité
+  </div>
 </div>
+
+
+<div *ngIf="user.connected;" id="identity" [style.color]="design.checked == true?design.color:''">
+   
+ 
+  <div id="formulaire" >
+    
+    <h2>Votre carte d'indentité</h2>
+    <form *ngIf="user">
+      <div class="row">
+        <label for="name">Nom :</label>
+        
+        
+        <input [(ngModel)]="user.name" name="name" id="name" />
+      </div>
+      <div class="row">
+        <label for="jobTitle">Job : </label>
+        <input id="jobTitle" (input)="changeJobTitle(myJob.value);" value="{{user.jobTitle}}" #myJob/>
+      </div>
+      <div class="row">
+        <label for="photo">Photo : </label>
+        <input id="photo" (input)="changePhoto(myPhoto.value);" value="{{user.photo}}" #myPhoto/>
+      </div>
+      <div class="row">
+        <label for="submit">Que faire ? </label>
+        <input type="submit" (click)="stop($event)" id="save" value="Enregistrer" class="btn btn-primary"/>
+      </div>
+    </form>
+  </div>
+  <div id="card" >
+    <h2>Carte de visite</h2>
+      <div class="row">
+        <label>Nom : </label> {{user.name}} 
+      </div>
+      <div class="row">
+      <label>Job : </label> {{user.jobTitle}} 
+    </div>
+    <div class="row" >
+        <label>Photos : </label> <img [src]="user.photo" #myImg />
+      </div>
+  </div> 
+
+</div>
+
 
 
 
