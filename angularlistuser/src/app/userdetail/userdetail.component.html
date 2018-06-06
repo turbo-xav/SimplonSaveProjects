@@ -1,0 +1,18 @@
+<div id="indentities">
+  <div class="card">
+    <h2>Carte de visite</h2>
+      <div class="row">
+        <label>Nom : </label>
+       {{user.name| uppercase}} 
+        <!--<input id="name" name="name" [(ngModel)]="user.name" />--> 
+      </div>
+      <div class="row">
+      <label>Job : </label>
+      {{user.jobTitle| lowercase}} 
+    </div>
+    <div class="row" >
+        <label>Photos : </label> 
+        <img [src]="user.image"/>
+      </div>
+  </div> 
+</div>

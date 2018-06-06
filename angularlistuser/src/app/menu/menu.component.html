@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let lien of listLiens">
+      <a  href="#" (click)="goTo(lien)" class="{{lien == getContenu()?'active':''}}">{{lien.getName()}}</a>
+    </li> 
+</ul>

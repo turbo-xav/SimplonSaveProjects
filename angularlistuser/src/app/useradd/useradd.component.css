@@ -1,0 +1,8 @@
+label{
+    float:left;
+    display:block;
+    width:150px;
+}
+div.row{
+    margin:25px;
+}

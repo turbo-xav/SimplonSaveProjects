@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let user of users;" (click)="selectUser(user);">
+      <strong>{{user.name}} :</strong> {{user.jobTitle}}
+  </li>
+</ul>

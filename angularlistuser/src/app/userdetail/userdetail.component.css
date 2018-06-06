@@ -1,0 +1,13 @@
+label{
+    display:block;
+    float: left;
+    margin:5px;
+}
+
+div#indentities{
+    width:800px;
+}
+
+div.row{
+    margin:25px;
+}

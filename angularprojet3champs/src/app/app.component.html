@@ -29,10 +29,8 @@
   </div>
 </div>
 
-
-<div *ngIf="user.connected;" id="identity" [style.color]="design.checked == true?design.color:''">
-   
- 
+<ng-container *ngIf="user.connected">
+<div  id="identity" [style.color]="design.checked == true?design.color:''">
   <div id="formulaire" >
     
     <h2>Votre carte d'indentité</h2>
@@ -71,7 +69,4 @@
   </div> 
 
 </div>
-
-
-
-
+</ng-container>

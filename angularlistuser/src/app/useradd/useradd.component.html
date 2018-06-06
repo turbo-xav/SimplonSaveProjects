@@ -1,0 +1,26 @@
+<h3>Ajout d'un user</h3>
+<div id="form">
+  <fieldset>
+    <legend>Votre User</legend>
+    <div class="row">
+      <label for="name">Nom :</label>   
+      <input [(ngModel)]="newUser.name" name="name" id="name" />
+    </div>
+    <div class="row">
+      <label for="jobTitle">Job : </label>
+      <input [(ngModel)]="newUser.jobTitle" id="jobTitle"/>
+    </div>
+    <div class="row">
+      <label for="photo">Photo : </label>
+      <input [(ngModel)]="newUser.image "id="photo" />
+    </div>
+</fieldset>
+<fieldset>
+  <legend>Action !!</legend>    
+  <div class="row">
+    <label for="submit">Que faire ? </label>
+    <input type="submit" id="save" value="Enregistrer" (click)="addUser();" class="btn btn-primary"/>
+  </div>
+</fieldset>
+</div>
+

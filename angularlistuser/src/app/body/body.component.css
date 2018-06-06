@@ -1,0 +1,16 @@
+div#choices{
+    width:100%;
+    display:flex;
+}
+
+div#listUsers{
+    width:400px;
+}
+
+div#userDetail{
+    width:400px;
+}
+
+div#form{
+    width:100%;
+}
