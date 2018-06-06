@@ -37,7 +37,7 @@ export class BodyComponent implements OnInit, OnChanges, DoCheck  {
   }
 
   addEvent(evt) {
-    this.add.emit(null);
+    this.add.emit('evt');
   }
 
   ngDoCheck() {
