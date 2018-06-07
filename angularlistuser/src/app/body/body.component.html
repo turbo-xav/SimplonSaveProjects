@@ -1,46 +1,35 @@
 <div [ngSwitch]="getPage().id">
   <h1>Welcome</h1>
+  {{item.Down}}
 
-  <h2 (click)="addEvent();">here is my {{title}}</h2>
+  <h2 (click)="countClickOnMyBody();">here is my {{title}}</h2>
   
-  <ng-container *ngSwitchDefault>
-    <p>Welcome Home</p>
-  </ng-container>
-    
+ 
+  <p>{{getPage().title}}</p>
+  <p *ngIf="getPage().content">{{getPage().content}}</p>    
   <ng-container *ngSwitchCase="'listusers'"> 
-      <div>   
-        <p (click)="show();">add User ++</p>
-        <div id="choices">
-            
-          <div id="listUsers">
-            <h3>Liste des utilisatueurs</h3>
-            <app-userlist></app-userlist>
-          </div>
-              
-          <div class="usersDetail">
-            <h3>Détail d'un utilisatueur</h3>
-            <app-userdetail></app-userdetail>
-          </div>
+    <div>   
+      <p (click)="show();">add User ++</p>
+      <div id="choices">
+          
+        <div id="listUsers">
+          <h3>Liste des utilisatueurs</h3>
+          <app-userlist></app-userlist>
         </div>
-      
-        <ng-container *ngIf="editable">
-          <div id="addUSer" >
-            <app-useradd></app-useradd>
-          </div>
-        </ng-container>
+            
+        <div class="usersDetail">
+          <h3>Détail d'un utilisatueur</h3>
+          <app-userdetail></app-userdetail>
+        </div>
       </div>
-    </ng-container>
     
-    <ng-container *ngSwitchCase="'contact'">
-      <p>Welcome Contact</p>
-    </ng-container>
-
-    <ng-container *ngSwitchCase="'lexique'">
-        <p>Welcome lexique</p>
+      <ng-container *ngIf="editable">
+        <div id="addUSer" >
+          <app-useradd></app-useradd>
+        </div>
       </ng-container>
-
-      <ng-container *ngSwitchCase="'mentions'">
-          <p>Welcome mentions</p>
-        </ng-container>
-
+    </div>
+</ng-container>
+    
+</div>
     

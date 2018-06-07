@@ -1,0 +1,11 @@
+p.alert{
+    color:orange;
+    font-weight:bold;
+    font-size:18px;
+}
+
+p.superAlert{
+    color:red;
+    font-weight:bold;
+    font-size:24px;
+}

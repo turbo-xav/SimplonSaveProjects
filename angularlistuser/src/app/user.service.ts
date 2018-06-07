@@ -32,7 +32,8 @@ export class UserService {
       1 ,
       'Xavier Tagliarino'  ,
       'Pilote amateur'   ,
-      'http://projets-web.fr/wp-content/gallery/cache/53_web20_320x240_dsc_0857.jpg'
+      // tslint:disable-next-line:max-line-length
+      'https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-1/p160x160/29512861_10216177973585849_539540110156796661_n.jpg?_nc_cat=0&oh=b90f26fc88f49b682be1cc516ce5d7fc&oe=5B7D4553'
     )
     ,
     new User(2  ,

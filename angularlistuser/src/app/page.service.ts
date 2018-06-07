@@ -13,14 +13,8 @@ export class PageService {
     this.page = page;
   }
 
-  getPagesType(type: String) {
-    const pages = [];
-    for (const pageIndex in this.pages) {
-      if (this.pages[pageIndex].getType() === type) {
-        pages.push(this.pages[pageIndex]);
-      }
-    }
-    return pages;
+  getPages(type: String): Lien[] {
+    return this.pages.filter(lien => lien.getType() === type);
   }
 
   getPage() {
@@ -28,10 +22,10 @@ export class PageService {
   }
 
   constructor() {
-    this.pages.push(new Lien( 'home'      , 'Home'       ,  'header' ));
-    this.pages.push(new Lien( 'listusers' , 'List users' ,  'header' ));
-    this.pages.push(new Lien( 'contact'   , 'Contact'    ,  'header' ));
-    this.pages.push(new Lien( 'lexique'   , 'Lexique'    ,  'footer' ));
-    this.pages.push(new Lien( 'mentions'  ,  'Mentions'  ,  'footer' ));
+    this.pages.push(  new Lien( 'home'      , 'Home'            , 'Welcome to my home page '          , 'home page content',  'header' ) );
+    this.pages.push(  new Lien( 'listusers' , 'List of pilots'  , 'Welcome to my list of pilots page' , null,  'header' ) );
+    this.pages.push(  new Lien( 'contact'   , 'Contact'         , 'Welcome to my contact page'        , 'contact content',  'header' ) );
+    this.pages.push(  new Lien( 'lexique'   , 'Lexique'         , 'Welcome to my lexique page'        , 'lexique content',  'footer' ) );
+    this.pages.push(  new Lien( 'mentions'  ,  'Mentions'       , 'Welcome to my mentions page'       , 'mentions content',  'footer' ) );
   }
 }

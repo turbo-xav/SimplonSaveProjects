@@ -27,7 +27,7 @@ export class MenuComponent implements OnInit {
   }
 
   setLiens(type) {
-    this.liens = this.pageService.getPagesType(type);
+    this.liens = this.pageService.getPages(type);
   }
 
   getLiens() {

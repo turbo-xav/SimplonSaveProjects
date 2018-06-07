@@ -1,3 +1,12 @@
 <app-header></app-header>
-<app-body (add)="addTodo($event)" [title]=title></app-body>
+
+<p *ngIf="alert" class="alert">
+    Non mec tu cliques beaucoup trop !!! 
+    <br />
+    {{counterClick}} fois pour être exact</p>
+<p *ngIf="superAlert" class="superAlert">
+    Non mec t'es un taré tu cliques de ouf !!!! 
+    <br />
+    {{counterClick}} fois pour être exact</p>
+<app-body (countClick)="countClick()" [title]=title></app-body>
 <app-footer></app-footer>
