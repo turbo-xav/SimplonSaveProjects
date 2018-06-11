@@ -1,0 +1,22 @@
+<div class="example-form" action="/user/save" method="POST">
+    
+    <mat-form-field >
+      <input name="name" matInput placeholder="Enter a name"  [(ngModel)]="getUser().name"  #name/>
+    </mat-form-field>
+  
+    <mat-form-field >
+        <input name="job"  matInput placeholder="Enter a job" [(ngModel)]="getUser().job" #job/>
+    </mat-form-field>
+   
+    <mat-form-field>
+      <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    
+    <button mat-button color="accent" (click)="updateUser(getUser())">Click me!</button>
+
+</div>
+
+

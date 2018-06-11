@@ -1,0 +1,41 @@
+<!--mat-toolbar color="warning" fxLayout="column" fxLayoutAlign="center space-around">-->
+<mat-toolbar color="warning" fxLayout="row" fxLayoutAlign="center">
+  <ul>
+    <li>
+      <a routerLink="/">
+        <mat-icon>home</mat-icon>Home      
+      </a>
+    </li>
+    <li>
+      <span [matMenuTriggerFor]="appMenu">
+      <mat-icon >Users</mat-icon>
+        Users
+      </span>
+        <mat-menu #appMenu="matMenu">
+            
+            <button mat-menu-item>
+              <a routerLink="/user" >  
+               <mat-icon>list</mat-icon>
+                <span>List all users</span>
+              </a>
+            </button>
+            <button mat-menu-item> 
+              <a routerLink="/user/add" >
+                <mat-icon>group_add</mat-icon>
+                <span>Add a user</span>
+              </a>
+            </button>      
+        </mat-menu>  
+    </li>
+    <li>
+      <a routerLink="/bio">
+        <mat-icon>book</mat-icon>
+        <span>Biography</span>
+      </a>
+    </li>
+    <li>       
+        <mat-icon>{{checked?'verified_user':'lock'}}</mat-icon>
+        <mat-checkbox  [(ngModel)]="checked"></mat-checkbox>
+    </li>    
+</ul>
+</mat-toolbar>

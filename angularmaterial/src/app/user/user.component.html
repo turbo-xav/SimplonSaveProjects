@@ -1,0 +1,49 @@
+<ul>
+  <li *ngFor="let user of users" ><a routerLink="/user/{{user.id}}">{{user.name}} is : {{user.job}}</a></li>
+</ul>
+
+<table>
+    <tr *ngFor="let user of users" >
+      
+      <td><a routerLink="/user/{{user.id}}">
+      {{user.name}} is : {{user.job}}</a>
+      </td>
+    </tr>
+
+ 
+</table>
+
+<table mat-table [dataSource]="users"  force-refresh-images="true" refclass="mat-elevation-z8">
+
+    
+  
+   
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> Idof user </th>
+      <td mat-cell *matCellDef="let myUser"> {{myUser.id}} </td>
+    </ng-container>
+  
+  
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name of user </th>
+      <td mat-cell *matCellDef="let myUser"> {{myUser.name}} </td>
+    </ng-container>
+  
+ 
+    <ng-container matColumnDef="job">
+      <th mat-header-cell *matHeaderCellDef> Job </th>
+      <td mat-cell *matCellDef="let myUser"> {{myUser.job}} </td>
+    </ng-container>
+
+   
+    <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef> Action </th>
+        <td mat-cell *matCellDef="let myUser">
+           <a herf="#" (click)="remove(myUser)"><mat-icon>delete</mat-icon></a>
+        </td>
+      </ng-container>
+      
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
