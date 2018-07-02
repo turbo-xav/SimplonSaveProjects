@@ -1,10 +1,16 @@
 package co.simplon.mydiet.controller;
 
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import javax.inject.Inject;
 
+import org.springframework.boot.json.GsonJsonParser;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -18,8 +24,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+
 import co.simplon.mydiet.model.entity.Category;
 import co.simplon.mydiet.service.CategoryService;
+import net.minidev.json.JSONObject;
+import net.minidev.json.parser.JSONParser;
+import net.minidev.json.parser.ParseException;
 
 
 @Controller
@@ -34,7 +44,7 @@ public class CategoryController {
 	@RequestMapping(value="/home", method=RequestMethod.GET)
     public String listeProduits(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
 		model.addAttribute("name", name);
-		return "category/index";
+		return "aliment/index";
     }
 	
 	@RequestMapping(method = RequestMethod.GET)
@@ -62,23 +72,41 @@ public class CategoryController {
 		return categoryService.deleteCategoryById(id);
 	}
 	
-	@RequestMapping(method = RequestMethod.POST)
+	/*@RequestMapping(method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
 	@ResponseBody
 	public Category create(@RequestBody Category resource) {
-		System.out.println(resource.getDietComponents());
+		
 		categoryService.saveCategory(resource);		
 	    
 		return resource;
+	}*/
+	
+	@RequestMapping(method = RequestMethod.POST)
+	@ResponseStatus(HttpStatus.CREATED)
+	@ResponseBody
+	public int create(HttpEntity<String> httpEntity) {
+		/*JSONParser jsonParser = new JSONParser(1);
+		try {
+			 Object obj = (JSONObject) jsonParser.parse(httpEntity.getBody());
+			System.out.println(obj.get("name"));
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		
+		//System.out.println(map.size());
+		//System.out.println(httpEntity.getBody());
+	return 1;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	@ResponseBody
 	public ResponseEntity<Category> read(@PathVariable("id") Long id,@CookieValue(value="name", defaultValue="notmyvalue", required=false) String name ) {
-		Optional<Category> optionalIngenieur = categoryService.findbyId(id);
-		Category category = optionalIngenieur.get();
+		Optional<Category> optionalCategory = categoryService.findbyId(id);
+		Category category = optionalCategory.get();
 		System.out.println(category.getDietComponents().size());
-		return optionalIngenieur.isPresent()?ResponseEntity.ok().body(category):ResponseEntity.notFound().build();
+		return optionalCategory.isPresent()?ResponseEntity.ok().body(category):ResponseEntity.notFound().build();
 	}
 
 }

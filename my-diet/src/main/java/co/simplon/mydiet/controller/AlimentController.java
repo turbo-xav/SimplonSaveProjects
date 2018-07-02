@@ -43,20 +43,20 @@ public class AlimentController {
 	@ResponseBody
 	public List<Aliment> findAll() {
 	   	
-		/*Aliment aliment = new Aliment("Banane","Super banane","",5,16,1,50);
+		Aliment aliment = new Aliment("Banane","Super banane","",5,16,1,50);
 	    Category category = new Category("Fruit");
 	   	
 	    category.addMenuComponent(aliment); 
 		aliment.Comment("Sucré");
 		aliment.Comment("Pourri");	
-	   	   	
-		List<Aliment> aliments =  alimentService.getAll();
+	   		
+		/*List<Aliment> aliments =  alimentService.getAll();
 		for(Aliment myAliment : aliments) {
 			alimentService.deleteAlimentById(myAliment.getId());
-		}
+		}*/
 		
 		alimentService.saveAliment(aliment);	
-		*/
+		
 		//List<Aliment> exportAliments =  alimentService.getAll();
 		//return exportAliments;
 		return new ArrayList<Aliment>();

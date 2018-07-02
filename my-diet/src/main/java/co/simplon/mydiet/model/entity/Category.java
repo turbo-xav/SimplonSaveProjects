@@ -14,8 +14,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
 @Entity
 @Table(name = "category")
 public class Category implements Serializable{
@@ -34,7 +32,7 @@ public class Category implements Serializable{
 	
 	//@JsonManagedReference
 	@OneToMany(mappedBy = "category",cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	List<Aliment> dietComponents = new ArrayList<Aliment>();
+	List<DietComponent> dietComponents = new ArrayList<DietComponent>();
 	
 	public Long getId() {
 		return id;
@@ -65,7 +63,7 @@ public class Category implements Serializable{
 		menuComponent.setCategory(this);
 	}
 	
-	public List<Aliment> getDietComponents(){
+	public List<DietComponent> getDietComponents(){
 		return dietComponents;
 	}
 	

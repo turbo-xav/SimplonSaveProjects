@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="co.projetweb"/>
 			<item value="co.simplon"/>
+			<item value="co.projetweb"/>
 			<item value="co.projetWeb"/>
 		</list>
 		<list key="name">
@@ -11,6 +11,7 @@
 			<item value="Application Maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="json"/>
 			<item value="lightning-talk-annotation"/>
 			<item value="jpaandhibernate"/>
 			<item value="MyTestMaven"/>

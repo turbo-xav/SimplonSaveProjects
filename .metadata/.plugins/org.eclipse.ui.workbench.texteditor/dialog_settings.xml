@@ -6,29 +6,30 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="aliment" key="selection"/>
+		<item value="Fuck" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Fuck"/>
+			<item value="GET"/>
+			<item value="keySet"/>
+			<item value="key"/>
+			<item value="keySe "/>
+			<item value="orgs"/>
+			<item value="javax"/>
+			<item value="token-uri"/>
+			<item value="            "/>
+			<item value="Using generated security password:"/>
 			<item value="aliment"/>
 			<item value="&quot;"/>
 			<item value="Aliment"/>
 			<item value="Ingenieur"/>
 			<item value="AlimentRepository"/>
-			<item value="Foo"/>
-			<item value="City"/>
-			<item value="H2"/>
-			<item value="Hé"/>
-			<item value="@Inject"/>
-			<item value="HttpStatus"/>
-			<item value="co.projetweb.model"/>
-			<item value="co.simplon"/>
-			<item value="Monument"/>
-			<item value="remove"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="&apos;"/>
 			<item value="Category"/>
 			<item value="category"/>
@@ -40,7 +41,6 @@
 			<item value="co.projetweb"/>
 			<item value="User"/>
 			<item value="id"/>
-			<item value=""/>
 			<item value="setId"/>
 			<item value="getId"/>
 			<item value="é"/>
