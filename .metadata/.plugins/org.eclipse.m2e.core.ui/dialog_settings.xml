@@ -7,10 +7,12 @@
 			<item value="co.projetWeb"/>
 		</list>
 		<list key="name">
+			<item value="test unitaire"/>
 			<item value="projet jpa et hibernate"/>
 			<item value="Application Maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="testUnitaire"/>
 			<item value="json"/>
 			<item value="lightning-talk-annotation"/>
 			<item value="jpaandhibernate"/>
