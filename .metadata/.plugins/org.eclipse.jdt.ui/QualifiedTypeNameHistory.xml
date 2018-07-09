@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.hibernate.annotations.Type"/>
-<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
-<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
-<fullyQualifiedTypeName name="java.util.TreeSet"/>
-<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
-<fullyQualifiedTypeName name="co.simplon.mydiet.model.entity.Menu"/>
-<fullyQualifiedTypeName name="co.simplon.mydiet.model.entity.Commentable"/>
-<fullyQualifiedTypeName name="co.simplon.mydiet.model.entity.DietComponent"/>
-<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 <fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonBackReference"/>
-<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonManagedReference"/>
 <fullyQualifiedTypeName name="co.simplon.mydiet.model.entity.Category"/>
 <fullyQualifiedTypeName name="co.simplon.mydiet.model.repository.CategoryRepository"/>
-<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ReloadableResourceBundleMessageSource"/>
 <fullyQualifiedTypeName name="org.springframework.test.web.servlet.DispatcherServletCustomizer"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
@@ -52,12 +40,24 @@
 <fullyQualifiedTypeName name="json.Component"/>
 <fullyQualifiedTypeName name="mathematic.Addition"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="testUnitaire.Smileys"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
 <fullyQualifiedTypeName name="testUnitaire.CamelCase"/>
 <fullyQualifiedTypeName name="testUnitaire.FizzBuzz"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="javax.validation.Valid"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+<fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonManagedReference"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonBackReference"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="co.simplon.dietcare.model.DietComponent"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
 </qualifiedTypeNameHistroy>

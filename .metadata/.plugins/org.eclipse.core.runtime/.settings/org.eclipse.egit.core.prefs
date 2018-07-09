@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\Utilisateur.UTILISA-1R91N3M\\Documents\\Workspaces\\.git;C\:\\GitRepository\\bnp-pf-2018\\.git;C\:\\Users\\Utilisateur.UTILISA-1R91N3M\\Documents\\Workspaces\\test\\evaljdbc\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;C\:\\GitRepository\\bnp-pf-2018\\.git;test\\evaljdbc\\.git;
+GitRepositoriesView.GitDirectories=C\:\\GitRepository\\fil-rouge-application-dietetique\\.git;C\:\\Users\\Utilisateur.UTILISA-1R91N3M\\Documents\\Workspaces\\.git;C\:\\GitRepository\\bnp-pf-2018\\.git;C\:\\Users\\Utilisateur.UTILISA-1R91N3M\\Documents\\Workspaces\\test\\evaljdbc\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\GitRepository\\fil-rouge-application-dietetique\\.git;.git;C\:\\GitRepository\\bnp-pf-2018\\.git;test\\evaljdbc\\.git;
 RepositorySearchDialogSearchPath=C\:\\Users\\Utilisateur.UTILISA-1R91N3M\\git
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

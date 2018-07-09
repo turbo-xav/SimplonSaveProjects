@@ -1,0 +1,7 @@
+<form *ngIf="bookMark != null">
+    <mat-form-field>
+      <input matInput  name="title" [(ngModel)]=bookMark.title placeholder="title" #title/>
+    </mat-form-field>
+    
+    <input type="button" name="ok"  value="enregister" (click)="add()" />
+</form>

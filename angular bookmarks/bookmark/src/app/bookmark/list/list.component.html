@@ -1,0 +1,28 @@
+<p>Bookmark List2</p>
+<a routerLink="/bookmark/add">Ajouter</a>
+<table>
+    <thead>
+        <th>Titre</th>
+        <th>Auteur</th>
+        <th>Tags</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let bookMark of bookMarks">
+            <td>{{bookMark.title}}</td>
+            <td><span *ngIf="bookMark.author != null">Nom : {{bookMark.author.firstName}} - {{bookMark.author.lastName}}</span></td>
+            <td>
+                <mat-chip-list matline>
+               <mat-chip *ngFor="let tag of bookMark.tags" selected color="primary">
+                   {{tag.label}}
+                   <mat-icon matChipRemove>cancel</mat-icon>
+                </mat-chip> 
+                </mat-chip-list>
+            </td>
+            <td>
+                <a routerLink="/bookmark/{{bookMark.id}}">Modifier</a>
+                <a (click)="delete(bookMark.id)">Supprimer</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
